@@ -1,0 +1,2258 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = russian-syntagrus-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = В среду вечера.
+1	В	в	ADP	_	_	2	case	_	TokenRange=0:1
+2	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	0	root	_	TokenRange=2:7
+3	вечера	вечер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=8:14
+4	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=14:15
+
+# sent_id = 2
+# text = Празднуем Вознесение Господа Бога и Спаса нашего Иисуса Христа.
+1	Празднуем	праздновать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=17:26
+2	Вознесение	Вознесение	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	TokenRange=27:37
+3	Господа	Господь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=38:45
+4	Бога	Бог	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	TokenRange=46:50
+5	и	и	CCONJ	_	_	6	cc	_	TokenRange=51:52
+6	Спаса	Спас	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	TokenRange=53:58
+7	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	TokenRange=59:65
+8	Иисуса	Иисус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=66:72
+9	Христа	Христос	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No|TokenRange=73:79
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=79:80
+
+# sent_id = 3
+# text = Час 9-и трипсалмныи.
+1	Час	час	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=82:85
+2	9	9	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=86:87
+3	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No|TokenRange=87:88
+4	и	и	CCONJ	_	_	5	cc	_	TokenRange=88:89
+5	трипсалмныи	трипсалмный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=90:101
+6	.	.	PUNCT	_	_	1	punct	_	TokenRange=101:102
+
+# sent_id = 4
+# text = По начале глаголет чтец трисвятое, и до недели 8-я во всяком церковном пении.
+1	По	по	ADP	_	_	2	case	_	TokenRange=103:105
+2	начале	начало	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	TokenRange=106:112
+3	глаголет	глаголет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=113:121
+4	чтец	чтец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=122:126
+5	трисвятое	трисвятой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|TokenRange=127:136
+6	,	,	PUNCT	_	_	10	punct	_	TokenRange=136:137
+7	и	и	CCONJ	_	_	14	cc	_	TokenRange=138:139
+8	до	до	ADP	_	_	9	case	_	TokenRange=140:142
+9	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	TokenRange=143:149
+10	8-я	8-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	TokenRange=150:153
+11	во	в	ADP	_	_	14	case	_	TokenRange=154:156
+12	всяком	всякий	DET	_	Case=Loc|Gender=Neut|Number=Sing	14	det	_	TokenRange=157:163
+13	церковном	церковный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	TokenRange=164:173
+14	пении	пение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=174:179
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=179:180
+
+# sent_id = 5
+# text = На малеи вечерни. на Господи воззвах: поставим стихиры 4, глас 6.
+1	На	на	ADP	_	_	2	case	_	TokenRange=182:184
+2	малеи	малея	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	TokenRange=185:190
+3	вечерни.	вечерни.	ADJ	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpacesAfter=\r\n|TokenRange=191:199
+4	на	на	ADP	_	_	5	case	_	TokenRange=201:203
+5	Господи	Господь	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=204:211
+6	воззвах	воззва	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No|TokenRange=212:219
+7	:	:	PUNCT	_	_	2	punct	_	TokenRange=219:220
+8	поставим	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=221:229
+9	стихиры	стихир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	TokenRange=230:237
+10	4	4	NUM	_	_	9	nummod	_	SpaceAfter=No|TokenRange=238:239
+11	,	,	PUNCT	_	_	12	punct	_	TokenRange=239:240
+12	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	TokenRange=241:245
+13	6	6	NUM	_	_	12	nummod	_	SpaceAfter=No|TokenRange=246:247
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=247:248
+
+# sent_id = 6
+# text = Господь Вознесеся на небеса:
+1	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=250:257
+2	Вознесеся	Вознесеся	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=258:267
+3	на	на	ADP	_	_	4	case	_	TokenRange=268:270
+4	небеса	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|TokenRange=271:277
+5	:	:	PUNCT	_	_	2	punct	_	TokenRange=277:278
+
+# sent_id = 7
+# text = Господи Твоему Вознесению:
+1	Господи	Господь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	TokenRange=279:286
+2	Твоему	твой	DET	_	Case=Dat|Gender=Neut|Number=Sing	3	det	_	TokenRange=287:293
+3	Вознесению	Вознесение	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	iobj	_	SpaceAfter=No|TokenRange=294:304
+4	:	:	PUNCT	_	_	1	punct	_	TokenRange=304:305
+
+# sent_id = 8
+# text = На горах святых: Господи, смотрения совершив таинство: зри ниже на велицеи вечерни.
+1	На	на	ADP	_	_	2	case	_	TokenRange=306:308
+2	горах	гора	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	root	_	TokenRange=309:314
+3	святых	святой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=315:321
+4	:	:	PUNCT	_	_	2	punct	_	TokenRange=321:322
+5	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	SpaceAfter=No|TokenRange=323:330
+6	,	,	PUNCT	_	_	8	punct	_	TokenRange=330:331
+7	смотрения	смотрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	TokenRange=332:341
+8	совершив	совершить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	TokenRange=342:350
+9	таинство	таинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=351:359
+10	:	:	PUNCT	_	_	9	punct	_	TokenRange=359:360
+11	зри	зри	ADV	_	Degree=Pos	12	advmod	_	TokenRange=361:364
+12	ниже	низко	ADV	_	Degree=Cmp	9	parataxis	_	TokenRange=365:369
+13	на	на	ADP	_	_	14	case	_	TokenRange=370:372
+14	велицеи	велицеа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	TokenRange=373:380
+15	вечерни	вечерни	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No|TokenRange=381:388
+16	.	.	PUNCT	_	_	2	punct	_	TokenRange=388:389
+
+# sent_id = 9
+# text = Слава, и ныне: глас тоиже: Господи, апостоли яко видеша Тя.
+1	Слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No|TokenRange=390:395
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=395:396
+3	и	и	CCONJ	_	_	4	cc	_	TokenRange=397:398
+4	ныне	ныне	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=399:403
+5	:	:	PUNCT	_	_	4	punct	_	TokenRange=403:404
+6	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=405:409
+7	тоиже	тоиже	ADJ	_	Degree=Cmp	4	parataxis	_	SpaceAfter=No|TokenRange=410:415
+8	:	:	PUNCT	_	_	7	punct	_	TokenRange=415:416
+9	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	parataxis	_	SpaceAfter=No|TokenRange=417:424
+10	,	,	PUNCT	_	_	9	punct	_	TokenRange=424:425
+11	апостоли	апостоли	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	obj	_	TokenRange=426:434
+12	яко	яко	ADV	_	Degree=Pos	13	advmod	_	TokenRange=435:438
+13	видеша	видеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=439:445
+14	Тя	тя	PRON	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No|TokenRange=446:448
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=448:449
+
+# sent_id = 10
+# text = Прокимен дне.
+1	Прокимен	прокимить	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=451:459
+2	дне	дно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=460:463
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=463:464
+
+# sent_id = 11
+# text = На стиховне стихиры, глас 1.
+1	На	на	ADP	_	_	2	case	_	TokenRange=466:468
+2	стиховне	стиховень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	TokenRange=469:477
+3	стихиры	стихир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No|TokenRange=478:485
+4	,	,	PUNCT	_	_	5	punct	_	TokenRange=485:486
+5	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	TokenRange=487:491
+6	1	1	NUM	_	_	5	nummod	_	SpaceAfter=No|TokenRange=492:493
+7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=493:494
+
+# sent_id = 12
+# text = Возшед на небеса: Стих:
+1	Возшед	возшед	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=496:502
+2	на	на	ADP	_	_	3	case	_	TokenRange=503:505
+3	небеса	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No|TokenRange=506:512
+4	:	:	PUNCT	_	_	1	punct	_	TokenRange=512:513
+5	Стих	стих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=514:518
+6	:	:	PUNCT	_	_	1	punct	_	TokenRange=518:519
+
+# sent_id = 13
+# text = Вси языцы восплещите руками:
+1	Вси	весь	DET	_	Case=Acc|Number=Plur	2	det	_	TokenRange=520:523
+2	языцы	языц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	obj	_	TokenRange=524:529
+3	восплещите	восплещить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=530:540
+4	руками	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|TokenRange=541:547
+5	:	:	PUNCT	_	_	3	punct	_	TokenRange=547:548
+
+# sent_id = 14
+# text = Возшел еси Христе к Безначальному Отцу: Стих:
+1	Возшел	возйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=549:555
+2	еси	еси	NOUN	_	Foreign=Yes	1	nsubj	_	TokenRange=556:559
+3	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	appos	_	TokenRange=560:566
+4	к	к	ADP	_	_	6	case	_	TokenRange=567:568
+5	Безначальному	безначальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=569:582
+6	Отцу	отец	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|TokenRange=583:587
+7	:	:	PUNCT	_	_	1	punct	_	TokenRange=587:588
+8	Стих	стих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No|TokenRange=589:593
+9	:	:	PUNCT	_	_	1	punct	_	TokenRange=593:594
+
+# sent_id = 15
+# text = Взыде Бог в воскликновении: Ангели Твои Господи: Слава, и ныне, глас 2: Родился еси, яко Сам восхотел еси: зри на велицеи вечерни.
+1	Взыде	взыде	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=595:600
+2	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=601:604
+3	в	в	ADP	_	_	4	case	_	TokenRange=605:606
+4	воскликновении	воскликновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=607:621
+5	:	:	PUNCT	_	_	1	punct	_	TokenRange=621:622
+6	Ангели	Ангели	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	parataxis	_	TokenRange=623:629
+7	Твои	твой	DET	_	Case=Nom|Number=Plur	8	det	_	TokenRange=630:634
+8	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpaceAfter=No|TokenRange=635:642
+9	:	:	PUNCT	_	_	8	punct	_	TokenRange=642:643
+10	Слава	Слава	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	SpaceAfter=No|TokenRange=644:649
+11	,	,	PUNCT	_	_	13	punct	_	TokenRange=649:650
+12	и	и	CCONJ	_	_	13	cc	_	TokenRange=651:652
+13	ныне	ныне	ADV	_	Degree=Pos	10	conj	_	SpaceAfter=No|TokenRange=653:657
+14	,	,	PUNCT	_	_	15	punct	_	TokenRange=657:658
+15	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	TokenRange=659:663
+16	2	2	NUM	_	_	15	nummod	_	SpaceAfter=No|TokenRange=664:665
+17	:	:	PUNCT	_	_	15	punct	_	TokenRange=665:666
+18	Родился	родиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	parataxis	_	TokenRange=667:674
+19	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No|TokenRange=675:678
+20	,	,	PUNCT	_	_	23	punct	_	TokenRange=678:679
+21	яко	яко	SCONJ	_	_	23	advmod	_	TokenRange=680:683
+22	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	obl	_	TokenRange=684:687
+23	восхотел	восхотеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	TokenRange=688:696
+24	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No|TokenRange=697:700
+25	:	:	PUNCT	_	_	24	punct	_	TokenRange=700:701
+26	зри	зрать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	18	parataxis	_	TokenRange=702:705
+27	на	на	ADP	_	_	28	case	_	TokenRange=706:708
+28	велицеи	велицеа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	TokenRange=709:716
+29	вечерни	вечерни	ADV	_	Degree=Pos	26	advmod	_	SpaceAfter=No|TokenRange=717:724
+30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=724:725
+
+# sent_id = 16
+# text = Ныне отпущаеши: Трисвятое.
+1	Ныне	ныне	ADV	_	Degree=Pos	2	advmod	_	TokenRange=727:731
+2	отпущаеши	отпущать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=732:741
+3	:	:	PUNCT	_	_	2	punct	_	TokenRange=741:742
+4	Трисвятое	трисвятой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No|TokenRange=743:752
+5	.	.	PUNCT	_	_	2	punct	_	TokenRange=752:753
+
+# sent_id = 17
+# text = По Отче наш.
+1	По	по	ADP	_	_	2	case	_	TokenRange=754:756
+2	Отче	Отче	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	0	root	_	TokenRange=757:761
+3	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No|TokenRange=762:765
+4	.	.	PUNCT	_	_	2	punct	_	TokenRange=765:766
+
+# sent_id = 18
+# text = Отпустительныи тропарь, глас 4.
+1	Отпустительныи	отпустительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=767:781
+2	тропарь	тропарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=782:789
+3	,	,	PUNCT	_	_	4	punct	_	TokenRange=789:790
+4	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=791:795
+5	4	4	NUM	_	_	4	nummod	_	SpaceAfter=No|TokenRange=796:797
+6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=797:798
+
+# sent_id = 19
+# text = Вознеслся еси во славе Христе Боже наш, радость сотворивыи учеником обетованием Святаго Духа, извещенным им бывшым благословением, яко Ты еси Сын Божии, Избавитель мира.
+1	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=800:809
+2	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=810:813
+3	во	в	ADP	_	_	4	case	_	TokenRange=814:816
+4	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	TokenRange=817:822
+5	Христе	Христос	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	4	appos	_	TokenRange=823:829
+6	Боже	бог	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	flat:name	_	TokenRange=830:834
+7	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	SpaceAfter=No|TokenRange=835:838
+8	,	,	PUNCT	_	_	10	punct	_	TokenRange=838:839
+9	радость	радость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	TokenRange=840:847
+10	сотворивыи	сотворивый	VERB	_	Case=Nom|Degree=Pos|Number=Plur	2	acl	_	TokenRange=848:858
+11	учеником	ученик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	TokenRange=859:867
+12	обетованием	обетование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	TokenRange=868:879
+13	Святаго	святой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=880:887
+14	Духа	Дух	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=888:892
+15	,	,	PUNCT	_	_	16	punct	_	TokenRange=892:893
+16	извещенным	изветить	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	TokenRange=894:904
+17	им	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	16	obl	_	TokenRange=905:907
+18	бывшым	бывшый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	TokenRange=908:914
+19	благословением	благословение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=915:929
+20	,	,	PUNCT	_	_	23	punct	_	TokenRange=929:930
+21	яко	яко	ADV	_	Degree=Pos	23	advmod	_	TokenRange=931:934
+22	Ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	23	nsubj	_	TokenRange=935:937
+23	еси	еси	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=938:941
+24	Сын	Сын	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	TokenRange=942:945
+25	Божии	Божии	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No|TokenRange=946:951
+26	,	,	PUNCT	_	_	27	punct	_	TokenRange=951:952
+27	Избавитель	Избавитель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	conj	_	TokenRange=953:963
+28	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No|TokenRange=964:968
+29	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=968:969
+
+# sent_id = 20
+# text = Таже ектениа малая.
+1	Таже	таже	PART	_	_	3	advmod	_	TokenRange=971:975
+2	ектениа	ектениа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=976:983
+3	малая	малый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=984:989
+4	.	.	PUNCT	_	_	3	punct	_	TokenRange=989:990
+
+# sent_id = 21
+# text = И отпуст.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=991:992
+2	отпуст	отпуст	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=993:999
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=999:1000
+
+# sent_id = 22
+# text = На велицеи вечерни.
+1	На	на	ADP	_	_	2	case	_	TokenRange=1002:1004
+2	велицеи	велицый	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	TokenRange=1005:1012
+3	вечерни	вечерня	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=1013:1020
+4	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=1020:1021
+
+# sent_id = 23
+# text = По предначинательном псалме кафисмы не глаголем.
+1	По	по	ADP	_	_	3	case	_	TokenRange=1023:1025
+2	предначинательном	предначинательный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	TokenRange=1026:1043
+3	псалме	псалм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=1044:1050
+4	кафисмы	кафисма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	TokenRange=1051:1058
+5	не	не	PART	_	_	6	advmod	_	TokenRange=1059:1061
+6	глаголем	глаголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=1062:1070
+7	.	.	PUNCT	_	_	6	punct	_	TokenRange=1070:1071
+
+# sent_id = 24
+# text = На Господи воззвах: поставим стихов 10.
+1	На	на	ADP	_	_	2	case	_	TokenRange=1072:1074
+2	Господи	Господь	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	0	root	_	TokenRange=1075:1082
+3	воззвах	воззва	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	2	appos	_	SpaceAfter=No|TokenRange=1083:1090
+4	:	:	PUNCT	_	_	2	punct	_	TokenRange=1090:1091
+5	поставим	ставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=1092:1100
+6	стихов	стих	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	TokenRange=1101:1107
+7	10	10	NUM	_	_	6	nummod	_	SpaceAfter=No|TokenRange=1108:1110
+8	.	.	PUNCT	_	_	2	punct	_	TokenRange=1110:1111
+
+# sent_id = 25
+# text = И поем стихиры самогласны 5, повторяюще я.
+1	И	и	CCONJ	_	_	4	cc	_	TokenRange=1112:1113
+2	поем	поем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=1114:1118
+3	стихиры	стихир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=1119:1126
+4	самогласны	самогласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	TokenRange=1127:1137
+5	5	5	NUM	_	_	4	nummod	_	SpaceAfter=No|TokenRange=1138:1139
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=1139:1140
+7	повторяюще	повторяюще	VERB	_	Degree=Pos	4	parataxis	_	TokenRange=1141:1151
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	SpaceAfter=No|TokenRange=1152:1153
+9	.	.	PUNCT	_	_	4	punct	_	TokenRange=1153:1154
+
+# sent_id = 26
+# text = Глас 6.
+1	Глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=1155:1159
+2	6	6	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=1160:1161
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=1161:1162
+
+# sent_id = 27
+# text = Господь Вознесеся на небеса, да послет Утешителя миру: небеса уготоваша престол Его, облацы восхождение Его.
+1	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=1164:1171
+2	Вознесеся	вознеться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=1172:1181
+3	на	на	ADP	_	_	4	case	_	TokenRange=1182:1184
+4	небеса	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|TokenRange=1185:1191
+5	,	,	PUNCT	_	_	7	punct	_	TokenRange=1191:1192
+6	да	да	CCONJ	_	_	7	cc	_	TokenRange=1193:1195
+7	послет	послать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=1196:1202
+8	Утешителя	Утешитель	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	TokenRange=1203:1212
+9	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No|TokenRange=1213:1217
+10	:	:	PUNCT	_	_	7	punct	_	TokenRange=1217:1218
+11	небеса	небо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	TokenRange=1219:1225
+12	уготоваша	уготовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=1226:1235
+13	престол	престол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=1236:1243
+14	Его	его	DET	_	_	13	det	_	SpaceAfter=No|TokenRange=1244:1247
+15	,	,	PUNCT	_	_	16	punct	_	TokenRange=1247:1248
+16	облацы	облац	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	TokenRange=1249:1255
+17	восхождение	восхождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	TokenRange=1256:1267
+18	Его	его	DET	_	_	17	det	_	SpaceAfter=No|TokenRange=1268:1271
+19	.	.	PUNCT	_	_	2	punct	_	TokenRange=1271:1272
+
+# sent_id = 28
+# text = Ангели дивятся, Человека зряще превыше себе.
+1	Ангели	ангель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	TokenRange=1273:1279
+2	дивятся	дивиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=1280:1287
+3	,	,	PUNCT	_	_	6	punct	_	TokenRange=1287:1288
+4	Человека	Человек	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=1289:1297
+5	зряще	зрящ	ADJ	_	Degree=Cmp	6	obl	_	TokenRange=1298:1303
+6	превыше	превыше	ADJ	_	Degree=Cmp	2	conj	_	TokenRange=1304:1311
+7	себе	себя	PRON	_	Case=Dat	6	obl	_	SpaceAfter=No|TokenRange=1312:1316
+8	.	.	PUNCT	_	_	2	punct	_	TokenRange=1316:1317
+
+# sent_id = 29
+# text = Отец ждет, Егоже в недрах имать Соприсносущна:
+1	Отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=1318:1322
+2	ждет	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=1323:1327
+3	,	,	PUNCT	_	_	8	punct	_	TokenRange=1327:1328
+4	Егоже	егоже	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	TokenRange=1329:1334
+5	в	в	ADP	_	_	6	case	_	TokenRange=1335:1336
+6	недрах	недра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	TokenRange=1337:1343
+7	имать	имать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	TokenRange=1344:1349
+8	Соприсносущна	соприсносущный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=1350:1363
+9	:	:	PUNCT	_	_	2	punct	_	TokenRange=1363:1364
+
+# sent_id = 30
+# text = Дух же Святыи велит всем ангелом Его: возмите врата князи вашя, вси языцы восплещите руками, яко взыде Христос, идеже бе первее.
+1	Дух	дух	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=1365:1368
+2	же	же	PART	_	_	1	advmod	_	TokenRange=1369:1371
+3	Святыи	святой	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=1372:1378
+4	велит	велить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1379:1384
+5	всем	весь	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	det	_	TokenRange=1385:1389
+6	ангелом	ангел	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	TokenRange=1390:1397
+7	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	SpaceAfter=No|TokenRange=1398:1401
+8	:	:	PUNCT	_	_	4	punct	_	TokenRange=1401:1402
+9	возмите	возмать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	parataxis	_	TokenRange=1403:1410
+10	врата	врата	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	TokenRange=1411:1416
+11	князи	князь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	TokenRange=1417:1422
+12	вашя	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing	11	det	_	SpaceAfter=No|TokenRange=1423:1427
+13	,	,	PUNCT	_	_	16	punct	_	TokenRange=1427:1428
+14	вси	весь	DET	_	Case=Nom|Number=Plur	15	det	_	TokenRange=1429:1432
+15	языцы	языц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	TokenRange=1433:1438
+16	восплещите	восплещить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=1439:1449
+17	руками	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No|TokenRange=1450:1456
+18	,	,	PUNCT	_	_	23	punct	_	TokenRange=1456:1457
+19	яко	яко	SCONJ	_	_	20	mark	_	TokenRange=1458:1461
+20	взыде	взыде	VERB	_	Degree=Pos	23	parataxis	_	TokenRange=1462:1467
+21	Христос	Христос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No|TokenRange=1468:1475
+22	,	,	PUNCT	_	_	23	punct	_	TokenRange=1475:1476
+23	идеже	идеж	ADJ	_	Degree=Cmp	16	conj	_	TokenRange=1477:1482
+24	бе	бе	PART	_	_	23	advmod	_	TokenRange=1483:1485
+25	первее	перво	ADV	_	Degree=Cmp	23	advmod	_	SpaceAfter=No|TokenRange=1486:1492
+26	.	.	PUNCT	_	_	4	punct	_	TokenRange=1492:1493
+
+# sent_id = 31
+# text = Дважды.
+1	Дважды	дважды	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=1494:1500
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=1500:1501
+
+# sent_id = 32
+# text = Господи, Твоему Вознесению удивишася херувими, зряще Тебе Бога на облацех восходяща, на них седящаго и славим Тя, яко блага милость Твоя, слава Тебе.
+1	Господи	Господь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No|TokenRange=1503:1510
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=1510:1511
+3	Твоему	твой	DET	_	Case=Dat|Gender=Neut|Number=Sing	4	det	_	TokenRange=1512:1518
+4	Вознесению	Вознесение	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	TokenRange=1519:1529
+5	удивишася	удивиться	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=1530:1539
+6	херувими	херувой	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|TokenRange=1540:1548
+7	,	,	PUNCT	_	_	8	punct	_	TokenRange=1548:1549
+8	зряще	зрясто	ADV	_	Degree=Cmp	5	conj	_	TokenRange=1550:1555
+9	Тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	8	iobj	_	TokenRange=1556:1560
+10	Бога	Бог	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	TokenRange=1561:1565
+11	на	на	ADP	_	_	12	case	_	TokenRange=1566:1568
+12	облацех	облаце	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	13	obl	_	TokenRange=1569:1576
+13	восходяща	восходять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=1577:1586
+14	,	,	PUNCT	_	_	17	punct	_	TokenRange=1586:1587
+15	на	на	ADP	_	_	16	case	_	TokenRange=1588:1590
+16	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	17	obl	_	TokenRange=1591:1594
+17	седящаго	седить	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	TokenRange=1595:1603
+18	и	и	CCONJ	_	_	19	cc	_	TokenRange=1604:1605
+19	славим	славить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=1606:1612
+20	Тя	тя	PRON	_	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No|TokenRange=1613:1615
+21	,	,	PUNCT	_	_	23	punct	_	TokenRange=1615:1616
+22	яко	яко	SCONJ	_	_	23	mark	_	TokenRange=1617:1620
+23	блага	благо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	TokenRange=1621:1626
+24	милость	милость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	TokenRange=1627:1634
+25	Твоя	твой	DET	_	Case=Nom|Gender=Fem|Number=Sing	24	det	_	SpaceAfter=No|TokenRange=1635:1639
+26	,	,	PUNCT	_	_	27	punct	_	TokenRange=1639:1640
+27	слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	parataxis	_	TokenRange=1641:1646
+28	Тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	27	iobj	_	SpaceAfter=No|TokenRange=1647:1651
+29	.	.	PUNCT	_	_	5	punct	_	TokenRange=1651:1652
+
+# sent_id = 33
+# text = Дважды.
+1	Дважды	дважды	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=1653:1659
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=1659:1660
+
+# sent_id = 34
+# text = На горах святых зряще Твое Вознесение Христе, Сияние славы Отчи, воспеваем Твои светообразныи лица зрак, кланяемся Страстем Твоим, почитаем Воскресение, славное Вознесение славяще: помилуи нас.
+1	На	на	ADP	_	_	2	case	_	TokenRange=1662:1664
+2	горах	гора	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	TokenRange=1665:1670
+3	святых	святой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	nmod	_	TokenRange=1671:1677
+4	зряще	зрящий	ADJ	_	Degree=Cmp	0	root	_	TokenRange=1678:1683
+5	Твое	твой	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	det	_	TokenRange=1684:1688
+6	Вознесение	Вознесение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	TokenRange=1689:1699
+7	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=1700:1706
+8	,	,	PUNCT	_	_	9	punct	_	TokenRange=1706:1707
+9	Сияние	Сияние	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	TokenRange=1708:1714
+10	славы	слава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	TokenRange=1715:1720
+11	Отчи	Отчи	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=1721:1725
+12	,	,	PUNCT	_	_	13	punct	_	TokenRange=1725:1726
+13	воспеваем	воспевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=1727:1736
+14	Твои	твой	DET	_	Case=Acc|Number=Plur	16	det	_	TokenRange=1737:1741
+15	светообразныи	светообразный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	TokenRange=1742:1755
+16	лица	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	TokenRange=1756:1760
+17	зрак	зрак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=1761:1765
+18	,	,	PUNCT	_	_	19	punct	_	TokenRange=1765:1766
+19	кланяемся	кланяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	TokenRange=1767:1776
+20	Страстем	страсть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	obl	_	TokenRange=1777:1785
+21	Твоим	твой	DET	_	Case=Dat|Number=Plur	20	det	_	SpaceAfter=No|TokenRange=1786:1791
+22	,	,	PUNCT	_	_	23	punct	_	TokenRange=1791:1792
+23	почитаем	почитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=1793:1801
+24	Воскресение	Воскресение	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	SpaceAfter=No|TokenRange=1802:1813
+25	,	,	PUNCT	_	_	27	punct	_	TokenRange=1813:1814
+26	славное	славный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	TokenRange=1815:1822
+27	Вознесение	Вознесение	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	conj	_	TokenRange=1823:1833
+28	славяще	слаить	VERB	_	Degree=Cmp	27	orphan	_	SpaceAfter=No|TokenRange=1834:1841
+29	:	:	PUNCT	_	_	28	punct	_	TokenRange=1841:1842
+30	помилуи	помиловать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	28	parataxis	_	TokenRange=1843:1850
+31	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	30	obj	_	SpaceAfter=No|TokenRange=1851:1854
+32	.	.	PUNCT	_	_	4	punct	_	TokenRange=1854:1855
+
+# sent_id = 35
+# text = Дважды.
+1	Дважды	дважды	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=1856:1862
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=1862:1863
+
+# sent_id = 36
+# text = Господи, апостоли яко видеша Тя, на облацех возносима, рыданием слез, Жизнодавче Христе, скорби исполняеми, рыдающе глаголаху:
+1	Господи	Господь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	parataxis	_	SpaceAfter=No|TokenRange=1865:1872
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=1872:1873
+3	апостоли	апостоли	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	obj	_	TokenRange=1874:1882
+4	яко	яко	ADV	_	Degree=Pos	5	advmod	_	TokenRange=1883:1886
+5	видеша	видеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=1887:1893
+6	Тя	тя	PRON	_	Case=Nom|Number=Sing|Person=2	5	nsubj	_	SpaceAfter=No|TokenRange=1894:1896
+7	,	,	PUNCT	_	_	10	punct	_	TokenRange=1896:1897
+8	на	на	ADP	_	_	9	case	_	TokenRange=1898:1900
+9	облацех	облаце	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	TokenRange=1901:1908
+10	возносима	возносимый	VERB	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	conj	_	SpaceAfter=No|TokenRange=1909:1918
+11	,	,	PUNCT	_	_	12	punct	_	TokenRange=1918:1919
+12	рыданием	рыдание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	TokenRange=1920:1928
+13	слез	слеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No|TokenRange=1929:1933
+14	,	,	PUNCT	_	_	15	punct	_	TokenRange=1933:1934
+15	Жизнодавче	Жизнодавча	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	conj	_	TokenRange=1935:1945
+16	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No|TokenRange=1946:1952
+17	,	,	PUNCT	_	_	19	punct	_	TokenRange=1952:1953
+18	скорби	скорби	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	TokenRange=1954:1960
+19	исполняеми	исполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=1961:1971
+20	,	,	PUNCT	_	_	21	punct	_	TokenRange=1971:1972
+21	рыдающе	рыдающе	ADV	_	Degree=Pos	19	advmod	_	TokenRange=1973:1980
+22	глаголаху	глаголах	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	iobj	_	SpaceAfter=No|TokenRange=1981:1990
+23	:	:	PUNCT	_	_	5	punct	_	TokenRange=1990:1991
+
+# sent_id = 37
+# text = Владыко, не остави нас сирых, за милосердие возлюбил еси рабы Твоя, яко Благоутробен: но посли якоже обещал еси нам, Пресвятаго Твоего Духа, просвещающа душы нашя.
+1	Владыко	владыко	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	SpaceAfter=No|TokenRange=1992:1999
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=1999:2000
+3	не	не	PART	_	_	4	advmod	_	TokenRange=2001:2003
+4	остави	оставить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	10	advcl	_	TokenRange=2004:2010
+5	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	4	obj	_	TokenRange=2011:2014
+6	сирых	сирый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	SpaceAfter=No|TokenRange=2015:2020
+7	,	,	PUNCT	_	_	4	punct	_	TokenRange=2020:2021
+8	за	за	ADP	_	_	9	case	_	TokenRange=2022:2024
+9	милосердие	милосердие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	TokenRange=2025:2035
+10	возлюбил	возлюбить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=2036:2044
+11	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	TokenRange=2045:2048
+12	рабы	раба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	TokenRange=2049:2053
+13	Твоя	твой	DET	_	Case=Nom|Gender=Fem|Number=Sing	12	det	_	SpaceAfter=No|TokenRange=2054:2058
+14	,	,	PUNCT	_	_	16	punct	_	TokenRange=2058:2059
+15	яко	яко	ADV	_	Degree=Pos	16	obl	_	TokenRange=2060:2063
+16	Благоутробен	благоутробный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	10	obl	_	SpaceAfter=No|TokenRange=2064:2076
+17	:	:	PUNCT	_	_	10	punct	_	TokenRange=2076:2077
+18	но	но	CCONJ	_	_	21	cc	_	TokenRange=2078:2080
+19	посли	посли	PART	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	21	advmod	_	TokenRange=2081:2086
+20	якоже	якоже	ADV	_	Degree=Pos	21	advmod	_	TokenRange=2087:2092
+21	обещал	обещать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	TokenRange=2093:2099
+22	еси	есь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	21	obj	_	TokenRange=2100:2103
+23	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	21	iobj	_	SpaceAfter=No|TokenRange=2104:2107
+24	,	,	PUNCT	_	_	25	punct	_	TokenRange=2107:2108
+25	Пресвятаго	Пресвятаг	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	TokenRange=2109:2119
+26	Твоего	твой	DET	_	Case=Gen|Gender=Masc|Number=Sing	27	det	_	TokenRange=2120:2126
+27	Духа	Дух	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No|TokenRange=2127:2131
+28	,	,	PUNCT	_	_	29	punct	_	TokenRange=2131:2132
+29	просвещающа	просвещать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	TokenRange=2133:2144
+30	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obj	_	TokenRange=2145:2149
+31	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	30	det	_	SpaceAfter=No|TokenRange=2150:2154
+32	.	.	PUNCT	_	_	10	punct	_	TokenRange=2154:2155
+
+# sent_id = 38
+# text = Дважды.
+1	Дважды	дважды	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=2156:2162
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=2162:2163
+
+# sent_id = 39
+# text = Господи, смотрения совершив таинство, поим Твоя ученики на гору Елеонскую, возносился еси, и се твердь небесную прошел еси, мене ради Обнищавыи по мне и возшед отонудуже не разлучился еси, Всесвятаго Твоего Духа низпосли, просвещающа душы нашя Дважды.
+1	Господи	Господь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	parataxis	_	SpaceAfter=No|TokenRange=2165:2172
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=2172:2173
+3	смотрения	смотрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	TokenRange=2174:2183
+4	совершив	совершить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	14	advcl	_	TokenRange=2184:2192
+5	таинство	таинство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|TokenRange=2193:2201
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=2201:2202
+7	поим	петь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=2203:2207
+8	Твоя	твой	DET	_	Case=Acc|Number=Plur	9	det	_	TokenRange=2208:2212
+9	ученики	ученик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	obj	_	TokenRange=2213:2220
+10	на	на	ADP	_	_	11	case	_	TokenRange=2221:2223
+11	гору	гора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	TokenRange=2224:2228
+12	Елеонскую	елеонский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|TokenRange=2229:2238
+13	,	,	PUNCT	_	_	4	punct	_	TokenRange=2238:2239
+14	возносился	возноситься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=2240:2250
+15	еси	еси	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|TokenRange=2251:2254
+16	,	,	PUNCT	_	_	21	punct	_	TokenRange=2254:2255
+17	и	и	CCONJ	_	_	21	cc	_	TokenRange=2256:2257
+18	се	се	DET	_	_	21	obj	_	TokenRange=2258:2260
+19	твердь	твердь	ADV	_	Degree=Pos	18	advmod	_	TokenRange=2261:2267
+20	небесную	небесный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	obj	_	TokenRange=2268:2276
+21	прошел	пройти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	TokenRange=2277:2283
+22	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No|TokenRange=2284:2287
+23	,	,	PUNCT	_	_	33	punct	_	TokenRange=2287:2288
+24	мене	мена	NOUN	_	Case=Dat|Number=Sing|Person=1	33	iobj	_	TokenRange=2289:2293
+25	ради	ради	ADP	_	_	26	case	_	TokenRange=2294:2298
+26	Обнищавыи	Обнищавыи	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	33	obl	_	TokenRange=2299:2308
+27	по	по	ADP	_	_	28	case	_	TokenRange=2309:2311
+28	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	26	nmod	_	TokenRange=2312:2315
+29	и	и	CCONJ	_	_	30	cc	_	TokenRange=2316:2317
+30	возшед	возшед	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	TokenRange=2318:2324
+31	отонудуже	отонудуже	ADV	_	Degree=Pos	33	advmod	_	TokenRange=2325:2334
+32	не	не	PART	_	_	33	advmod	_	TokenRange=2335:2337
+33	разлучился	разлучиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	conj	_	TokenRange=2338:2348
+34	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No|TokenRange=2349:2352
+35	,	,	PUNCT	_	_	39	punct	_	TokenRange=2352:2353
+36	Всесвятаго	всесвятаго	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	TokenRange=2354:2364
+37	Твоего	твой	DET	_	Case=Gen|Gender=Masc|Number=Sing	38	det	_	TokenRange=2365:2371
+38	Духа	Дух	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	obl	_	TokenRange=2372:2376
+39	низпосли	низпасти	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	34	acl:relcl	_	SpaceAfter=No|TokenRange=2377:2385
+40	,	,	PUNCT	_	_	41	punct	_	TokenRange=2385:2386
+41	просвещающа	просвещать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	39	conj	_	TokenRange=2387:2398
+42	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	41	obj	_	TokenRange=2399:2403
+43	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	42	det	_	TokenRange=2404:2408
+44	Дважды	дважды	ADV	_	Degree=Pos	41	advmod	_	SpaceAfter=No|TokenRange=2409:2415
+45	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\r\n|TokenRange=2415:2416
+
+# sent_id = 40
+# text = Слава, и ныне: глас тоиже.
+1	Слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No|TokenRange=2418:2423
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=2423:2424
+3	и	и	PART	_	_	4	advmod	_	TokenRange=2425:2426
+4	ныне	ныне	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=2427:2431
+5	:	:	PUNCT	_	_	4	punct	_	TokenRange=2431:2432
+6	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	TokenRange=2433:2437
+7	тоиже	тоиже	ADV	_	Degree=Cmp	4	parataxis	_	SpaceAfter=No|TokenRange=2438:2443
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=2443:2444
+
+# sent_id = 41
+# text = Недр Отеческих не разлучся, Сладчаишии Иисусе, и с земными яко Человек пожив, днесь от горы Елеонския Вознеслся еси во славе, и падшее естество наше милостивно Вознес, Отцу спосадил еси.
+1	Недр	недр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=2446:2450
+2	Отеческих	отеческий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	TokenRange=2451:2460
+3	не	не	PART	_	_	4	advmod	_	TokenRange=2461:2463
+4	разлучся	разлуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=2464:2472
+5	,	,	PUNCT	_	_	6	punct	_	TokenRange=2472:2473
+6	Сладчаишии	Сладчаишия	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	4	conj	_	TokenRange=2474:2484
+7	Иисусе	Иисус	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	SpaceAfter=No|TokenRange=2485:2491
+8	,	,	PUNCT	_	_	14	punct	_	TokenRange=2491:2492
+9	и	и	CCONJ	_	_	14	cc	_	TokenRange=2493:2494
+10	с	с	ADP	_	_	11	case	_	TokenRange=2495:2496
+11	земными	земной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	obl	_	TokenRange=2497:2504
+12	яко	яко	ADV	_	Degree=Pos	14	advmod	_	TokenRange=2505:2508
+13	Человек	Человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=2509:2516
+14	пожив	пожить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=2517:2522
+15	,	,	PUNCT	_	_	20	punct	_	TokenRange=2522:2523
+16	днесь	днесь	ADV	_	Degree=Pos	20	advmod	_	TokenRange=2524:2529
+17	от	от	ADP	_	_	18	case	_	TokenRange=2530:2532
+18	горы	гора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	TokenRange=2533:2537
+19	Елеонския	Елеонския	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	TokenRange=2538:2547
+20	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	TokenRange=2548:2557
+21	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	TokenRange=2558:2561
+22	во	в	ADP	_	_	23	case	_	TokenRange=2562:2564
+23	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|TokenRange=2565:2570
+24	,	,	PUNCT	_	_	30	punct	_	TokenRange=2570:2571
+25	и	и	CCONJ	_	_	30	cc	_	TokenRange=2572:2573
+26	падшее	падший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	TokenRange=2574:2580
+27	естество	естество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	TokenRange=2581:2589
+28	наше	наш	DET	_	Case=Nom|Gender=Neut|Number=Sing	27	det	_	TokenRange=2590:2594
+29	милостивно	милостивно	ADV	_	Degree=Pos	30	advmod	_	TokenRange=2595:2605
+30	Вознес	вознести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=2606:2612
+31	,	,	PUNCT	_	_	33	punct	_	TokenRange=2612:2613
+32	Отцу	отец	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	33	iobj	_	TokenRange=2614:2618
+33	спосадил	спосадить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	TokenRange=2619:2627
+34	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No|TokenRange=2628:2631
+35	.	.	PUNCT	_	_	4	punct	_	TokenRange=2631:2632
+
+# sent_id = 42
+# text = Темже небеснии безплотных чинове, чудеси удивляющеся, ужасахуся ужасом, и трепетом содержими, Твое человеколюбие величаху.
+1	Темже	темый	ADV	_	Degree=Cmp	0	root	_	TokenRange=2633:2638
+2	небеснии	небесние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	TokenRange=2639:2647
+3	безплотных	безплотный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	TokenRange=2648:2658
+4	чинове	чинов	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=2659:2665
+5	,	,	PUNCT	_	_	7	punct	_	TokenRange=2665:2666
+6	чудеси	чудо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	TokenRange=2667:2673
+7	удивляющеся	удивляться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	2	acl	_	SpaceAfter=No|TokenRange=2674:2685
+8	,	,	PUNCT	_	_	9	punct	_	TokenRange=2685:2686
+9	ужасахуся	ужасахусить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	conj	_	TokenRange=2687:2696
+10	ужасом	ужас	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=2697:2703
+11	,	,	PUNCT	_	_	14	punct	_	TokenRange=2703:2704
+12	и	и	CCONJ	_	_	14	cc	_	TokenRange=2705:2706
+13	трепетом	трепет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	TokenRange=2707:2715
+14	содержими	содержий	VERB	_	Case=Ins|Degree=Pos|Number=Plur	1	conj	_	SpaceAfter=No|TokenRange=2716:2725
+15	,	,	PUNCT	_	_	18	punct	_	TokenRange=2725:2726
+16	Твое	твой	DET	_	Case=Acc|Gender=Neut|Number=Sing	17	det	_	TokenRange=2727:2731
+17	человеколюбие	человеколюбие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	TokenRange=2732:2745
+18	величаху	величать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=2746:2754
+19	.	.	PUNCT	_	_	1	punct	_	TokenRange=2754:2755
+
+# sent_id = 43
+# text = С нимиже и мы земнии, еже к нам Твое снизхождение, и еже от нас Вознесение славословяще, молимся глаголюще: ученики, и Рождшую Тя Богородицу, радости безчисленныя Исполнивыи во Твое Вознесение, и нас сподоби избранных Твоих радости, молитвами их, великия ради Твоея милости.
+1	С	с	ADP	_	_	2	case	_	TokenRange=2756:2757
+2	нимиже	нимиж	NOUN	_	Degree=Cmp	0	root	_	TokenRange=2758:2764
+3	и	и	CCONJ	_	_	4	advmod	_	TokenRange=2765:2766
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	TokenRange=2767:2769
+5	земнии	земний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=2770:2776
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=2776:2777
+7	еже	еже	ADV	_	_	2	conj	_	TokenRange=2778:2781
+8	к	к	ADP	_	_	9	case	_	TokenRange=2782:2783
+9	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	7	obl	_	TokenRange=2784:2787
+10	Твое	твой	DET	_	Case=Nom|Gender=Neut|Number=Sing	11	det	_	TokenRange=2788:2792
+11	снизхождение	снизхождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=2793:2805
+12	,	,	PUNCT	_	_	14	punct	_	TokenRange=2805:2806
+13	и	и	CCONJ	_	_	14	cc	_	TokenRange=2807:2808
+14	еже	еже	ADV	_	Degree=Pos	16	advmod	_	TokenRange=2809:2812
+15	от	от	ADP	_	_	16	case	_	TokenRange=2813:2815
+16	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	7	obl	_	TokenRange=2816:2819
+17	Вознесение	Вознесение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	TokenRange=2820:2830
+18	славословяще	славословяще	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No|TokenRange=2831:2843
+19	,	,	PUNCT	_	_	20	punct	_	TokenRange=2843:2844
+20	молимся	молиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	TokenRange=2845:2852
+21	глаголюще	глаголюще	ADV	_	Degree=Pos	20	advmod	_	SpaceAfter=No|TokenRange=2853:2862
+22	:	:	PUNCT	_	_	20	punct	_	TokenRange=2862:2863
+23	ученики	ученик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	parataxis	_	SpaceAfter=No|TokenRange=2864:2871
+24	,	,	PUNCT	_	_	28	punct	_	TokenRange=2871:2872
+25	и	и	CCONJ	_	_	28	cc	_	TokenRange=2873:2874
+26	Рождшую	рйти	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	28	acl	_	TokenRange=2875:2882
+27	Тя	тот	PRON	_	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=2883:2885
+28	Богородицу	Богородица	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No|TokenRange=2886:2896
+29	,	,	PUNCT	_	_	30	punct	_	TokenRange=2896:2897
+30	радости	радость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	conj	_	TokenRange=2898:2905
+31	безчисленныя	безчисленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	TokenRange=2906:2918
+32	Исполнивыи	Исполнивыи	PROPN	_	Case=Nom|Degree=Pos|Number=Plur	23	conj	_	TokenRange=2919:2929
+33	во	в	ADP	_	_	35	case	_	TokenRange=2930:2932
+34	Твое	твой	DET	_	Case=Acc|Gender=Neut|Number=Sing	35	det	_	TokenRange=2933:2937
+35	Вознесение	Вознесение	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	32	obl	_	SpaceAfter=No|TokenRange=2938:2948
+36	,	,	PUNCT	_	_	39	punct	_	TokenRange=2948:2949
+37	и	и	CCONJ	_	_	39	cc	_	TokenRange=2950:2951
+38	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	39	obj	_	TokenRange=2952:2955
+39	сподоби	сподобить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=2956:2963
+40	избранных	избранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	42	amod	_	TokenRange=2964:2973
+41	Твоих	твой	DET	_	Case=Gen|Number=Plur	42	det	_	TokenRange=2974:2979
+42	радости	радость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No|TokenRange=2980:2987
+43	,	,	PUNCT	_	_	44	punct	_	TokenRange=2987:2988
+44	молитвами	молитва	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	39	obl	_	TokenRange=2989:2998
+45	их	их	DET	_	_	44	det	_	SpaceAfter=No|TokenRange=2999:3001
+46	,	,	PUNCT	_	_	47	punct	_	TokenRange=3001:3002
+47	великия	великий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	44	amod	_	TokenRange=3003:3010
+48	ради	ради	ADP	_	_	50	case	_	TokenRange=3011:3015
+49	Твоея	твой	DET	_	Case=Gen|Gender=Fem|Number=Sing	50	det	_	TokenRange=3016:3021
+50	милости	милость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	SpaceAfter=No|TokenRange=3022:3029
+51	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=3029:3030
+
+# sent_id = 44
+# text = Вход.
+1	Вход	вход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=3032:3036
+2	.	.	PUNCT	_	_	1	punct	_	TokenRange=3036:3037
+
+# sent_id = 45
+# text = Прокимен дне. и чтения.
+1	Прокимен	прокимный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=3038:3046
+2	дне	дно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=3047:3050
+3	.	.	PUNCT	_	_	2	punct	_	TokenRange=3050:3051
+4	и	и	CCONJ	_	_	5	cc	_	TokenRange=3052:3053
+5	чтения	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	conj	_	SpaceAfter=No|TokenRange=3054:3060
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=3060:3061
+
+# sent_id = 46
+# text = Пророчества Исаиина чтение.
+1	Пророчества	пророчество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	TokenRange=3063:3074
+2	Исаиина	Исаиин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	amod	_	TokenRange=3075:3082
+3	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=3083:3089
+4	.	.	PUNCT	_	_	1	punct	_	TokenRange=3089:3090
+
+# sent_id = 47
+# text = Глава 2.
+1	Глава	глава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=3091:3096
+2	2	2	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=3097:3098
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=3098:3099
+
+# sent_id = 48
+# text = Тако глаголет Господь: будет в последния дни явлена гора Господня, и дом Божии на версех гор, и Вознесется превыше холмов, и приидут на ню вси языцы.
+1	Тако	тако	ADV	_	Degree=Pos	2	advmod	_	TokenRange=3101:3105
+2	глаголет	глаголет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=3106:3114
+3	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=3115:3122
+4	:	:	PUNCT	_	_	2	punct	_	TokenRange=3122:3123
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	TokenRange=3124:3129
+6	в	в	ADP	_	_	8	case	_	TokenRange=3130:3131
+7	последния	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	TokenRange=3132:3141
+8	дни	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	TokenRange=3142:3145
+9	явлена	явить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	TokenRange=3146:3152
+10	гора	гора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	TokenRange=3153:3157
+11	Господня	Господнь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|TokenRange=3158:3166
+12	,	,	PUNCT	_	_	17	punct	_	TokenRange=3166:3167
+13	и	и	CCONJ	_	_	17	cc	_	TokenRange=3168:3169
+14	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	TokenRange=3170:3173
+15	Божии	божий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=3174:3179
+16	на	на	ADP	_	_	17	case	_	TokenRange=3180:3182
+17	версех	версь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	conj	_	TokenRange=3183:3189
+18	гор	гора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No|TokenRange=3190:3193
+19	,	,	PUNCT	_	_	21	punct	_	TokenRange=3193:3194
+20	и	и	CCONJ	_	_	21	cc	_	TokenRange=3195:3196
+21	Вознесется	вознестись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	conj	_	TokenRange=3197:3207
+22	превыше	превыше	ADP	_	Degree=Cmp	21	advmod	_	TokenRange=3208:3215
+23	холмов	холм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|TokenRange=3216:3222
+24	,	,	PUNCT	_	_	26	punct	_	TokenRange=3222:3223
+25	и	и	CCONJ	_	_	26	cc	_	TokenRange=3224:3225
+26	приидут	приийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=3226:3233
+27	на	на	ADP	_	_	28	case	_	TokenRange=3234:3236
+28	ню	ню	PRON	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	TokenRange=3237:3239
+29	вси	весь	DET	_	Case=Nom|Number=Plur	30	det	_	TokenRange=3240:3243
+30	языцы	языц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No|TokenRange=3244:3249
+31	.	.	PUNCT	_	_	2	punct	_	TokenRange=3249:3250
+
+# sent_id = 49
+# text = И поидут людие мнози, и рекут: приидите взыдем на гору Господню, и в дом Бога Иаковля, и возвестит нам путь Свои, и поидем по нему.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=3251:3252
+2	поидут	поийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3253:3259
+3	людие	людия	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	TokenRange=3260:3265
+4	мнози	мнозь	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No|TokenRange=3266:3271
+5	,	,	PUNCT	_	_	7	punct	_	TokenRange=3271:3272
+6	и	и	CCONJ	_	_	7	cc	_	TokenRange=3273:3274
+7	рекут	речь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=3275:3280
+8	:	:	PUNCT	_	_	7	punct	_	TokenRange=3280:3281
+9	приидите	приидеть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	7	xcomp	_	TokenRange=3282:3290
+10	взыдем	взыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	xcomp	_	TokenRange=3291:3297
+11	на	на	ADP	_	_	12	case	_	TokenRange=3298:3300
+12	гору	гора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	TokenRange=3301:3305
+13	Господню	Господнь	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No|TokenRange=3306:3314
+14	,	,	PUNCT	_	_	17	punct	_	TokenRange=3314:3315
+15	и	и	CCONJ	_	_	17	cc	_	TokenRange=3316:3317
+16	в	в	ADP	_	_	17	case	_	TokenRange=3318:3319
+17	дом	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	conj	_	TokenRange=3320:3323
+18	Бога	Бог	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	TokenRange=3324:3328
+19	Иаковля	Иаковль	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No|TokenRange=3329:3336
+20	,	,	PUNCT	_	_	22	punct	_	TokenRange=3336:3337
+21	и	и	CCONJ	_	_	22	cc	_	TokenRange=3338:3339
+22	возвестит	возвестить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=3340:3349
+23	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	22	iobj	_	TokenRange=3350:3353
+24	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	TokenRange=3354:3358
+25	Свои	свой	DET	_	Case=Acc|Number=Plur	24	det	_	SpaceAfter=No|TokenRange=3359:3363
+26	,	,	PUNCT	_	_	28	punct	_	TokenRange=3363:3364
+27	и	и	CCONJ	_	_	28	cc	_	TokenRange=3365:3366
+28	поидем	поидеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	TokenRange=3367:3373
+29	по	по	ADP	_	_	30	case	_	TokenRange=3374:3376
+30	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	28	obl	_	SpaceAfter=No|TokenRange=3377:3381
+31	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=3381:3382
+
+# sent_id = 50
+# text = Пророчества Исаиина чтение.
+1	Пророчества	пророчество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	TokenRange=3384:3395
+2	Исаиина	Исаиин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	amod	_	TokenRange=3396:3403
+3	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=3404:3410
+4	.	.	PUNCT	_	_	1	punct	_	TokenRange=3410:3411
+
+# sent_id = 51
+# text = Глава 62.
+1	Глава	глава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=3412:3417
+2	62	62	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=3418:3420
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=3420:3421
+
+# sent_id = 52
+# text = Тако глаголет Господь: поидите и внидите враты Моими, уготовите путь Мои, и путь творите людем Моим, и камения от пути размещите, Вознесите знамение на языки.
+1	Тако	тако	ADV	_	Degree=Pos	2	advmod	_	TokenRange=3423:3427
+2	глаголет	глаголет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3428:3436
+3	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=3437:3444
+4	:	:	PUNCT	_	_	2	punct	_	TokenRange=3444:3445
+5	поидите	поидеть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=3446:3453
+6	и	и	CCONJ	_	_	7	cc	_	TokenRange=3454:3455
+7	внидите	внидеть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=3456:3463
+8	враты	врат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	TokenRange=3464:3469
+9	Моими	мой	DET	_	Case=Ins|Number=Plur	8	det	_	SpaceAfter=No|TokenRange=3470:3475
+10	,	,	PUNCT	_	_	11	punct	_	TokenRange=3475:3476
+11	уготовите	уготовить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=3477:3486
+12	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	TokenRange=3487:3491
+13	Мои	мой	DET	_	Case=Acc|Number=Plur	12	det	_	SpaceAfter=No|TokenRange=3492:3495
+14	,	,	PUNCT	_	_	17	punct	_	TokenRange=3495:3496
+15	и	и	CCONJ	_	_	17	cc	_	TokenRange=3497:3498
+16	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	TokenRange=3499:3503
+17	творите	творить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=3504:3511
+18	людем	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	TokenRange=3512:3517
+19	Моим	мой	DET	_	Case=Ins|Gender=Masc|Number=Sing	18	det	_	SpaceAfter=No|TokenRange=3518:3522
+20	,	,	PUNCT	_	_	25	punct	_	TokenRange=3522:3523
+21	и	и	CCONJ	_	_	25	cc	_	TokenRange=3524:3525
+22	камения	камение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	TokenRange=3526:3533
+23	от	от	ADP	_	_	24	case	_	TokenRange=3534:3536
+24	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	TokenRange=3537:3541
+25	размещите	размещить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No|TokenRange=3542:3551
+26	,	,	PUNCT	_	_	27	punct	_	TokenRange=3551:3552
+27	Вознесите	вознести	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=3553:3562
+28	знамение	знамение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obj	_	TokenRange=3563:3571
+29	на	на	ADP	_	_	30	case	_	TokenRange=3572:3574
+30	языки	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obl	_	SpaceAfter=No|TokenRange=3575:3580
+31	.	.	PUNCT	_	_	2	punct	_	TokenRange=3580:3581
+
+# sent_id = 53
+# text = Се бо Господь сотвори слышано даже до последних земли: рцыте дщери Сионове, се Спаситель твои приходит, имея с Собою мзду, и дело Его пред лицем Его.
+1	Се	се	PART	_	_	5	parataxis	_	TokenRange=3582:3584
+2	бо	бо	PART	_	_	1	appos	_	TokenRange=3585:3587
+3	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=3588:3595
+4	сотвори	сотвори	X	_	Foreign=Yes	1	appos	_	TokenRange=3596:3603
+5	слышано	слышано	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3604:3611
+6	даже	даже	PART	_	_	9	advmod	_	TokenRange=3612:3616
+7	до	до	ADP	_	_	9	case	_	TokenRange=3617:3619
+8	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	TokenRange=3620:3629
+9	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|TokenRange=3630:3635
+10	:	:	PUNCT	_	_	9	punct	_	TokenRange=3635:3636
+11	рцыте	рцать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	18	parataxis	_	TokenRange=3637:3642
+12	дщери	дщери	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	obj	_	TokenRange=3643:3648
+13	Сионове	Сионове	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No|TokenRange=3649:3656
+14	,	,	PUNCT	_	_	11	punct	_	TokenRange=3656:3657
+15	се	се	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	det	_	TokenRange=3658:3660
+16	Спаситель	Спаситель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=3661:3670
+17	твои	твой	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	det	_	TokenRange=3671:3675
+18	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No|TokenRange=3676:3684
+19	,	,	PUNCT	_	_	20	punct	_	TokenRange=3684:3685
+20	имея	иметь	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	TokenRange=3686:3690
+21	с	с	ADP	_	_	22	case	_	TokenRange=3691:3692
+22	Собою	себя	PRON	_	Case=Ins	20	obl	_	TokenRange=3693:3698
+23	мзду	мзда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No|TokenRange=3699:3703
+24	,	,	PUNCT	_	_	29	punct	_	TokenRange=3703:3704
+25	и	и	CCONJ	_	_	29	cc	_	TokenRange=3705:3706
+26	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	TokenRange=3707:3711
+27	Его	его	DET	_	_	26	det	_	TokenRange=3712:3715
+28	пред	пред	ADP	_	_	29	case	_	TokenRange=3716:3720
+29	лицем	лице	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	conj	_	TokenRange=3721:3726
+30	Его	его	DET	_	_	29	det	_	SpaceAfter=No|TokenRange=3727:3730
+31	.	.	PUNCT	_	_	5	punct	_	TokenRange=3730:3731
+
+# sent_id = 54
+# text = И прозовет я люди святы, избавлены от Господа: ты же наречешися взысканныи град, и неоставленныи.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=3732:3733
+2	прозовет	прозвать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3734:3742
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	TokenRange=3743:3744
+4	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	TokenRange=3745:3749
+5	святы	свята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	appos	_	SpaceAfter=No|TokenRange=3750:3755
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=3755:3756
+7	избавлены	избавить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	TokenRange=3757:3766
+8	от	от	ADP	_	_	9	case	_	TokenRange=3767:3769
+9	Господа	господин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=3770:3777
+10	:	:	PUNCT	_	_	7	punct	_	TokenRange=3777:3778
+11	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	13	nsubj	_	TokenRange=3779:3781
+12	же	же	PART	_	_	11	advmod	_	TokenRange=3782:3784
+13	наречешися	наречешиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	parataxis	_	TokenRange=3785:3795
+14	взысканныи	взыскать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	TokenRange=3796:3806
+15	град	град	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=3807:3811
+16	,	,	PUNCT	_	_	18	punct	_	TokenRange=3811:3812
+17	и	и	CCONJ	_	_	18	cc	_	TokenRange=3813:3814
+18	неоставленныи	неоставленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	conj	_	SpaceAfter=No|TokenRange=3815:3828
+19	.	.	PUNCT	_	_	2	punct	_	TokenRange=3828:3829
+
+# sent_id = 55
+# text = Кто Сеи пришедыи из Едома, оброщение риз Его от Восора?
+1	Кто	кто	PRON	_	Case=Nom	3	nsubj	_	TokenRange=3830:3833
+2	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	1	det	_	TokenRange=3834:3837
+3	пришедыи	пришедый	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=3838:3846
+4	из	из	ADP	_	_	5	case	_	TokenRange=3847:3849
+5	Едома	Едом	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=3850:3855
+6	,	,	PUNCT	_	_	8	punct	_	TokenRange=3855:3856
+7	оброщение	оброщение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	TokenRange=3857:3866
+8	риз	риз	VERB	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	TokenRange=3867:3870
+9	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	8	obj	_	TokenRange=3871:3874
+10	от	от	ADP	_	_	11	case	_	TokenRange=3875:3877
+11	Восора	Восор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=3878:3884
+12	?	?	PUNCT	_	_	3	punct	_	TokenRange=3884:3885
+
+# sent_id = 56
+# text = Сеи красен во одежди Своеи, вопиет с крепостию велиею: Аз глаголю правду и суд спасения.
+1	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=3886:3889
+2	красен	красный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	TokenRange=3890:3896
+3	во	в	ADP	_	_	4	case	_	TokenRange=3897:3899
+4	одежди	одеждь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	TokenRange=3900:3906
+5	Своеи	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	det	_	SpaceAfter=No|TokenRange=3907:3912
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=3912:3913
+7	вопиет	вопить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=3914:3920
+8	с	с	ADP	_	_	9	case	_	TokenRange=3921:3922
+9	крепостию	крепостия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	TokenRange=3923:3932
+10	велиею	велиея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=3933:3939
+11	:	:	PUNCT	_	_	10	punct	_	TokenRange=3939:3940
+12	Аз	аз	PROPN	_	Foreign=Yes	10	parataxis	_	TokenRange=3941:3943
+13	глаголю	глаголить	NOUN	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	orphan	_	TokenRange=3944:3951
+14	правду	правда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	orphan	_	TokenRange=3952:3958
+15	и	и	CCONJ	_	_	16	cc	_	TokenRange=3959:3960
+16	суд	суд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	conj	_	TokenRange=3961:3964
+17	спасения	спасение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=3965:3973
+18	.	.	PUNCT	_	_	2	punct	_	TokenRange=3973:3974
+
+# sent_id = 57
+# text = Почто Ти оброщены ризы, и одежды Твоя яко от истоптания точила исполнены истоптания?
+1	Почто	почто	ADV	_	Degree=Pos	3	advmod	_	TokenRange=3975:3980
+2	Ти	ти	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj:pass	_	TokenRange=3981:3983
+3	оброщены	обростить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=3984:3992
+4	ризы	риз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No|TokenRange=3993:3997
+5	,	,	PUNCT	_	_	13	punct	_	TokenRange=3997:3998
+6	и	и	CCONJ	_	_	13	cc	_	TokenRange=3999:4000
+7	одежды	одежда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	TokenRange=4001:4007
+8	Твоя	твой	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	TokenRange=4008:4012
+9	яко	яко	ADV	_	Degree=Pos	12	advmod	_	TokenRange=4013:4016
+10	от	от	ADP	_	_	11	case	_	TokenRange=4017:4019
+11	истоптания	истоптание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	TokenRange=4020:4030
+12	точила	точить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	TokenRange=4031:4037
+13	исполнены	исполнить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	TokenRange=4038:4047
+14	истоптания	истоптание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	SpaceAfter=No|TokenRange=4048:4058
+15	?	?	PUNCT	_	_	3	punct	_	TokenRange=4058:4059
+
+# sent_id = 58
+# text = Точило истоптах Един, и от язык несть муж со Мною.
+1	Точило	точить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=4060:4066
+2	истоптах	истоптах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=4067:4075
+3	Един	един	DET	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=4076:4080
+4	,	,	PUNCT	_	_	8	punct	_	TokenRange=4080:4081
+5	и	и	CCONJ	_	_	8	cc	_	TokenRange=4082:4083
+6	от	от	ADP	_	_	7	case	_	TokenRange=4084:4086
+7	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	TokenRange=4087:4091
+8	несть	несть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	TokenRange=4092:4097
+9	муж	муж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=4098:4101
+10	со	с	ADP	_	_	11	case	_	TokenRange=4102:4104
+11	Мною	я	PRON	_	Case=Ins|Number=Sing|Person=1	8	obl	_	SpaceAfter=No|TokenRange=4105:4109
+12	.	.	PUNCT	_	_	1	punct	_	TokenRange=4109:4110
+
+# sent_id = 59
+# text = Милость Господню помянух, добродетели Господни во всех, имиже нам воздавает.
+1	Милость	милость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	TokenRange=4111:4118
+2	Господню	Господнь	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	TokenRange=4119:4127
+3	помянух	помянуть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=4128:4135
+4	,	,	PUNCT	_	_	8	punct	_	TokenRange=4135:4136
+5	добродетели	добродетель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	TokenRange=4137:4148
+6	Господни	Господна	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	TokenRange=4149:4157
+7	во	в	ADP	_	_	8	case	_	TokenRange=4158:4160
+8	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	3	conj	_	SpaceAfter=No|TokenRange=4161:4165
+9	,	,	PUNCT	_	_	12	punct	_	TokenRange=4165:4166
+10	имиже	имиже	ADV	_	Degree=Cmp	12	advmod	_	TokenRange=4167:4172
+11	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	12	iobj	_	TokenRange=4173:4176
+12	воздавает	воздавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No|TokenRange=4177:4186
+13	.	.	PUNCT	_	_	3	punct	_	TokenRange=4186:4187
+
+# sent_id = 60
+# text = Господь, Судия благии дому Израилеву, наносит нам по милости Своеи, и по множеству правды Своея.
+1	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|TokenRange=4188:4195
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=4195:4196
+3	Судия	Судия	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	TokenRange=4197:4202
+4	благии	благия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	iobj	_	TokenRange=4203:4209
+5	дому	дом	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	TokenRange=4210:4214
+6	Израилеву	Израилев	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|TokenRange=4215:4224
+7	,	,	PUNCT	_	_	3	punct	_	TokenRange=4224:4225
+8	наносит	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=4226:4233
+9	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	8	iobj	_	TokenRange=4234:4237
+10	по	по	ADP	_	_	11	case	_	TokenRange=4238:4240
+11	милости	милость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	TokenRange=4241:4248
+12	Своеи	свой	DET	_	Case=Dat|Gender=Fem|Number=Sing	11	det	_	SpaceAfter=No|TokenRange=4249:4254
+13	,	,	PUNCT	_	_	16	punct	_	TokenRange=4254:4255
+14	и	и	CCONJ	_	_	16	cc	_	TokenRange=4256:4257
+15	по	по	ADP	_	_	16	case	_	TokenRange=4258:4260
+16	множеству	множество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	conj	_	TokenRange=4261:4270
+17	правды	правда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	TokenRange=4271:4277
+18	Своея	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	det	_	SpaceAfter=No|TokenRange=4278:4283
+19	.	.	PUNCT	_	_	8	punct	_	TokenRange=4283:4284
+
+# sent_id = 61
+# text = И рече: не людие ли Мои, чада не отвергут ли ся?
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=4285:4286
+2	рече	речить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=4287:4291
+3	:	:	PUNCT	_	_	2	punct	_	TokenRange=4291:4292
+4	не	не	PART	_	_	5	advmod	_	TokenRange=4293:4295
+5	людие	людия	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	parataxis	_	TokenRange=4296:4301
+6	ли	ли	PART	_	_	5	advmod	_	TokenRange=4302:4304
+7	Мои	мой	DET	_	Case=Nom|Number=Plur	5	det	_	SpaceAfter=No|TokenRange=4305:4308
+8	,	,	PUNCT	_	_	11	punct	_	TokenRange=4308:4309
+9	чада	чад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nsubj	_	TokenRange=4310:4314
+10	не	не	PART	_	_	11	advmod	_	TokenRange=4315:4317
+11	отвергут	отверчь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	TokenRange=4318:4326
+12	ли	ли	PART	_	_	11	advmod	_	TokenRange=4327:4329
+13	ся	ся	PRON	_	Case=Acc|Number=Plur|Person=2	11	obj	_	SpaceAfter=No|TokenRange=4330:4332
+14	?	?	PUNCT	_	_	2	punct	_	TokenRange=4332:4333
+
+# sent_id = 62
+# text = И бысть им во спасение от всякия скорби их.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=4334:4335
+2	бысть	бысть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=4336:4341
+3	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	2	iobj	_	TokenRange=4342:4344
+4	во	в	ADP	_	_	5	case	_	TokenRange=4345:4347
+5	спасение	спасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	TokenRange=4348:4356
+6	от	от	ADP	_	_	8	case	_	TokenRange=4357:4359
+7	всякия	всякий	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	TokenRange=4360:4366
+8	скорби	скорба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	TokenRange=4367:4373
+9	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	SpaceAfter=No|TokenRange=4374:4376
+10	.	.	PUNCT	_	_	2	punct	_	TokenRange=4376:4377
+
+# sent_id = 63
+# text = Не ходатаи, ниже ангел, но Сам Господь спасе их: за еже любити их, и щадети их, Сам избави их, и восприят их, и Вознесе их во вся дни века.
+1	Не	не	PART	_	_	2	advmod	_	TokenRange=4378:4380
+2	ходатаи	ходатать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=4381:4388
+3	,	,	PUNCT	_	_	4	punct	_	TokenRange=4388:4389
+4	ниже	низкий	ADV	_	Degree=Cmp	2	parataxis	_	TokenRange=4390:4394
+5	ангел	ангел	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=4395:4400
+6	,	,	PUNCT	_	_	10	punct	_	TokenRange=4400:4401
+7	но	но	CCONJ	_	_	10	cc	_	TokenRange=4402:4404
+8	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	TokenRange=4405:4408
+9	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	TokenRange=4409:4416
+10	спасе	спасти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=4417:4422
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	SpaceAfter=No|TokenRange=4423:4425
+12	:	:	PUNCT	_	_	10	punct	_	TokenRange=4425:4426
+13	за	за	ADP	_	_	14	case	_	TokenRange=4427:4429
+14	еже	еже	ADV	_	Degree=Pos	15	obl	_	TokenRange=4430:4433
+15	любити	любить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	parataxis	_	TokenRange=4434:4440
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	SpaceAfter=No|TokenRange=4441:4443
+17	,	,	PUNCT	_	_	19	punct	_	TokenRange=4443:4444
+18	и	и	CCONJ	_	_	19	cc	_	TokenRange=4445:4446
+19	щадети	щадетить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=4447:4453
+20	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	19	obj	_	SpaceAfter=No|TokenRange=4454:4456
+21	,	,	PUNCT	_	_	23	punct	_	TokenRange=4456:4457
+22	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	obl	_	TokenRange=4458:4461
+23	избави	избавить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=4462:4468
+24	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	23	obj	_	SpaceAfter=No|TokenRange=4469:4471
+25	,	,	PUNCT	_	_	27	punct	_	TokenRange=4471:4472
+26	и	и	CCONJ	_	_	27	cc	_	TokenRange=4473:4474
+27	восприят	восприить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=4475:4483
+28	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	27	obj	_	SpaceAfter=No|TokenRange=4484:4486
+29	,	,	PUNCT	_	_	31	punct	_	TokenRange=4486:4487
+30	и	и	CCONJ	_	_	31	cc	_	TokenRange=4488:4489
+31	Вознесе	Вознес	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=4490:4497
+32	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	31	obj	_	TokenRange=4498:4500
+33	во	в	ADP	_	_	35	case	_	TokenRange=4501:4503
+34	вся	весь	DET	_	Case=Acc|Number=Plur	35	det	_	TokenRange=4504:4507
+35	дни	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obl	_	TokenRange=4508:4511
+36	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No|TokenRange=4512:4516
+37	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=4516:4517
+
+# sent_id = 64
+# text = Пророчества Захариина чтение.
+1	Пророчества	пророчество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	TokenRange=4519:4530
+2	Захариина	Захариин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=4531:4540
+3	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No|TokenRange=4541:4547
+4	.	.	PUNCT	_	_	1	punct	_	TokenRange=4547:4548
+
+# sent_id = 65
+# text = Глава 14.
+1	Глава	глава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=4549:4554
+2	14	14	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=4555:4557
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=4557:4558
+
+# sent_id = 66
+# text = Тако глаголет Господь: се день грядет господень, и станут нозе Его в день оныи на горе Елеонстеи, прямо Иерусалима, от восток солнца.
+1	Тако	тако	ADV	_	Degree=Pos	2	advmod	_	TokenRange=4560:4564
+2	глаголет	глаголет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=4565:4573
+3	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=4574:4581
+4	:	:	PUNCT	_	_	2	punct	_	TokenRange=4581:4582
+5	се	се	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	det	_	TokenRange=4583:4585
+6	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	TokenRange=4586:4590
+7	грядет	грясти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	parataxis	_	TokenRange=4591:4597
+8	господень	господень	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=4598:4607
+9	,	,	PUNCT	_	_	11	punct	_	TokenRange=4607:4608
+10	и	и	CCONJ	_	_	11	cc	_	TokenRange=4609:4610
+11	станут	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=4611:4617
+12	нозе	ноза	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	TokenRange=4618:4622
+13	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	TokenRange=4623:4626
+14	в	в	ADP	_	_	15	case	_	TokenRange=4627:4628
+15	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	TokenRange=4629:4633
+16	оныи	оный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	nmod	_	TokenRange=4634:4638
+17	на	на	ADP	_	_	18	case	_	TokenRange=4639:4641
+18	горе	гора	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	TokenRange=4642:4646
+19	Елеонстеи	Елеонстея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No|TokenRange=4647:4656
+20	,	,	PUNCT	_	_	22	punct	_	TokenRange=4656:4657
+21	прямо	прямо	ADV	_	Degree=Pos	22	obl	_	TokenRange=4658:4663
+22	Иерусалима	Иерусалим	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|TokenRange=4664:4674
+23	,	,	PUNCT	_	_	25	punct	_	TokenRange=4674:4675
+24	от	от	ADP	_	_	25	case	_	TokenRange=4676:4678
+25	восток	восток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	conj	_	TokenRange=4679:4685
+26	солнца	солнце	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	SpaceAfter=No|TokenRange=4686:4692
+27	.	.	PUNCT	_	_	2	punct	_	TokenRange=4692:4693
+
+# sent_id = 67
+# text = И в день оныи изыдет вода жива из Иерусалима, пол ея в море первое, и пол ея в море последнее: в жатву и в весну будет тако.
+1	И	и	CCONJ	_	_	5	cc	_	TokenRange=4694:4695
+2	в	в	ADP	_	_	3	case	_	TokenRange=4696:4697
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	TokenRange=4698:4702
+4	оныи	оный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	TokenRange=4703:4707
+5	изыдет	изыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=4708:4714
+6	вода	вода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	TokenRange=4715:4719
+7	жива	живой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	obl	_	TokenRange=4720:4724
+8	из	из	ADP	_	_	9	case	_	TokenRange=4725:4727
+9	Иерусалима	Иерусалим	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|TokenRange=4728:4738
+10	,	,	PUNCT	_	_	14	punct	_	TokenRange=4738:4739
+11	пол	пол	NUM	_	_	14	nsubj	_	TokenRange=4740:4743
+12	ея	ея	PRON	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	TokenRange=4744:4746
+13	в	в	ADP	_	_	14	case	_	TokenRange=4747:4748
+14	море	море	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	TokenRange=4749:4753
+15	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=4754:4760
+16	,	,	PUNCT	_	_	21	punct	_	TokenRange=4760:4761
+17	и	и	CCONJ	_	_	21	cc	_	TokenRange=4762:4763
+18	пол	пол	NUM	_	_	21	nsubj	_	TokenRange=4764:4767
+19	ея	ея	PRON	_	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	TokenRange=4768:4770
+20	в	в	ADP	_	_	21	case	_	TokenRange=4771:4772
+21	море	море	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	conj	_	TokenRange=4773:4777
+22	последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No|TokenRange=4778:4787
+23	:	:	PUNCT	_	_	21	punct	_	TokenRange=4787:4788
+24	в	в	ADP	_	_	25	case	_	TokenRange=4789:4790
+25	жатву	жатва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obl	_	TokenRange=4791:4796
+26	и	и	CCONJ	_	_	28	cc	_	TokenRange=4797:4798
+27	в	в	ADP	_	_	28	case	_	TokenRange=4799:4800
+28	весну	весна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	conj	_	TokenRange=4801:4806
+29	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	cop	_	TokenRange=4807:4812
+30	тако	тако	ADV	_	Degree=Pos	21	parataxis	_	SpaceAfter=No|TokenRange=4813:4817
+31	.	.	PUNCT	_	_	5	punct	_	TokenRange=4817:4818
+
+# sent_id = 68
+# text = И будет Господь Царь по всеи земли, в день оныи будет Господь един.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=4819:4820
+2	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=4821:4826
+3	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=4827:4834
+4	Царь	Царь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	TokenRange=4835:4839
+5	по	по	ADP	_	_	7	case	_	TokenRange=4840:4842
+6	всеи	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing	7	det	_	TokenRange=4843:4847
+7	земли	земля	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=4848:4853
+8	,	,	PUNCT	_	_	14	punct	_	TokenRange=4853:4854
+9	в	в	ADP	_	_	10	case	_	TokenRange=4855:4856
+10	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	TokenRange=4857:4861
+11	оныи	оный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	TokenRange=4862:4866
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	TokenRange=4867:4872
+13	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	TokenRange=4873:4880
+14	един	единый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	SpaceAfter=No|TokenRange=4881:4885
+15	.	.	PUNCT	_	_	2	punct	_	TokenRange=4885:4886
+
+# sent_id = 69
+# text = Имя Его едино, окружающее всю землю и пустыню, от Гавы даже до Реммона, противу хребту Иерусалимлю: и Вознесется, и на месте пребудет, от врат Вениаминовых, даже до места двереи первых, даже до врат угольных, и даже до столпа анамеилева, даже до подточилии царевых, обитают в нем: и анафема не будет ктому, и вселится Иерусалим надеяися.
+1	Имя	имя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	TokenRange=4887:4890
+2	Его	его	DET	_	_	1	det	_	TokenRange=4891:4894
+3	едино	единый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=4895:4900
+4	,	,	PUNCT	_	_	5	punct	_	TokenRange=4900:4901
+5	окружающее	окружать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	TokenRange=4902:4912
+6	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	det	_	TokenRange=4913:4916
+7	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	TokenRange=4917:4922
+8	и	и	CCONJ	_	_	9	cc	_	TokenRange=4923:4924
+9	пустыню	пустыня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|TokenRange=4925:4932
+10	,	,	PUNCT	_	_	12	punct	_	TokenRange=4932:4933
+11	от	от	ADP	_	_	12	case	_	TokenRange=4934:4936
+12	Гавы	Гава	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	TokenRange=4937:4941
+13	даже	даже	PART	_	_	15	advmod	_	TokenRange=4942:4946
+14	до	до	ADP	_	_	15	case	_	TokenRange=4947:4949
+15	Реммона	Реммон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|TokenRange=4950:4957
+16	,	,	PUNCT	_	_	18	punct	_	TokenRange=4957:4958
+17	противу	противу	ADP	_	_	18	case	_	TokenRange=4959:4966
+18	хребту	хребет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	conj	_	TokenRange=4967:4973
+19	Иерусалимлю	Иерусалимль	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|TokenRange=4974:4985
+20	:	:	PUNCT	_	_	3	punct	_	TokenRange=4985:4986
+21	и	и	CCONJ	_	_	22	cc	_	TokenRange=4987:4988
+22	Вознесется	вознестись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpaceAfter=No|TokenRange=4989:4999
+23	,	,	PUNCT	_	_	27	punct	_	TokenRange=4999:5000
+24	и	и	CCONJ	_	_	27	cc	_	TokenRange=5001:5002
+25	на	на	ADP	_	_	26	case	_	TokenRange=5003:5005
+26	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	obl	_	TokenRange=5006:5011
+27	пребудет	пребыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No|TokenRange=5012:5020
+28	,	,	PUNCT	_	_	30	punct	_	TokenRange=5020:5021
+29	от	от	ADP	_	_	30	case	_	TokenRange=5022:5024
+30	врат	врата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	obl	_	TokenRange=5025:5029
+31	Вениаминовых	Вениаминов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No|TokenRange=5030:5042
+32	,	,	PUNCT	_	_	35	punct	_	TokenRange=5042:5043
+33	даже	даже	PART	_	_	35	advmod	_	TokenRange=5044:5048
+34	до	до	ADP	_	_	35	case	_	TokenRange=5049:5051
+35	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	conj	_	TokenRange=5052:5057
+36	двереи	дверь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	TokenRange=5058:5064
+37	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	nmod	_	SpaceAfter=No|TokenRange=5065:5071
+38	,	,	PUNCT	_	_	41	punct	_	TokenRange=5071:5072
+39	даже	даже	PART	_	_	41	advmod	_	TokenRange=5073:5077
+40	до	до	ADP	_	_	41	case	_	TokenRange=5078:5080
+41	врат	врат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	conj	_	TokenRange=5081:5085
+42	угольных	угольный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	41	nmod	_	SpaceAfter=No|TokenRange=5086:5094
+43	,	,	PUNCT	_	_	47	punct	_	TokenRange=5094:5095
+44	и	и	CCONJ	_	_	47	cc	_	TokenRange=5096:5097
+45	даже	даже	PART	_	_	47	advmod	_	TokenRange=5098:5102
+46	до	до	ADP	_	_	47	case	_	TokenRange=5103:5105
+47	столпа	столп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	conj	_	TokenRange=5106:5112
+48	анамеилева	анамеилев	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No|TokenRange=5113:5123
+49	,	,	PUNCT	_	_	52	punct	_	TokenRange=5123:5124
+50	даже	даже	PART	_	_	52	advmod	_	TokenRange=5125:5129
+51	до	до	ADP	_	_	52	case	_	TokenRange=5130:5132
+52	подточилии	подточилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	47	conj	_	TokenRange=5133:5143
+53	царевых	царевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	52	nmod	_	SpaceAfter=No|TokenRange=5144:5151
+54	,	,	PUNCT	_	_	55	punct	_	TokenRange=5151:5152
+55	обитают	обитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	TokenRange=5153:5160
+56	в	в	ADP	_	_	57	case	_	TokenRange=5161:5162
+57	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	55	obl	_	SpaceAfter=No|TokenRange=5163:5166
+58	:	:	PUNCT	_	_	55	punct	_	TokenRange=5166:5167
+59	и	и	CCONJ	_	_	62	cc	_	TokenRange=5168:5169
+60	анафема	анафема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	62	nsubj	_	TokenRange=5170:5177
+61	не	не	PART	_	_	62	advmod	_	TokenRange=5178:5180
+62	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	55	parataxis	_	TokenRange=5181:5186
+63	ктому	ктто	PRON	_	Case=Dat	55	iobj	_	SpaceAfter=No|TokenRange=5187:5192
+64	,	,	PUNCT	_	_	66	punct	_	TokenRange=5192:5193
+65	и	и	CCONJ	_	_	66	cc	_	TokenRange=5194:5195
+66	вселится	вселиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	62	conj	_	TokenRange=5196:5204
+67	Иерусалим	Иерусалим	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	68	nsubj	_	TokenRange=5205:5214
+68	надеяися	надеяться	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	62	conj	_	SpaceAfter=No|TokenRange=5215:5223
+69	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n|TokenRange=5223:5224
+
+# sent_id = 70
+# text = На литии стихиры самогласны.
+1	На	на	ADP	_	_	2	case	_	TokenRange=5226:5228
+2	литии	лития	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	TokenRange=5229:5234
+3	стихиры	стихир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=5235:5242
+4	самогласны	самогласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=5243:5253
+5	.	.	PUNCT	_	_	4	punct	_	TokenRange=5253:5254
+
+# sent_id = 71
+# text = Глас 1.
+1	Глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=5255:5259
+2	1	1	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=5260:5261
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=5261:5262
+
+# sent_id = 72
+# text = Возшед на небеса, отонудуже и сошел еси, не остави нас сирых Господи: да приидет Твои Дух, нося мир мирови, покажи сыном человеческим дела силы Твоея, Господи Человеколюбче.
+1	Возшед	возйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	TokenRange=5264:5270
+2	на	на	ADP	_	_	3	case	_	TokenRange=5271:5273
+3	небеса	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	1	obl	_	SpaceAfter=No|TokenRange=5274:5280
+4	,	,	PUNCT	_	_	5	punct	_	TokenRange=5280:5281
+5	отонудуже	отонудуже	ADV	_	Degree=Pos	1	conj	_	TokenRange=5282:5291
+6	и	и	CCONJ	_	_	7	cc	_	TokenRange=5292:5293
+7	сошел	сойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=5294:5299
+8	еси	еси	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	obj	_	SpaceAfter=No|TokenRange=5300:5303
+9	,	,	PUNCT	_	_	1	punct	_	TokenRange=5303:5304
+10	не	не	PART	_	_	11	advmod	_	TokenRange=5305:5307
+11	остави	остать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=5308:5314
+12	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	11	obj	_	TokenRange=5315:5318
+13	сирых	сирый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	TokenRange=5319:5324
+14	Господи	Господь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=5325:5332
+15	:	:	PUNCT	_	_	11	punct	_	TokenRange=5332:5333
+16	да	да	PART	_	_	17	advmod	_	TokenRange=5334:5336
+17	приидет	приийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	parataxis	_	TokenRange=5337:5344
+18	Твои	твой	DET	_	Case=Nom|Gender=Masc|Number=Sing	19	det	_	TokenRange=5345:5349
+19	Дух	Дух	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|TokenRange=5350:5353
+20	,	,	PUNCT	_	_	21	punct	_	TokenRange=5353:5354
+21	нося	носить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	17	advcl	_	TokenRange=5355:5359
+22	мир	мир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obj	_	TokenRange=5360:5363
+23	мирови	миров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|TokenRange=5364:5370
+24	,	,	PUNCT	_	_	25	punct	_	TokenRange=5370:5371
+25	покажи	показать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	17	conj	_	TokenRange=5372:5378
+26	сыном	сын	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	TokenRange=5379:5384
+27	человеческим	человеческий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	28	amod	_	TokenRange=5385:5397
+28	дела	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	iobj	_	TokenRange=5398:5402
+29	силы	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	TokenRange=5403:5407
+30	Твоея	твой	DET	_	Case=Nom|Gender=Fem|Number=Sing	29	det	_	SpaceAfter=No|TokenRange=5408:5413
+31	,	,	PUNCT	_	_	32	punct	_	TokenRange=5413:5414
+32	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	25	parataxis	_	TokenRange=5415:5422
+33	Человеколюбче	Человеколюбче	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	flat:name	_	SpaceAfter=No|TokenRange=5423:5436
+34	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n|TokenRange=5436:5437
+
+# sent_id = 73
+# text = Возшел еси Христе к Безначальному Отцу Твоему, неописанных Его недр не разлучивыися, и прилог силы хваления трисвятаго не прияша, но единаго Сына и по вочеловечении познаша Тя Господи, единородна Отцу: во множестве щедрот Твоих помилуи нас.
+1	Возшел	возйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=5439:5445
+2	еси	еси	NOUN	_	Foreign=Yes	1	nsubj	_	TokenRange=5446:5449
+3	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	appos	_	TokenRange=5450:5456
+4	к	к	ADP	_	_	6	case	_	TokenRange=5457:5458
+5	Безначальному	безначальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=5459:5472
+6	Отцу	отец	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	obl	_	TokenRange=5473:5477
+7	Твоему	твой	DET	_	Case=Dat|Gender=Masc|Number=Sing	6	det	_	SpaceAfter=No|TokenRange=5478:5484
+8	,	,	PUNCT	_	_	13	punct	_	TokenRange=5484:5485
+9	неописанных	неописанный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	TokenRange=5486:5497
+10	Его	его	DET	_	_	11	det	_	TokenRange=5498:5501
+11	недр	недра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	13	obl	_	TokenRange=5502:5506
+12	не	не	PART	_	_	13	advmod	_	TokenRange=5507:5509
+13	разлучивыися	разлучивыться	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No|TokenRange=5510:5522
+14	,	,	PUNCT	_	_	21	punct	_	TokenRange=5522:5523
+15	и	и	CCONJ	_	_	21	cc	_	TokenRange=5524:5525
+16	прилог	прилог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	TokenRange=5526:5532
+17	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	TokenRange=5533:5537
+18	хваления	хваление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	TokenRange=5538:5546
+19	трисвятаго	трисвятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	TokenRange=5547:5557
+20	не	не	PART	_	_	21	advmod	_	TokenRange=5558:5560
+21	прияша	прияшать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=5561:5567
+22	,	,	PUNCT	_	_	29	punct	_	TokenRange=5567:5568
+23	но	но	CCONJ	_	_	29	cc	_	TokenRange=5569:5571
+24	единаго	единый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	TokenRange=5572:5579
+25	Сына	Сын	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	TokenRange=5580:5584
+26	и	и	CCONJ	_	_	28	cc	_	TokenRange=5585:5586
+27	по	по	ADP	_	_	28	case	_	TokenRange=5587:5589
+28	вочеловечении	вочеловечение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	25	conj	_	TokenRange=5590:5603
+29	познаша	познать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=5604:5611
+30	Тя	тя	DET	_	Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	TokenRange=5612:5614
+31	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	SpaceAfter=No|TokenRange=5615:5622
+32	,	,	PUNCT	_	_	33	punct	_	TokenRange=5622:5623
+33	единородна	единородный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	conj	_	TokenRange=5624:5634
+34	Отцу	отец	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	33	iobj	_	SpaceAfter=No|TokenRange=5635:5639
+35	:	:	PUNCT	_	_	29	punct	_	TokenRange=5639:5640
+36	во	в	ADP	_	_	37	case	_	TokenRange=5641:5643
+37	множестве	множество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	obl	_	TokenRange=5644:5653
+38	щедрот	щедрота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	TokenRange=5654:5660
+39	Твоих	твой	DET	_	Case=Gen|Number=Plur	38	det	_	TokenRange=5661:5666
+40	помилуи	помиловать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=5667:5674
+41	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	40	obj	_	SpaceAfter=No|TokenRange=5675:5678
+42	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=5678:5679
+
+# sent_id = 74
+# text = Ангели Твои Господи, апостолом глаголаху: мужие галилеистии, что стоите, зряще на небо?
+1	Ангели	ангель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	parataxis	_	TokenRange=5681:5687
+2	Твои	твой	DET	_	Case=Nom|Number=Plur	3	det	_	TokenRange=5688:5692
+3	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No|TokenRange=5693:5700
+4	,	,	PUNCT	_	_	1	punct	_	TokenRange=5700:5701
+5	апостолом	апостол	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	TokenRange=5702:5711
+6	глаголаху	глаголах	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=5712:5721
+7	:	:	PUNCT	_	_	6	punct	_	TokenRange=5721:5722
+8	мужие	мужий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	parataxis	_	TokenRange=5723:5728
+9	галилеистии	галилеистия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=5729:5740
+10	,	,	PUNCT	_	_	12	punct	_	TokenRange=5740:5741
+11	что	что	PRON	_	Case=Acc	12	obj	_	TokenRange=5742:5745
+12	стоите	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|TokenRange=5746:5752
+13	,	,	PUNCT	_	_	14	punct	_	TokenRange=5752:5753
+14	зряще	зрящий	ADJ	_	Degree=Cmp	12	parataxis	_	TokenRange=5754:5759
+15	на	на	ADP	_	_	16	case	_	TokenRange=5760:5762
+16	небо	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|TokenRange=5763:5767
+17	?	?	PUNCT	_	_	6	punct	_	TokenRange=5767:5768
+
+# sent_id = 75
+# text = Сеи есть Христос Бог, Вознесыися от вас на небо, Тои приидет паки, имже образом видесте Его идуща на небо: послужите Ему в преподобии и правде.
+1	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	TokenRange=5769:5772
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=5773:5777
+3	Христос	Христос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	TokenRange=5778:5785
+4	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	SpaceAfter=No|TokenRange=5786:5789
+5	,	,	PUNCT	_	_	6	punct	_	TokenRange=5789:5790
+6	Вознесыися	Вознесыись	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	2	advcl	_	TokenRange=5791:5801
+7	от	от	ADP	_	_	8	case	_	TokenRange=5802:5804
+8	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	6	obl	_	TokenRange=5805:5808
+9	на	на	ADP	_	_	10	case	_	TokenRange=5809:5811
+10	небо	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|TokenRange=5812:5816
+11	,	,	PUNCT	_	_	13	punct	_	TokenRange=5816:5817
+12	Тои	тои	DET	_	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	TokenRange=5818:5821
+13	приидет	приийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=5822:5829
+14	паки	паки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No|TokenRange=5830:5834
+15	,	,	PUNCT	_	_	18	punct	_	TokenRange=5834:5835
+16	имже	имже	ADV	_	Degree=Pos	18	advmod	_	TokenRange=5836:5840
+17	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	TokenRange=5841:5848
+18	видесте	видеть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	13	conj	_	TokenRange=5849:5856
+19	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	TokenRange=5857:5860
+20	идуща	ити	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	TokenRange=5861:5866
+21	на	на	ADP	_	_	22	case	_	TokenRange=5867:5869
+22	небо	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|TokenRange=5870:5874
+23	:	:	PUNCT	_	_	18	punct	_	TokenRange=5874:5875
+24	послужите	служить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	18	parataxis	_	TokenRange=5876:5885
+25	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	iobj	_	TokenRange=5886:5889
+26	в	в	ADP	_	_	27	case	_	TokenRange=5890:5891
+27	преподобии	преподобия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	TokenRange=5892:5902
+28	и	и	CCONJ	_	_	29	cc	_	TokenRange=5903:5904
+29	правде	правда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No|TokenRange=5905:5911
+30	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=5911:5912
+
+# sent_id = 76
+# text = Глас 4: Егда пришел еси на гору Христе Елеонскую, Отчее совершити благоволение, ужасошася небеснии ангели, и устрашишася преисподнии.
+1	Глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=5914:5918
+2	4	4	NUM	_	_	1	nummod	_	SpaceAfter=No|TokenRange=5919:5920
+3	:	:	PUNCT	_	_	1	punct	_	TokenRange=5920:5921
+4	Егда	Егда	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=5922:5926
+5	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=5927:5933
+6	еси	еси	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	nsubj	_	TokenRange=5934:5937
+7	на	на	ADP	_	_	8	case	_	TokenRange=5938:5940
+8	гору	гора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	TokenRange=5941:5945
+9	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	8	appos	_	TokenRange=5946:5952
+10	Елеонскую	Елеонская	PROPN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	9	flat:name	_	SpaceAfter=No|TokenRange=5953:5962
+11	,	,	PUNCT	_	_	13	punct	_	TokenRange=5962:5963
+12	Отчее	отчее	ADV	_	Degree=Pos	13	advmod	_	TokenRange=5964:5969
+13	совершити	совершить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	TokenRange=5970:5979
+14	благоволение	благоволение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|TokenRange=5980:5992
+15	,	,	PUNCT	_	_	16	punct	_	TokenRange=5992:5993
+16	ужасошася	ужасошиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	5	conj	_	TokenRange=5994:6003
+17	небеснии	небесний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	TokenRange=6004:6012
+18	ангели	ангель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No|TokenRange=6013:6019
+19	,	,	PUNCT	_	_	21	punct	_	TokenRange=6019:6020
+20	и	и	CCONJ	_	_	21	cc	_	TokenRange=6021:6022
+21	устрашишася	устрашиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	5	conj	_	TokenRange=6023:6034
+22	преисподнии	преисподние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	SpaceAfter=No|TokenRange=6035:6046
+23	.	.	PUNCT	_	_	1	punct	_	TokenRange=6046:6047
+
+# sent_id = 77
+# text = Предсташа же ученицы с радостию трепетни, яко глаголал еси им, яко престол же готовляшеся против облак ждущии: врата же небо отверзшее доброту являше, и земля сокровища открывает, Адамову схождению яко познатися, и паки восхождению. но стопы убо возвышахуся, якоже руце, уста же вельми благословляху, якоже слышашеся, облак подъемляше, и небо внутрь Тебе прият.
+1	Предсташа	предстать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	root	_	TokenRange=6048:6057
+2	же	же	PART	_	_	1	advmod	_	TokenRange=6058:6060
+3	ученицы	ученица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	TokenRange=6061:6068
+4	с	с	ADP	_	_	5	case	_	TokenRange=6069:6070
+5	радостию	радостия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	TokenRange=6071:6079
+6	трепетни	трепетня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=6080:6088
+7	,	,	PUNCT	_	_	10	punct	_	TokenRange=6088:6089
+8	яко	яко	SCONJ	_	Degree=Pos	9	mark	_	TokenRange=6090:6093
+9	глаголал	глаголать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	TokenRange=6094:6102
+10	еси	есить	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=6103:6106
+11	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	10	iobj	_	SpaceAfter=No|TokenRange=6107:6109
+12	,	,	PUNCT	_	_	16	punct	_	TokenRange=6109:6110
+13	яко	яко	ADV	_	Degree=Pos	16	advmod	_	TokenRange=6111:6114
+14	престол	престол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=6115:6122
+15	же	же	PART	_	_	14	advmod	_	TokenRange=6123:6125
+16	готовляшеся	готовляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=6126:6137
+17	против	против	ADP	_	_	18	case	_	TokenRange=6138:6144
+18	облак	облака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	TokenRange=6145:6150
+19	ждущии	ждать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	xcomp	_	SpaceAfter=No|TokenRange=6151:6157
+20	:	:	PUNCT	_	_	19	punct	_	TokenRange=6157:6158
+21	врата	врата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	TokenRange=6159:6164
+22	же	же	PART	_	_	21	advmod	_	TokenRange=6165:6167
+23	небо	небо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	TokenRange=6168:6172
+24	отверзшее	отверзнуть	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	TokenRange=6173:6182
+25	доброту	доброта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=6183:6190
+26	являше	являть	VERB	_	Degree=Cmp	19	parataxis	_	SpaceAfter=No|TokenRange=6191:6197
+27	,	,	PUNCT	_	_	31	punct	_	TokenRange=6197:6198
+28	и	и	CCONJ	_	_	31	cc	_	TokenRange=6199:6200
+29	земля	земля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	TokenRange=6201:6206
+30	сокровища	сокровище	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	TokenRange=6207:6216
+31	открывает	открывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	conj	_	SpaceAfter=No|TokenRange=6217:6226
+32	,	,	PUNCT	_	_	36	punct	_	TokenRange=6226:6227
+33	Адамову	Адамов	PROPN	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	TokenRange=6228:6235
+34	схождению	схождение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	36	iobj	_	TokenRange=6236:6245
+35	яко	яко	ADV	_	Degree=Pos	36	advmod	_	TokenRange=6246:6249
+36	познатися	познатися	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	31	conj	_	SpaceAfter=No|TokenRange=6250:6259
+37	,	,	PUNCT	_	_	39	punct	_	TokenRange=6259:6260
+38	и	и	CCONJ	_	_	39	cc	_	TokenRange=6261:6262
+39	паки	паки	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	36	conj	_	TokenRange=6263:6267
+40	восхождению	восхождение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	39	iobj	_	SpaceAfter=No|TokenRange=6268:6279
+41	.	.	PUNCT	_	_	45	punct	_	TokenRange=6279:6280
+42	но	но	CCONJ	_	_	45	cc	_	TokenRange=6281:6283
+43	стопы	стоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	TokenRange=6284:6289
+44	убо	убо	PART	_	_	45	advmod	_	TokenRange=6290:6293
+45	возвышахуся	возвышаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	SpaceAfter=No|TokenRange=6294:6305
+46	,	,	PUNCT	_	_	48	punct	_	TokenRange=6305:6306
+47	якоже	якоже	ADV	_	Degree=Pos	48	advmod	_	TokenRange=6307:6312
+48	руце	руце	NOUN	_	Degree=Cmp	45	conj	_	SpaceAfter=No|TokenRange=6313:6317
+49	,	,	PUNCT	_	_	52	punct	_	TokenRange=6317:6318
+50	уста	уста	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	52	nsubj	_	TokenRange=6319:6323
+51	же	же	PART	_	_	50	advmod	_	TokenRange=6324:6326
+52	вельми	вельмой	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=6327:6333
+53	благословляху	благословлий	NOUN	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	52	conj	_	SpaceAfter=No|TokenRange=6334:6347
+54	,	,	PUNCT	_	_	56	punct	_	TokenRange=6347:6348
+55	якоже	якоже	ADV	_	Degree=Pos	56	advmod	_	TokenRange=6349:6354
+56	слышашеся	слышаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	52	conj	_	SpaceAfter=No|TokenRange=6355:6364
+57	,	,	PUNCT	_	_	59	punct	_	TokenRange=6364:6365
+58	облак	облак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	59	obj	_	TokenRange=6366:6371
+59	подъемляше	подъемлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=6372:6382
+60	,	,	PUNCT	_	_	65	punct	_	TokenRange=6382:6383
+61	и	и	CCONJ	_	_	65	cc	_	TokenRange=6384:6385
+62	небо	небо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	65	nsubj	_	TokenRange=6386:6390
+63	внутрь	внутрь	ADV	_	_	64	advmod	_	TokenRange=6391:6397
+64	Тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	65	obl	_	TokenRange=6398:6402
+65	прият	приить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=6403:6408
+66	.	.	PUNCT	_	_	1	punct	_	TokenRange=6408:6409
+
+# sent_id = 78
+# text = Дело сие Господи соделал еси великое и преславное, во спасение душ наших.
+1	Дело	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	TokenRange=6410:6414
+2	сие	сей	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	det	_	TokenRange=6415:6418
+3	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=6419:6426
+4	соделал	соделать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=6427:6434
+5	еси	еси	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	obj	_	TokenRange=6435:6438
+6	великое	великий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	TokenRange=6439:6446
+7	и	и	CCONJ	_	_	8	cc	_	TokenRange=6447:6448
+8	преславное	преславный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=6449:6459
+9	,	,	PUNCT	_	_	11	punct	_	TokenRange=6459:6460
+10	во	в	ADP	_	_	11	case	_	TokenRange=6461:6463
+11	спасение	спасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	conj	_	TokenRange=6464:6472
+12	душ	душа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	TokenRange=6473:6476
+13	наших	наш	DET	_	Case=Gen|Number=Plur	12	det	_	SpaceAfter=No|TokenRange=6477:6482
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=6482:6483
+
+# sent_id = 79
+# text = Низшедшее естество Адамово, в дольнеишыя страны земли, Боже новосотворивыи Собою превыше всякаго начала и власти, возвел еси днесь: яко бо возлюбив спосадил еси, якоже помиловав соединил еси Себе, яко соединивыи спострадал еси, яко безстрастен пострадав, и спрославил еси.
+1	Низшедшее	низйти	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	amod	_	TokenRange=6485:6494
+2	естество	естество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	TokenRange=6495:6503
+3	Адамово	Адамово	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=6504:6511
+4	,	,	PUNCT	_	_	7	punct	_	TokenRange=6511:6512
+5	в	в	ADP	_	_	7	case	_	TokenRange=6513:6514
+6	дольнеишыя	дольнеишый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	TokenRange=6515:6525
+7	страны	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	conj	_	TokenRange=6526:6532
+8	земли	земля	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=6533:6538
+9	,	,	PUNCT	_	_	11	punct	_	TokenRange=6538:6539
+10	Боже	боже	PART	_	_	11	advmod	_	TokenRange=6540:6544
+11	новосотворивыи	новосотворивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	TokenRange=6545:6559
+12	Собою	себя	PRON	_	Case=Ins	11	obl	_	TokenRange=6560:6565
+13	превыше	превыше	ADP	_	_	15	case	_	TokenRange=6566:6573
+14	всякаго	всякий	DET	_	Case=Gen|Gender=Neut|Number=Sing	15	det	_	TokenRange=6574:6581
+15	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	TokenRange=6582:6588
+16	и	и	CCONJ	_	_	17	cc	_	TokenRange=6589:6590
+17	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No|TokenRange=6591:6597
+18	,	,	PUNCT	_	_	11	punct	_	TokenRange=6597:6598
+19	возвел	возвести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=6599:6605
+20	еси	есь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	iobj	_	TokenRange=6606:6609
+21	днесь	днесь	ADV	_	Degree=Pos	19	advmod	_	SpaceAfter=No|TokenRange=6610:6615
+22	:	:	PUNCT	_	_	19	punct	_	TokenRange=6615:6616
+23	яко	яко	ADV	_	_	26	mark	_	TokenRange=6617:6620
+24	бо	бо	PART	_	_	23	fixed	_	TokenRange=6621:6623
+25	возлюбив	возлюбить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	26	nsubj	_	TokenRange=6624:6632
+26	спосадил	спосадить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	parataxis	_	TokenRange=6633:6641
+27	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No|TokenRange=6642:6645
+28	,	,	PUNCT	_	_	31	punct	_	TokenRange=6645:6646
+29	якоже	якоже	ADV	_	Degree=Pos	30	advmod	_	TokenRange=6647:6652
+30	помиловав	миловать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	31	advcl	_	TokenRange=6653:6662
+31	соединил	соединить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	TokenRange=6663:6671
+32	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	TokenRange=6672:6675
+33	Себе	себя	PRON	_	Case=Dat	31	iobj	_	SpaceAfter=No|TokenRange=6676:6680
+34	,	,	PUNCT	_	_	37	punct	_	TokenRange=6680:6681
+35	яко	яко	SCONJ	_	_	37	advmod	_	TokenRange=6682:6685
+36	соединивыи	соединивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	nsubj	_	TokenRange=6686:6696
+37	спострадал	спострадать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	TokenRange=6697:6707
+38	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	obj	_	SpaceAfter=No|TokenRange=6708:6711
+39	,	,	PUNCT	_	_	42	punct	_	TokenRange=6711:6712
+40	яко	яко	ADV	_	Degree=Pos	42	advmod	_	TokenRange=6713:6716
+41	безстрастен	безстрастный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	42	obl	_	TokenRange=6717:6728
+42	пострадав	страдать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	37	advcl	_	SpaceAfter=No|TokenRange=6729:6738
+43	,	,	PUNCT	_	_	45	punct	_	TokenRange=6738:6739
+44	и	и	CCONJ	_	_	45	cc	_	TokenRange=6740:6741
+45	спрославил	спрославить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	TokenRange=6742:6752
+46	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	45	obj	_	SpaceAfter=No|TokenRange=6753:6756
+47	.	.	PUNCT	_	_	19	punct	_	TokenRange=6756:6757
+
+# sent_id = 80
+# text = Но безплотнии, кто есть Сеи, глаголаху красныи Муж? но не человек точию, Бог же и Человек, совокупленно и являемо.
+1	Но	но	CCONJ	_	_	10	cc	_	TokenRange=6758:6760
+2	безплотнии	безплотний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	SpaceAfter=No|TokenRange=6761:6771
+3	,	,	PUNCT	_	_	6	punct	_	TokenRange=6771:6772
+4	кто	кто	PRON	_	Case=Nom	6	nsubj	_	TokenRange=6773:6776
+5	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	TokenRange=6777:6781
+6	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	SpaceAfter=No|TokenRange=6782:6785
+7	,	,	PUNCT	_	_	6	punct	_	TokenRange=6785:6786
+8	глаголаху	глаголах	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	TokenRange=6787:6796
+9	красныи	красный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	TokenRange=6797:6804
+10	Муж	муж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=6805:6808
+11	?	?	PUNCT	_	_	10	punct	_	TokenRange=6808:6809
+12	но	но	CCONJ	_	_	14	cc	_	TokenRange=6810:6812
+13	не	не	PART	_	_	14	advmod	_	TokenRange=6813:6815
+14	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	TokenRange=6816:6823
+15	точию	точий	NOUN	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	nmod	_	SpaceAfter=No|TokenRange=6824:6829
+16	,	,	PUNCT	_	_	20	punct	_	TokenRange=6829:6830
+17	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	TokenRange=6831:6834
+18	же	же	PART	_	_	17	advmod	_	TokenRange=6835:6837
+19	и	и	PART	_	_	20	advmod	_	TokenRange=6838:6839
+20	Человек	Человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|TokenRange=6840:6847
+21	,	,	PUNCT	_	_	22	punct	_	TokenRange=6847:6848
+22	совокупленно	совокупленно	ADV	_	Degree=Pos	20	advmod	_	TokenRange=6849:6861
+23	и	и	CCONJ	_	_	24	cc	_	TokenRange=6862:6863
+24	являемо	являть	VERB	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	22	conj	_	SpaceAfter=No|TokenRange=6864:6871
+25	.	.	PUNCT	_	_	10	punct	_	TokenRange=6871:6872
+
+# sent_id = 81
+# text = Темже удивлени ангели, во одеждах летающе окрест учеников, друзии же стояще вопияху: мужие галилеистии, Иже от вас отиде, Сеи есть Иисус Человек Бог.
+1	Темже	темго	ADV	_	Degree=Cmp	2	advmod	_	TokenRange=6873:6878
+2	удивлени	удивлень	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=6879:6887
+3	ангели	ангель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	SpaceAfter=No|TokenRange=6888:6894
+4	,	,	PUNCT	_	_	8	punct	_	TokenRange=6894:6895
+5	во	в	ADP	_	_	6	case	_	TokenRange=6896:6898
+6	одеждах	одежда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	TokenRange=6899:6906
+7	летающе	летающе	ADV	_	Degree=Pos	8	advmod	_	TokenRange=6907:6914
+8	окрест	окрест	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=6915:6921
+9	учеников	ученик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|TokenRange=6922:6930
+10	,	,	PUNCT	_	_	13	punct	_	TokenRange=6930:6931
+11	друзии	друзия	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	TokenRange=6932:6938
+12	же	же	PART	_	_	11	advmod	_	TokenRange=6939:6941
+13	стояще	стоять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	TokenRange=6942:6948
+14	вопияху	вопиях	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No|TokenRange=6949:6956
+15	:	:	PUNCT	_	_	13	punct	_	TokenRange=6956:6957
+16	мужие	мужий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	parataxis	_	TokenRange=6958:6963
+17	галилеистии	галилеистия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=6964:6975
+18	,	,	PUNCT	_	_	22	punct	_	TokenRange=6975:6976
+19	Иже	иже	PART	_	_	22	advmod	_	TokenRange=6977:6980
+20	от	от	ADP	_	_	21	case	_	TokenRange=6981:6983
+21	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	22	obl	_	TokenRange=6984:6987
+22	отиде	отиде	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No|TokenRange=6988:6993
+23	,	,	PUNCT	_	_	26	punct	_	TokenRange=6993:6994
+24	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	26	det	_	TokenRange=6995:6998
+25	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	TokenRange=6999:7003
+26	Иисус	Иисус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	TokenRange=7004:7009
+27	Человек	Человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	TokenRange=7010:7017
+28	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	flat:name	_	SpaceAfter=No|TokenRange=7018:7021
+29	.	.	PUNCT	_	_	2	punct	_	TokenRange=7021:7022
+
+# sent_id = 82
+# text = Бог Человек паки приидет, Судия живых и мертвых, верным же даруяи грехов прощение и велию милость.
+1	Бог	бог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	TokenRange=7023:7026
+2	Человек	Человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=7027:7034
+3	паки	паки	ADV	_	Degree=Pos	4	advmod	_	TokenRange=7035:7039
+4	приидет	приийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=7040:7047
+5	,	,	PUNCT	_	_	6	punct	_	TokenRange=7047:7048
+6	Судия	Судия	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	TokenRange=7049:7054
+7	живых	живой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	6	obj	_	TokenRange=7055:7060
+8	и	и	CCONJ	_	_	9	cc	_	TokenRange=7061:7062
+9	мертвых	мертвый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	conj	_	SpaceAfter=No|TokenRange=7063:7070
+10	,	,	PUNCT	_	_	13	punct	_	TokenRange=7070:7071
+11	верным	верный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	obl	_	TokenRange=7072:7078
+12	же	же	PART	_	_	11	advmod	_	TokenRange=7079:7081
+13	даруяи	даруять	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	advcl	_	TokenRange=7082:7088
+14	грехов	грех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	TokenRange=7089:7095
+15	прощение	прощение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	TokenRange=7096:7104
+16	и	и	CCONJ	_	_	18	cc	_	TokenRange=7105:7106
+17	велию	велый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	TokenRange=7107:7112
+18	милость	милость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No|TokenRange=7113:7120
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=7120:7121
+
+# sent_id = 83
+# text = Егда Вознеслся еси во славе Христе Боже, учеником зрящым, облацы подъимаху Тя с плотию, врата взяшася небесная, лик ангельскии радовашеся с веселием, горнеишыя силы зовяху глаголюще: возмите врата князи вашя, и внидет Царь Славы.
+1	Егда	егда	ADV	_	Degree=Pos	2	advmod	_	TokenRange=7123:7127
+2	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=7128:7137
+3	еси	еси	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	nsubj	_	TokenRange=7138:7141
+4	во	в	ADP	_	_	5	case	_	TokenRange=7142:7144
+5	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	TokenRange=7145:7150
+6	Христе	Христос	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	5	appos	_	TokenRange=7151:7157
+7	Боже	бог	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No|TokenRange=7158:7162
+8	,	,	PUNCT	_	_	9	punct	_	TokenRange=7162:7163
+9	учеником	ученик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	TokenRange=7164:7172
+10	зрящым	зрить	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	SpaceAfter=No|TokenRange=7173:7179
+11	,	,	PUNCT	_	_	13	punct	_	TokenRange=7179:7180
+12	облацы	облаца	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	TokenRange=7181:7187
+13	подъимаху	подъимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=7188:7197
+14	Тя	тя	PRON	_	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	TokenRange=7198:7200
+15	с	с	ADP	_	_	16	case	_	TokenRange=7201:7202
+16	плотию	плотия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=7203:7209
+17	,	,	PUNCT	_	_	19	punct	_	TokenRange=7209:7210
+18	врата	врата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	TokenRange=7211:7216
+19	взяшася	брать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	TokenRange=7217:7224
+20	небесная	небесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|TokenRange=7225:7233
+21	,	,	PUNCT	_	_	24	punct	_	TokenRange=7233:7234
+22	лик	лик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	TokenRange=7235:7238
+23	ангельскии	ангельский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	TokenRange=7239:7249
+24	радовашеся	радоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	TokenRange=7250:7260
+25	с	с	ADP	_	_	26	case	_	TokenRange=7261:7262
+26	веселием	веселие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|TokenRange=7263:7271
+27	,	,	PUNCT	_	_	30	punct	_	TokenRange=7271:7272
+28	горнеишыя	горнеишый	ADJ	_	Case=Nom|Degree=Sup|Number=Plur	29	amod	_	TokenRange=7273:7282
+29	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	TokenRange=7283:7287
+30	зовяху	зовь	ADJ	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	TokenRange=7288:7294
+31	глаголюще	глаголюще	ADJ	_	Degree=Pos	30	advmod	_	SpaceAfter=No|TokenRange=7295:7304
+32	:	:	PUNCT	_	_	31	punct	_	TokenRange=7304:7305
+33	возмите	возмать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	31	parataxis	_	TokenRange=7306:7313
+34	врата	врат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	33	obj	_	TokenRange=7314:7319
+35	князи	князь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	34	nmod	_	TokenRange=7320:7325
+36	вашя	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing	35	det	_	SpaceAfter=No|TokenRange=7326:7330
+37	,	,	PUNCT	_	_	39	punct	_	TokenRange=7330:7331
+38	и	и	CCONJ	_	_	39	cc	_	TokenRange=7332:7333
+39	внидет	внийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	33	conj	_	TokenRange=7334:7340
+40	Царь	Царь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	TokenRange=7341:7345
+41	Славы	Слава	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No|TokenRange=7346:7351
+42	.	.	PUNCT	_	_	2	punct	_	TokenRange=7351:7352
+
+# sent_id = 84
+# text = Ученицы же дивящеся глаголаху: не разлучися нас Пастырю Добрыи, но посли нам Духа Твоего Пресвятаго, наставляюща, и утверждающа, и просвещающа, и освящающа душы нашя.
+1	Ученицы	ученица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	TokenRange=7353:7360
+2	же	же	PART	_	_	1	advmod	_	TokenRange=7361:7363
+3	дивящеся	дииться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	TokenRange=7364:7372
+4	глаголаху	глаголах	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No|TokenRange=7373:7382
+5	:	:	PUNCT	_	_	4	punct	_	TokenRange=7382:7383
+6	не	не	PART	_	_	7	advmod	_	TokenRange=7384:7386
+7	разлучися	разлучиться	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	3	parataxis	_	TokenRange=7387:7396
+8	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	7	obj	_	TokenRange=7397:7400
+9	Пастырю	Пастыр	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	TokenRange=7401:7408
+10	Добрыи	Добрыи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	flat:name	_	SpaceAfter=No|TokenRange=7409:7415
+11	,	,	PUNCT	_	_	13	punct	_	TokenRange=7415:7416
+12	но	но	CCONJ	_	_	13	cc	_	TokenRange=7417:7419
+13	посли	пость	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	7	conj	_	TokenRange=7420:7425
+14	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	13	iobj	_	TokenRange=7426:7429
+15	Духа	Дух	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obj	_	TokenRange=7430:7434
+16	Твоего	твой	DET	_	Case=Gen|Gender=Masc|Number=Sing	17	det	_	TokenRange=7435:7441
+17	Пресвятаго	Пресвятаг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|TokenRange=7442:7452
+18	,	,	PUNCT	_	_	19	punct	_	TokenRange=7452:7453
+19	наставляюща	наставляюща	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	SpaceAfter=No|TokenRange=7454:7465
+20	,	,	PUNCT	_	_	22	punct	_	TokenRange=7465:7466
+21	и	и	CCONJ	_	_	22	cc	_	TokenRange=7467:7468
+22	утверждающа	утверждающий	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	conj	_	SpaceAfter=No|TokenRange=7469:7480
+23	,	,	PUNCT	_	_	25	punct	_	TokenRange=7480:7481
+24	и	и	CCONJ	_	_	25	cc	_	TokenRange=7482:7483
+25	просвещающа	просвещать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	conj	_	SpaceAfter=No|TokenRange=7484:7495
+26	,	,	PUNCT	_	_	28	punct	_	TokenRange=7495:7496
+27	и	и	CCONJ	_	_	28	cc	_	TokenRange=7497:7498
+28	освящающа	освящающий	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	19	conj	_	TokenRange=7499:7508
+29	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	28	obj	_	TokenRange=7509:7513
+30	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	29	det	_	SpaceAfter=No|TokenRange=7514:7518
+31	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n|TokenRange=7518:7519
+
+# sent_id = 85
+# text = Слава и ныне: глас тоиже.
+1	Слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=7521:7526
+2	и	и	CCONJ	_	_	3	cc	_	TokenRange=7527:7528
+3	ныне	ныне	ADV	_	Degree=Pos	1	conj	_	SpaceAfter=No|TokenRange=7529:7533
+4	:	:	PUNCT	_	_	1	punct	_	TokenRange=7533:7534
+5	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	TokenRange=7535:7539
+6	тоиже	тоиже	ADJ	_	Degree=Cmp	1	parataxis	_	SpaceAfter=No|TokenRange=7540:7545
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=7545:7546
+
+# sent_id = 86
+# text = Господи, таинство еже от веков сокровенное и от родов исполнив яко Благ, пришел еси со ученики Твоими на гору Елеонскую, имея Рождшую Тя творца и всех Содетеля: Тои бо в страсти Твоеи матерски паче всех болезновавшеи, подобаше и славою плоти Твоея, премногия насладитися радости.
+1	Господи	Господь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	parataxis	_	SpaceAfter=No|TokenRange=7548:7555
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=7555:7556
+3	таинство	таинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	obj	_	TokenRange=7557:7565
+4	еже	еже	ADV	_	Degree=Pos	7	obl	_	TokenRange=7566:7569
+5	от	от	ADP	_	_	6	case	_	TokenRange=7570:7572
+6	веков	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	TokenRange=7573:7578
+7	сокровенное	сокровенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	TokenRange=7579:7590
+8	и	и	CCONJ	_	_	11	cc	_	TokenRange=7591:7592
+9	от	от	ADP	_	_	10	case	_	TokenRange=7593:7595
+10	родов	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	TokenRange=7596:7601
+11	исполнив	исполнить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	conj	_	TokenRange=7602:7610
+12	яко	яко	ADV	_	Degree=Pos	13	advmod	_	TokenRange=7611:7614
+13	Благ	Благ	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=7615:7619
+14	,	,	PUNCT	_	_	11	punct	_	TokenRange=7619:7620
+15	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=7621:7627
+16	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=7628:7631
+17	со	с	ADP	_	_	18	case	_	TokenRange=7632:7634
+18	ученики	ученик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	obl	_	TokenRange=7635:7642
+19	Твоими	твой	DET	_	Case=Ins|Number=Plur	18	det	_	TokenRange=7643:7649
+20	на	на	ADP	_	_	21	case	_	TokenRange=7650:7652
+21	гору	гора	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	TokenRange=7653:7657
+22	Елеонскую	елеонский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No|TokenRange=7658:7667
+23	,	,	PUNCT	_	_	24	punct	_	TokenRange=7667:7668
+24	имея	иметь	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	TokenRange=7669:7673
+25	Рождшую	рйти	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	27	amod	_	TokenRange=7674:7681
+26	Тя	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	27	det	_	TokenRange=7682:7684
+27	творца	творец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	TokenRange=7685:7691
+28	и	и	CCONJ	_	_	30	cc	_	TokenRange=7692:7693
+29	всех	весь	DET	_	Case=Acc|Number=Plur	30	det	_	TokenRange=7694:7698
+30	Содетеля	Содетель	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No|TokenRange=7699:7707
+31	:	:	PUNCT	_	_	15	punct	_	TokenRange=7707:7708
+32	Тои	тои	DET	_	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	TokenRange=7709:7712
+33	бо	бо	PART	_	_	32	advmod	_	TokenRange=7713:7715
+34	в	в	ADP	_	_	35	case	_	TokenRange=7716:7717
+35	страсти	страсть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	TokenRange=7718:7725
+36	Твоеи	твой	DET	_	Case=Gen|Gender=Fem|Number=Sing	37	det	_	TokenRange=7726:7731
+37	матерски	матерска	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	TokenRange=7732:7740
+38	паче	паче	ADV	_	Degree=Pos	40	advmod	_	TokenRange=7741:7745
+39	всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	40	obj	_	TokenRange=7746:7750
+40	болезновавшеи	болезновать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	35	acl	_	SpaceAfter=No|TokenRange=7751:7764
+41	,	,	PUNCT	_	_	42	punct	_	TokenRange=7764:7765
+42	подобаше	подобать	ADJ	_	Degree=Cmp	40	conj	_	TokenRange=7766:7774
+43	и	и	CCONJ	_	_	44	cc	_	TokenRange=7775:7776
+44	славою	слава	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	42	conj	_	TokenRange=7777:7783
+45	плоти	плоть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	TokenRange=7784:7789
+46	Твоея	твой	DET	_	Case=Nom|Gender=Fem|Number=Sing	45	det	_	SpaceAfter=No|TokenRange=7790:7795
+47	,	,	PUNCT	_	_	49	punct	_	TokenRange=7795:7796
+48	премногия	премногия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	49	obl	_	TokenRange=7797:7806
+49	насладитися	насладитися	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	35	conj	_	TokenRange=7807:7818
+50	радости	радость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	49	iobj	_	SpaceAfter=No|TokenRange=7819:7826
+51	.	.	PUNCT	_	_	15	punct	_	TokenRange=7826:7827
+
+# sent_id = 87
+# text = Еяже и мы причащающеся, еже на небеса восходом Твоим Владыко, великую Твою милость на нас бывшую славим.
+1	Еяже	еяже	ADV	_	Degree=Pos	4	advmod	_	TokenRange=7828:7832
+2	и	и	PART	_	_	3	advmod	_	TokenRange=7833:7834
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	TokenRange=7835:7837
+4	причащающеся	причащать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	SpaceAfter=No|TokenRange=7838:7850
+5	,	,	PUNCT	_	_	9	punct	_	TokenRange=7850:7851
+6	еже	еже	ADV	_	Degree=Pos	8	obl	_	TokenRange=7852:7855
+7	на	на	ADP	_	_	8	case	_	TokenRange=7856:7858
+8	небеса	небо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obl	_	TokenRange=7859:7865
+9	восходом	восход	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	TokenRange=7866:7874
+10	Твоим	твой	DET	_	Case=Ins|Gender=Masc|Number=Sing	11	det	_	TokenRange=7875:7880
+11	Владыко	Владыко	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|TokenRange=7881:7888
+12	,	,	PUNCT	_	_	19	punct	_	TokenRange=7888:7889
+13	великую	великий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	TokenRange=7890:7897
+14	Твою	твой	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	det	_	TokenRange=7898:7902
+15	милость	милость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	TokenRange=7903:7910
+16	на	на	ADP	_	_	17	case	_	TokenRange=7911:7913
+17	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	19	obl	_	TokenRange=7914:7917
+18	бывшую	быть	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=7918:7924
+19	славим	славить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=7925:7931
+20	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=7931:7932
+
+# sent_id = 88
+# text = На стиховне стихиры самогласны, глас 2.
+1	На	на	ADP	_	_	2	case	_	TokenRange=7934:7936
+2	стиховне	стиховень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	TokenRange=7937:7945
+3	стихиры	стихир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=7946:7953
+4	самогласны	самогласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No|TokenRange=7954:7964
+5	,	,	PUNCT	_	_	6	punct	_	TokenRange=7964:7965
+6	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	TokenRange=7966:7970
+7	2	2	NUM	_	_	6	nummod	_	SpaceAfter=No|TokenRange=7971:7972
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|TokenRange=7972:7973
+
+# sent_id = 89
+# text = Родился еси яко Сам восхотел еси, явился еси яко Сам изволил еси: пострадал еси плотию Боже наш, из мертвых воскресл еси поправ смерть.
+1	Родился	родиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=7975:7982
+2	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=7983:7986
+3	яко	яко	ADV	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	TokenRange=7987:7990
+4	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	TokenRange=7991:7994
+5	восхотел	восхотеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=7995:8003
+6	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|TokenRange=8004:8007
+7	,	,	PUNCT	_	_	8	punct	_	TokenRange=8007:8008
+8	явился	явиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=8009:8015
+9	еси	еси	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=8016:8019
+10	яко	яко	ADV	_	Degree=Pos	12	advmod	_	TokenRange=8020:8023
+11	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	TokenRange=8024:8027
+12	изволил	изволить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=8028:8035
+13	еси	еси	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|TokenRange=8036:8039
+14	:	:	PUNCT	_	_	12	punct	_	TokenRange=8039:8040
+15	пострадал	страдать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	TokenRange=8041:8050
+16	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	TokenRange=8051:8054
+17	плотию	плотия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	TokenRange=8055:8061
+18	Боже	бог	ADJ	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	iobj	_	TokenRange=8062:8066
+19	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	det	_	SpaceAfter=No|TokenRange=8067:8070
+20	,	,	PUNCT	_	_	23	punct	_	TokenRange=8070:8071
+21	из	из	ADP	_	_	22	case	_	TokenRange=8072:8074
+22	мертвых	мертвый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	obl	_	TokenRange=8075:8082
+23	воскресл	воскресть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=8083:8091
+24	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	TokenRange=8092:8095
+25	поправ	попрать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	23	advcl	_	TokenRange=8096:8102
+26	смерть	смерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No|TokenRange=8103:8109
+27	.	.	PUNCT	_	_	1	punct	_	TokenRange=8109:8110
+
+# sent_id = 90
+# text = Вознеслся еси во славе, всяческая исполняяи, и послал еси нам Духа Божественнаго, еже воспевати и славити Твое Божество.
+1	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=8111:8120
+2	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=8121:8124
+3	во	в	ADP	_	_	4	case	_	TokenRange=8125:8127
+4	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=8128:8133
+5	,	,	PUNCT	_	_	7	punct	_	TokenRange=8133:8134
+6	всяческая	всяческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	TokenRange=8135:8144
+7	исполняяи	исполнять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	SpaceAfter=No|TokenRange=8145:8154
+8	,	,	PUNCT	_	_	10	punct	_	TokenRange=8154:8155
+9	и	и	CCONJ	_	_	10	cc	_	TokenRange=8156:8157
+10	послал	послать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=8158:8164
+11	еси	еси	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	10	obj	_	TokenRange=8165:8168
+12	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	10	iobj	_	TokenRange=8169:8172
+13	Духа	Дух	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obj	_	TokenRange=8173:8177
+14	Божественнаго	божественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No|TokenRange=8178:8191
+15	,	,	PUNCT	_	_	17	punct	_	TokenRange=8191:8192
+16	еже	еже	ADV	_	Degree=Pos	17	advmod	_	TokenRange=8193:8196
+17	воспевати	воспевати	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	TokenRange=8197:8206
+18	и	и	CCONJ	_	_	19	cc	_	TokenRange=8207:8208
+19	славити	славить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	conj	_	TokenRange=8209:8216
+20	Твое	твой	DET	_	Case=Acc|Gender=Neut|Number=Sing	21	det	_	TokenRange=8217:8221
+21	Божество	Божество	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|TokenRange=8222:8230
+22	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=8230:8231
+
+# sent_id = 91
+# text = Стих: Вси языцы восплещите руками.
+1	Стих	стих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8233:8237
+2	:	:	PUNCT	_	_	1	punct	_	TokenRange=8237:8238
+3	Вси	весь	DET	_	Case=Nom|Number=Plur	4	det	_	TokenRange=8239:8242
+4	языцы	языц	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	obj	_	TokenRange=8243:8248
+5	восплещите	восплещить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=8249:8259
+6	руками	рука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No|TokenRange=8260:8266
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=8266:8267
+
+# sent_id = 92
+# text = Восприемлему Тебе Христе от горы Масличныя, силы зряще, друг другу вопияху:
+1	Восприемлему	восприемлем	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=8269:8281
+2	Тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	1	iobj	_	TokenRange=8282:8286
+3	Христе	Христос	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	TokenRange=8287:8293
+4	от	от	ADP	_	_	5	case	_	TokenRange=8294:8296
+5	горы	гора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	TokenRange=8297:8301
+6	Масличныя	масличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No|TokenRange=8302:8311
+7	,	,	PUNCT	_	_	9	punct	_	TokenRange=8311:8312
+8	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	TokenRange=8313:8317
+9	зряще	зрясто	ADJ	_	Degree=Cmp	1	conj	_	SpaceAfter=No|TokenRange=8318:8323
+10	,	,	PUNCT	_	_	13	punct	_	TokenRange=8323:8324
+11	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	iobj	_	TokenRange=8325:8329
+12	другу	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	fixed	_	TokenRange=8330:8335
+13	вопияху	вопиях	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No|TokenRange=8336:8343
+14	:	:	PUNCT	_	_	1	punct	_	TokenRange=8343:8344
+
+# sent_id = 93
+# text = Кто есть Сеи?
+1	Кто	кто	PRON	_	Case=Nom	3	nsubj	_	TokenRange=8345:8348
+2	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	TokenRange=8349:8353
+3	Сеи	Сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8354:8357
+4	?	?	PUNCT	_	_	3	punct	_	TokenRange=8357:8358
+
+# sent_id = 94
+# text = И глаголет к ним:
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=8359:8360
+2	глаголет	глаголет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	TokenRange=8361:8369
+3	к	к	ADP	_	_	4	case	_	TokenRange=8370:8371
+4	ним	они	PRON	_	Case=Dat|Number=Plur|Person=3	2	nmod	_	SpaceAfter=No|TokenRange=8372:8375
+5	:	:	PUNCT	_	_	2	punct	_	TokenRange=8375:8376
+
+# sent_id = 95
+# text = Сеи есть Державныи и Сильныи, Сеи есть Сильныи в брани, Сеи есть воистинну Царь Славы.
+1	Сеи	сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=8377:8380
+2	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	TokenRange=8381:8385
+3	Державныи	державный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	TokenRange=8386:8395
+4	и	и	CCONJ	_	_	5	cc	_	TokenRange=8396:8397
+5	Сильныи	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|TokenRange=8398:8405
+6	,	,	PUNCT	_	_	9	punct	_	TokenRange=8405:8406
+7	Сеи	Сеи	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	TokenRange=8407:8410
+8	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	TokenRange=8411:8415
+9	Сильныи	сильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	TokenRange=8416:8423
+10	в	в	ADP	_	_	11	case	_	TokenRange=8424:8425
+11	брани	брань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=8426:8431
+12	,	,	PUNCT	_	_	16	punct	_	TokenRange=8431:8432
+13	Сеи	Сеи	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=8433:8436
+14	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	TokenRange=8437:8441
+15	воистинну	воистинну	ADV	_	Degree=Pos	16	advmod	_	TokenRange=8442:8451
+16	Царь	Царь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	TokenRange=8452:8456
+17	Славы	Слава	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|TokenRange=8457:8462
+18	.	.	PUNCT	_	_	3	punct	_	TokenRange=8462:8463
+
+# sent_id = 96
+# text = И почто Ему червлены ризы?
+1	И	и	CCONJ	_	_	4	cc	_	TokenRange=8464:8465
+2	почто	почто	ADV	_	Degree=Pos	4	advmod	_	TokenRange=8466:8471
+3	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	iobj	_	TokenRange=8472:8475
+4	червлены	червить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=8476:8484
+5	ризы	риз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	SpaceAfter=No|TokenRange=8485:8489
+6	?	?	PUNCT	_	_	4	punct	_	TokenRange=8489:8490
+
+# sent_id = 97
+# text = Из Восора приходит, еже есть плоти.
+1	Из	из	ADP	_	_	2	case	_	TokenRange=8491:8493
+2	Восора	Восор	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	TokenRange=8494:8500
+3	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=8501:8509
+4	,	,	PUNCT	_	_	6	punct	_	TokenRange=8509:8510
+5	еже	еже	ADV	_	Degree=Pos	6	advmod	_	TokenRange=8511:8514
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	TokenRange=8515:8519
+7	плоти	плоть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	SpaceAfter=No|TokenRange=8520:8525
+8	.	.	PUNCT	_	_	3	punct	_	TokenRange=8525:8526
+
+# sent_id = 98
+# text = Ты же Сам яко Бог одесную сед величествия, послал еси нам Духа Святаго, да наставит и спасет душы нашя.
+1	Ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	10	nsubj	_	TokenRange=8527:8529
+2	же	же	PART	_	_	1	advmod	_	TokenRange=8530:8532
+3	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	TokenRange=8533:8536
+4	яко	яко	ADV	_	Degree=Pos	5	advmod	_	TokenRange=8537:8540
+5	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	TokenRange=8541:8544
+6	одесную	одесный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	TokenRange=8545:8552
+7	сед	сед	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	TokenRange=8553:8556
+8	величествия	величествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|TokenRange=8557:8568
+9	,	,	PUNCT	_	_	10	punct	_	TokenRange=8568:8569
+10	послал	послать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=8570:8576
+11	еси	есь	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	10	obj	_	TokenRange=8577:8580
+12	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	11	iobj	_	TokenRange=8581:8584
+13	Духа	Дух	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	TokenRange=8585:8589
+14	Святаго	святой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No|TokenRange=8590:8597
+15	,	,	PUNCT	_	_	17	punct	_	TokenRange=8597:8598
+16	да	да	CCONJ	_	_	17	cc	_	TokenRange=8599:8601
+17	наставит	наставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	TokenRange=8602:8610
+18	и	и	CCONJ	_	_	19	cc	_	TokenRange=8611:8612
+19	спасет	спасти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	conj	_	TokenRange=8613:8619
+20	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	TokenRange=8620:8624
+21	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	20	det	_	SpaceAfter=No|TokenRange=8625:8629
+22	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|TokenRange=8629:8630
+
+# sent_id = 99
+# text = Стих: Взыде Бог в воскликновении.
+1	Стих	стих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=8632:8636
+2	:	:	PUNCT	_	_	1	punct	_	TokenRange=8636:8637
+3	Взыде	взыде	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=8638:8643
+4	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=8644:8647
+5	в	в	ADP	_	_	6	case	_	TokenRange=8648:8649
+6	воскликновении	воскликновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=8650:8664
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=8664:8665
+
+# sent_id = 100
+# text = Вознеслся еси во славе на горе Масличнеи Христе Боже, пред Твоими ученики, и сел еси одесную Отца, всяческая исполняяи Божеством, и послал еси им Духа Святаго, просвещающа и утверждающа, и освящающа душы нашя.
+1	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	TokenRange=8667:8676
+2	еси	еси	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=8677:8680
+3	во	в	ADP	_	_	4	case	_	TokenRange=8681:8683
+4	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	TokenRange=8684:8689
+5	на	на	ADP	_	_	6	case	_	TokenRange=8690:8692
+6	горе	гора	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	TokenRange=8693:8697
+7	Масличнеи	Масличней	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	6	appos	_	TokenRange=8698:8707
+8	Христе	Христос	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	7	flat:name	_	TokenRange=8708:8714
+9	Боже	бог	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No|TokenRange=8715:8719
+10	,	,	PUNCT	_	_	13	punct	_	TokenRange=8719:8720
+11	пред	пред	ADP	_	_	13	case	_	TokenRange=8721:8725
+12	Твоими	твой	DET	_	Case=Ins|Number=Plur	13	det	_	TokenRange=8726:8732
+13	ученики	ученик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|TokenRange=8733:8740
+14	,	,	PUNCT	_	_	16	punct	_	TokenRange=8740:8741
+15	и	и	CCONJ	_	_	16	cc	_	TokenRange=8742:8743
+16	сел	сесть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	TokenRange=8744:8747
+17	еси	есь	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	16	iobj	_	TokenRange=8748:8751
+18	одесную	одесный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	TokenRange=8752:8759
+19	Отца	отец	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|TokenRange=8760:8764
+20	,	,	PUNCT	_	_	22	punct	_	TokenRange=8764:8765
+21	всяческая	всяческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	obl	_	TokenRange=8766:8775
+22	исполняяи	исполнять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	TokenRange=8776:8785
+23	Божеством	Божество	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|TokenRange=8786:8795
+24	,	,	PUNCT	_	_	26	punct	_	TokenRange=8795:8796
+25	и	и	CCONJ	_	_	26	cc	_	TokenRange=8797:8798
+26	послал	послать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=8799:8805
+27	еси	есь	NOUN	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	26	obj	_	TokenRange=8806:8809
+28	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	26	iobj	_	TokenRange=8810:8812
+29	Духа	Дух	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	TokenRange=8813:8817
+30	Святаго	святой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No|TokenRange=8818:8825
+31	,	,	PUNCT	_	_	32	punct	_	TokenRange=8825:8826
+32	просвещающа	просвещать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	29	acl	_	TokenRange=8827:8838
+33	и	и	CCONJ	_	_	34	cc	_	TokenRange=8839:8840
+34	утверждающа	утверждающий	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	32	conj	_	SpaceAfter=No|TokenRange=8841:8852
+35	,	,	PUNCT	_	_	37	punct	_	TokenRange=8852:8853
+36	и	и	CCONJ	_	_	37	cc	_	TokenRange=8854:8855
+37	освящающа	освящающий	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	32	conj	_	TokenRange=8856:8865
+38	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	37	obj	_	TokenRange=8866:8870
+39	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	38	det	_	SpaceAfter=No|TokenRange=8871:8875
+40	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=8875:8876
+
+# sent_id = 101
+# text = Слава и ныне: глас 6.
+1	Слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=8878:8883
+2	и	и	CCONJ	_	_	3	cc	_	TokenRange=8884:8885
+3	ныне	ныне	ADV	_	Degree=Pos	1	conj	_	SpaceAfter=No|TokenRange=8886:8890
+4	:	:	PUNCT	_	_	1	punct	_	TokenRange=8890:8891
+5	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	TokenRange=8892:8896
+6	6	6	NUM	_	_	5	nummod	_	SpaceAfter=No|TokenRange=8897:8898
+7	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=8898:8899
+
+# sent_id = 102
+# text = Взыде Бог в воскликновении, Господь во гласе трубне, еже Вознести падшии образ Адамов, и послати Духа Утешителя, еже освятити душы нашя.
+1	Взыде	взыде	VERB	_	Degree=Pos	0	root	_	TokenRange=8901:8906
+2	Бог	Бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	TokenRange=8907:8910
+3	в	в	ADP	_	_	4	case	_	TokenRange=8911:8912
+4	воскликновении	воскликновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No|TokenRange=8913:8927
+5	,	,	PUNCT	_	_	6	punct	_	TokenRange=8927:8928
+6	Господь	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	TokenRange=8929:8936
+7	во	в	ADP	_	_	8	case	_	TokenRange=8937:8939
+8	гласе	глас	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	TokenRange=8940:8945
+9	трубне	трубна	ADJ	_	Degree=Cmp	8	appos	_	SpaceAfter=No|TokenRange=8946:8952
+10	,	,	PUNCT	_	_	12	punct	_	TokenRange=8952:8953
+11	еже	еже	ADV	_	Degree=Pos	12	advmod	_	TokenRange=8954:8957
+12	Вознести	вознести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	TokenRange=8958:8966
+13	падшии	падший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	TokenRange=8967:8973
+14	образ	образ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=8974:8979
+15	Адамов	Адам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No|TokenRange=8980:8986
+16	,	,	PUNCT	_	_	18	punct	_	TokenRange=8986:8987
+17	и	и	CCONJ	_	_	18	cc	_	TokenRange=8988:8989
+18	послати	послатить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=8990:8997
+19	Духа	Дух	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	TokenRange=8998:9002
+20	Утешителя	Утешитель	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No|TokenRange=9003:9012
+21	,	,	PUNCT	_	_	23	punct	_	TokenRange=9012:9013
+22	еже	еже	ADV	_	Degree=Pos	23	advmod	_	TokenRange=9014:9017
+23	освятити	освятить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	TokenRange=9018:9026
+24	душы	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	TokenRange=9027:9031
+25	нашя	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	24	det	_	SpaceAfter=No|TokenRange=9032:9036
+26	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\r\n|TokenRange=9036:9037
+
+# sent_id = 103
+# text = Таже, Ныне отпущаеши:
+1	Таже	таже	PART	_	Degree=Pos	4	parataxis	_	SpaceAfter=No|TokenRange=9039:9043
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=9043:9044
+3	Ныне	ныне	ADV	_	Degree=Pos	4	advmod	_	TokenRange=9045:9049
+4	отпущаеши	отпущать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=9050:9059
+5	:	:	PUNCT	_	_	4	punct	_	TokenRange=9059:9060
+
+# sent_id = 104
+# text = И трисвятое.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=9061:9062
+2	трисвятое	трисвятой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=9063:9072
+3	.	.	PUNCT	_	_	2	punct	_	TokenRange=9072:9073
+
+# sent_id = 105
+# text = На благословении хлебов, тропарь праздника, глас 4: Вознеслся еси во славе: трижды.
+1	На	на	ADP	_	_	2	case	_	TokenRange=9074:9076
+2	благословении	благословение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	TokenRange=9077:9090
+3	хлебов	хлеб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No|TokenRange=9091:9097
+4	,	,	PUNCT	_	_	5	punct	_	TokenRange=9097:9098
+5	тропарь	тропарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=9099:9106
+6	праздника	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=9107:9116
+7	,	,	PUNCT	_	_	8	punct	_	TokenRange=9116:9117
+8	глас	глас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	TokenRange=9118:9122
+9	4	4	NUM	_	_	8	nummod	_	SpaceAfter=No|TokenRange=9123:9124
+10	:	:	PUNCT	_	_	8	punct	_	TokenRange=9124:9125
+11	Вознеслся	вознетись	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	parataxis	_	TokenRange=9126:9135
+12	еси	еси	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	11	nsubj	_	TokenRange=9136:9139
+13	во	в	ADP	_	_	14	case	_	TokenRange=9140:9142
+14	славе	слава	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|TokenRange=9143:9148
+15	:	:	PUNCT	_	_	14	punct	_	TokenRange=9148:9149
+16	трижды	трижды	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No|TokenRange=9150:9156
+17	.	.	PUNCT	_	_	2	punct	_	TokenRange=9156:9157
+
+# sent_id = 106
+# text = И чтение великое в Деяниих святых апостол.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=9158:9159
+2	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	TokenRange=9160:9166
+3	великое	великий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	TokenRange=9167:9174
+4	в	в	ADP	_	_	5	case	_	TokenRange=9175:9176
+5	Деяниих	Деянии	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	2	nmod	_	TokenRange=9177:9184
+6	святых	святой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	nmod	_	TokenRange=9185:9191
+7	апостол	апостол	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|TokenRange=9192:9199
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=9199:9200
+
+# sent_id = 107
+# text = А идеже несть всенощнаго: по Ныне отпущаеши: тропарь праздника единожды.
+1	А	а	CCONJ	_	_	3	cc	_	TokenRange=9202:9203
+2	идеже	идеже	ADV	_	Degree=Cmp	3	advmod	_	TokenRange=9204:9209
+3	несть	несть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	TokenRange=9210:9215
+4	всенощнаго	всенощнаго	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No|TokenRange=9216:9226
+5	:	:	PUNCT	_	_	3	punct	_	TokenRange=9226:9227
+6	по	по	ADP	_	_	7	case	_	TokenRange=9228:9230
+7	Ныне	ныне	ADV	_	Degree=Pos	8	advmod	_	TokenRange=9231:9235
+8	отпущаеши	отпущать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	parataxis	_	SpaceAfter=No|TokenRange=9236:9245
+9	:	:	PUNCT	_	_	8	punct	_	TokenRange=9245:9246
+10	тропарь	тропарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	TokenRange=9247:9254
+11	праздника	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	TokenRange=9255:9264
+12	единожды	единожды	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No|TokenRange=9265:9273
+13	.	.	PUNCT	_	_	3	punct	_	TokenRange=9273:9274
+
+# sent_id = 108
+# text = На повечерии по Достоино: кондак праздника.
+1	На	на	ADP	_	_	2	case	_	TokenRange=9275:9277
+2	повечерии	повечерие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	TokenRange=9278:9287
+3	по	по	ADP	_	_	4	case	_	TokenRange=9288:9290
+4	Достоино	Достоино	PROPN	_	Degree=Pos	2	nmod	_	SpaceAfter=No|TokenRange=9291:9299
+5	:	:	PUNCT	_	_	2	punct	_	TokenRange=9299:9300
+6	кондак	кондак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	parataxis	_	TokenRange=9301:9307
+7	праздника	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|TokenRange=9308:9317
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\r\n|TokenRange=9317:9318
+
+# sent_id = 109
+# text = Полунощницу поем по обычаю с кафисмою.
+1	Полунощницу	полунощница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	TokenRange=9320:9331
+2	поем	петь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=9332:9336
+3	по	по	ADP	_	_	4	case	_	TokenRange=9337:9339
+4	обычаю	обычай	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	TokenRange=9340:9346
+5	с	с	ADP	_	_	6	case	_	TokenRange=9347:9348
+6	кафисмою	кафисма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|TokenRange=9349:9357
+7	.	.	PUNCT	_	_	2	punct	_	TokenRange=9357:9358
+
+# sent_id = 110
+# text = По 1– м трисвятом, вместо, Се жених: глаголем тропарь праздника.
+1	По	по	ADP	_	_	5	case	_	TokenRange=9359:9361
+2	1	1	NUM	_	_	5	nummod	_	SpaceAfter=No|TokenRange=9362:9363
+3	–	–	PUNCT	_	_	4	punct	_	TokenRange=9363:9364
+4	м	метр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	TokenRange=9365:9366
+5	трисвятом	трисвятой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|TokenRange=9367:9376
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=9376:9377
+7	вместо	вместо	ADP	_	_	9	parataxis	_	SpaceAfter=No|TokenRange=9378:9384
+8	,	,	PUNCT	_	_	9	punct	_	TokenRange=9384:9385
+9	Се	се	PRON	_	_	5	conj	_	TokenRange=9386:9388
+10	жених	жених	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|TokenRange=9389:9394
+11	:	:	PUNCT	_	_	10	punct	_	TokenRange=9394:9395
+12	глаголем	глаголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	TokenRange=9396:9404
+13	тропарь	тропарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	parataxis	_	TokenRange=9405:9412
+14	праздника	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|TokenRange=9413:9422
+15	.	.	PUNCT	_	_	5	punct	_	TokenRange=9422:9423
+
+# sent_id = 111
+# text = По 2-м трисвятом, вместо, Помяни Господи, яко Благ: глаголем кондак праздника.
+1	По	по	ADP	_	_	3	case	_	TokenRange=9424:9426
+2	2-м	2-й	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	TokenRange=9427:9430
+3	трисвятом	трисвятой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=9431:9440
+4	,	,	PUNCT	_	_	7	punct	_	TokenRange=9440:9441
+5	вместо	вместо	ADP	_	_	3	case	_	SpaceAfter=No|TokenRange=9442:9448
+6	,	,	PUNCT	_	_	7	punct	_	TokenRange=9448:9449
+7	Помяни	помянуть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	parataxis	_	TokenRange=9450:9456
+8	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=9457:9464
+9	,	,	PUNCT	_	_	11	punct	_	TokenRange=9464:9465
+10	яко	яко	ADV	_	Degree=Pos	11	advmod	_	TokenRange=9466:9469
+11	Благ	Благ	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No|TokenRange=9470:9474
+12	:	:	PUNCT	_	_	11	punct	_	TokenRange=9474:9475
+13	глаголем	глаголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	TokenRange=9476:9484
+14	кондак	кондак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	TokenRange=9485:9491
+15	праздника	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|TokenRange=9492:9501
+16	.	.	PUNCT	_	_	3	punct	_	TokenRange=9501:9502
+
+# sent_id = 112
+# text = Таже, Господи помилуи.
+1	Таже	таже	PART	_	_	4	parataxis	_	SpaceAfter=No|TokenRange=9503:9507
+2	,	,	PUNCT	_	_	1	punct	_	TokenRange=9507:9508
+3	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	TokenRange=9509:9516
+4	помилуи	помиловать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=9517:9524
+5	.	.	PUNCT	_	_	4	punct	_	TokenRange=9524:9525
+
+# sent_id = 113
+# text = 12.
+1	12	12	NUM	_	_	0	root	_	SpaceAfter=No|TokenRange=9526:9528
+2	.	.	PUNCT	_	_	1	punct	_	TokenRange=9528:9529
+
+# sent_id = 114
+# text = И отпуст.
+1	И	и	CCONJ	_	_	2	cc	_	TokenRange=9530:9531
+2	отпуст	отпуст	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=9532:9538
+3	.	.	PUNCT	_	_	2	punct	_	TokenRange=9538:9539
+
+# sent_id = 115
+# text = Молитвы, Помяни Господи, в надежди: не глаголем. утрени начало по обычаю.
+1	Молитвы	молитва	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=9540:9547
+2	,	,	PUNCT	_	_	3	punct	_	TokenRange=9547:9548
+3	Помяни	помянуть	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	TokenRange=9549:9555
+4	Господи	Господь	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No|TokenRange=9556:9563
+5	,	,	PUNCT	_	_	7	punct	_	TokenRange=9563:9564
+6	в	в	ADP	_	_	7	case	_	TokenRange=9565:9566
+7	надежди	надежда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|TokenRange=9567:9574
+8	:	:	PUNCT	_	_	7	punct	_	TokenRange=9574:9575
+9	не	не	PART	_	_	10	advmod	_	TokenRange=9576:9578
+10	глаголем	глаголь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No|TokenRange=9579:9587
+11	.	.	PUNCT	_	_	10	punct	_	TokenRange=9587:9588
+12	утрени	утрень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	TokenRange=9589:9595
+13	начало	начало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	TokenRange=9596:9602
+14	по	по	ADP	_	_	15	case	_	TokenRange=9603:9605
+15	обычаю	обычай	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No|TokenRange=9606:9612
+16	.	.	PUNCT	_	_	1	punct	_	TokenRange=9612:9613
+
+# sent_id = 116
+# text = И абие чтец глаголет: Приидите поклонимся: трижды. и обычныя два псалма, 19 и 20. и шестопсалмие.
+1	И	и	CCONJ	_	_	3	cc	_	TokenRange=9614:9615
+2	абие	абие	NOUN	_	Foreign=Yes	3	nsubj	_	TokenRange=9616:9620
+3	чтец	чтец	VERB	_	Foreign=Yes	0	root	_	TokenRange=9621:9625
+4	глаголет	глаголет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|TokenRange=9626:9634
+5	:	:	PUNCT	_	_	3	punct	_	TokenRange=9634:9635
+6	Приидите	приидеть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	7	parataxis	_	TokenRange=9636:9644
+7	поклонимся	поклониться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	3	parataxis	_	SpaceAfter=No|TokenRange=9645:9655
+8	:	:	PUNCT	_	_	7	punct	_	TokenRange=9655:9656
+9	трижды	трижды	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No|TokenRange=9657:9663
+10	.	.	PUNCT	_	_	7	punct	_	TokenRange=9663:9664
+11	и	и	CCONJ	_	_	14	cc	_	TokenRange=9665:9666
+12	обычныя	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	TokenRange=9667:9674
+13	два	два	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	TokenRange=9675:9678
+14	псалма	псалм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|TokenRange=9679:9685
+15	,	,	PUNCT	_	_	16	punct	_	TokenRange=9685:9686
+16	19	19	NUM	_	_	14	nummod	_	TokenRange=9687:9689
+17	и	и	CCONJ	_	_	18	cc	_	TokenRange=9690:9691
+18	20	20	NUM	_	_	16	conj	_	SpaceAfter=No|TokenRange=9692:9694
+19	.	.	PUNCT	_	_	14	punct	_	TokenRange=9694:9695
+20	и	и	CCONJ	_	_	21	cc	_	TokenRange=9696:9697
+21	шестопсалмие	шестопсалмие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No|TokenRange=9698:9710
+22	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No|TokenRange=9710:9711
+

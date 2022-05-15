@@ -1,0 +1,3237 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Η ΑΝΑΛΗΨΙΣ ΤΟΥ ΚΥΡΙΟΥ ΚΑΙ ΘΕΟΥ
+1	Η	η	PRON	Pp	_	0	root	_	_
+2	ΑΝΑΛΗΨΙΣ	Αναληψις	PROPN	Ne	_	1	nsubj	_	_
+3	Τ	ὁ	DET	S-	_	4	det	_	SpaceAfter=No
+4	ΟΥ	ου	ADV	Df	Polarity=Neg	1	nsubj	_	_
+5	ΚΥΡΙΟΥ	Κυριου	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	Κ	ὅς	PROPN	Ne	_	5	nsubj	_	SpaceAfter=No
+7	ΑΙ	ὅς	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+8	Θ	ὅς	DET	Ne	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	ΕΟΥ	Εου	PROPN	Ne	_	7	appos	_	_
+
+# sent_id = 2
+# text = ΚΑΙ ΣΩΤΗΡΟΣ
+1	ΚΑΙ	και	CCONJ	C-	_	0	root	_	_
+2	ΣΩΤΗΡ	Σωτηρ	PROPN	Ne	_	1	nsubj	_	SpaceAfter=No
+3	ΟΣ	ὅς	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	1	iobj	_	_
+
+# sent_id = 3
+# text = ΗΜΩΝ ΙΗΣΟΥ ΧΡΙΣΤΟΥ.
+1	ΗΜΩΝ	ημων	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	ΙΗΣ	ιης	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	SpaceAfter=No
+3	ΟΥ	ου	ADV	Df	Polarity=Neg	1	advmod	_	_
+4	ΧΡ	Χρ	PROPN	Ne	_	1	vocative	_	SpaceAfter=No
+5	ΙΣΤΟΥ.	Ιστου.	PROPN	Ne	_	4	appos	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τῌ ΠΕΜΠΤῌ ΤΗΣ ς' ΕΒΔΟΜΑΔΟΣ.
+1	Τῌ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	ΠΕΜΠΤῌ	Πεμπτηι	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ΤΗΣ	ὁ	PROPN	Ne	_	2	det	_	_
+4	ς'	ς'	VERB	V-	_	0	root	_	_
+5	ΕΒΔ	Εβα	PROPN	Ne	_	2	appos	_	SpaceAfter=No
+6	ΟΜ	ὅς	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	7	det	_	SpaceAfter=No
+7	ΑΔΟΣ.	Αδος.	PROPN	Ne	_	4	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ΕΝ Τῼ ΜΙΚΡῼ ΕΣΠΕΡΙΝῼ.
+1	ΕΝ	εν	PRON	Ne	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	Τῼ	ὁ	DET	S-	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	ΜΙΚΡῼ	Μικρωι	PROPN	Ne	_	1	nsubj	_	_
+4	ΕΣΠ	Εσπ	PROPN	Ne	_	3	appos	_	SpaceAfter=No
+5	ΕΡ	ερ	PROPN	Ne	_	3	appos	_	SpaceAfter=No
+6	ΙΝῼ.	ινῳ.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στιχηρὰ τῆς Ἑορτῆς.
+1	Στιχηρὰ	Στιχηρὰ	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Ἑορτῆς.	Ἑορτῆα	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ὁ Κύριος ἀνελήφθη εἰς οὐρανούς, ἵνα πέμψῃ τὸν Παράκλητον τῷ κόσμῳ, οἱ οὐρανοὶ ἡτοίμασαν τὸν θρόνον αὐτοῦ, νεφέλαι τὴν ἐπίβασιν αὐτοῦ,
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	ἀνελήφθη	ἀαλαμβάνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	οὐρανούς,	οὐρανούς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+6	ἵνα	ἵνα	SCONJ	G-	_	7	mark	_	_
+7	πέμψῃ	πέμπω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Παράκλητον	Παράκλητος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	κόσμῳ,	κόσμῳς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+12	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	οὐρανοὶ	οὐρανός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+14	ἡτοίμασαν	ἑτοιμάζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+15	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	θρόνον	θρόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	det	_	_
+18	νεφέλαι	νεφέλα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	14	xcomp	_	_
+19	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	ἐπίβασιν	ἐπίβασις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	_
+
+# sent_id = 2
+# text = Ἄγγελοι θαυμάζουσιν,
+1	Ἄγγελοι	Ἄγγελοι	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	2	vocative	_	_
+2	θαυμάζουσιν,	θαυμάζοω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = ἄνθρωπον ὁρῶντες ὑπεράνω αὐτῶν, ὁ Πατὴρ ἐκδέχεται,
+1	ἄνθρωπον	ἄνθρωπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	ὁρῶντες	ὁράω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+3	ὑπεράνω	ὑπεράνω	ADP	R-	_	4	case	_	_
+4	αὐτῶν,	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατὴρ	Πατὴρ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ἐκδέχεται,	ἐκδέχεομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+
+# sent_id = 4
+# text = ὃν ἐν κόλποις ἔχει συναΐδιον.
+1	ὃν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	κόλποις	κόλπος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	συναΐδιον.	συναΐδιός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = 5
+# text = Τὸ Πνεῦμα τὸ ἅγιον κελεύει πᾶσι τοῖς Ἀγγέλοις αὐτοῦ·
+1	Τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Πνεῦμα	Πνεῦμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	ἅγιον	ἅγιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nmod	_	_
+5	κελεύει	κελεύω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	πᾶσι	πᾶς	DET	Px	Case=Dat|Gender=Masc,Neut|Number=Plur	8	det	_	_
+7	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἀγγέλοις	Ἀγγέλοί	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
+9	αὐτοῦ·	αὐτοός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+
+# sent_id = 6
+# text = Ἄρατε πύλας οἱ ἄρχοντες ἡμῶν, Πάντα τὰ ἔθνη κροτήσατε χεῖρας. ὅτι ἀνέβη Χριστός, ὅπου ἦν τὸ πρότερον.
+1	Ἄρατε	Ἄρατε	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	_
+2	πύλας	πύλας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ἄρχοντες	ἄρχων	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	Πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	8	det	_	_
+7	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+8	ἔθνη	ἔθνος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+9	κροτήσατε	κροτήω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	χεῖρας.	χεῖίρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	ὅτι	ὅτι	SCONJ	G-	_	12	mark	_	_
+12	ἀνέβη	ἀνέβη	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+13	Χριστός,	Χριστός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	ὅπου	ὅπου	ADV	Dq	PronType=Rel	12	advcl	_	_
+15	ἦν	εἰμί	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
+17	πρότερον.	πρότερον.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος δ'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	δ'.	δ'.	ADV	Df	_	1	discourse	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, τῇ σῇ, Ἀναλήψει,
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+2	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	σῇ,	σός	ADJ	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	1	nmod	_	_
+4	Ἀναλήψει,	ἀναλέω	PROPN	Ne	_	0	root	_	_
+
+# sent_id = 2
+# text = ἐξεπλάγησαν τὰ Χερουβίμ, θεωρήσαντά σε τὸν Θεόν, ἐπὶ νεφελῶν ἀνερχόμενον, τὸν ἐπ' αὐτῶν καθεζόμενον,
+1	ἐξεπλάγησαν	ἐξεέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	Χερουβίμ,	Χερουβίμ,	PROPN	Ne	_	1	obj	_	_
+4	θεωρήσαντά	θεωρήζω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+5	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+6	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Θεόν,	θεόν,	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	ἐπὶ	ἐπί	ADP	R-	_	9	case	_	_
+9	νεφελῶν	νεφέλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+10	ἀνερχόμενον,	ἀνεέρχομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	1	advcl	_	_
+11	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+12	ἐπ'	ἐπί	ADP	R-	_	13	case	_	_
+13	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+14	καθεζόμενον,	καθεέζομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	10	obj	_	_
+
+# sent_id = 3
+# text = καὶ δοξάζομέν σε, ὅτι χρηστόν τὸ ἔλεός σου,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	δοξάζομέν	δοξάζω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	σε,	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	ὅτι	ὅτι	SCONJ	G-	_	5	mark	_	_
+5	χρηστόν	χρηστός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	ccomp	_	_
+6	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ἔλεός	ἔλεός	VERB	Nb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	nsubj	_	_
+8	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	det	_	_
+
+# sent_id = 4
+# text = δόξα σοι.
+1	δόξα	δόξα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σοι.	σού	PRON	Pp	Case=Dat|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἐν τοῖς ὄρεσι τοῖς ἁγίοις, θεωροῦντές σου τὰς ὑψώσεις Χριστέ, τὸ ἀπαύγασμα τῆς δόξης τοῦ Πατρός,
+1	Ἐν	ἐν	ADP	R-	_	3	case	_	_
+2	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	ὄρεσι	ὄρος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	0	root	_	_
+4	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Plur|PronType=Dem	5	det	_	_
+5	ἁγίοις,	ἁγίοις,	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	3	nmod	_	_
+6	θεωροῦντές	θεωρέω	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	_
+7	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	det	_	_
+8	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	ὑψώσεις	ὑψόω	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+10	Χριστέ,	Χριστέ,	PROPN	Ne	_	9	appos	_	_
+11	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	ἀπαύγασμα	ἀπαύγασμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	9	appos	_	_
+13	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	δόξης	δόξα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	Πατρός,	Πατρός,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+
+# sent_id = 2
+# text = ἀνυμνοῦμέν σου τὴν φωτοειδῆ τοῦ προσώπου μορφήν,
+1	ἀνυμνοῦμέν	ἀνυμνέω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	φωτοειδῆ	φωτοειδής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	obj	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	προσώπου	πρόσωπον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	μορφήν,	μορφήν,	NOUN	Nb	_	1	obj	_	_
+
+# sent_id = 3
+# text = προσκυνοῦμέν σου τὰ παθήματα,
+1	προσκυνοῦμέν	προσκυνέω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	παθήματα,	παθήματ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+
+# sent_id = 4
+# text = τιμῶμεν τὴν Ἀνάστασιν, τὴν ἔνδοξον Ἀνάληψιν δοξάζοντες,
+1	τιμῶμεν	τιμάω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Ἀνάστασιν,	ἀνάστασιν,	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	ἔνδοξον	ἔνδοξος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Ἀνάληψιν	Ἀνάληψι	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	δοξάζοντες,	δοξάζοω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	_
+
+# sent_id = 5
+# text = ἐλέησον ἡμᾶς.
+1	ἐλέησον	ἐλεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ἡμᾶς.	ἡμᾶεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, οἱ Ἀπόστολοι ὡς εἶδὸν σε, ἐν νεφέλαις ἐπαιρόμενον, ὀδυρμοῖς δακρύων, ζωοδότα Χριστέ, κατηφείας πληρούμενοι, θρηνοῦντες ἔλεγον·
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	17	vocative	_	_
+2	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	Ἀπόστολοι	Ἀπόστολοι	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+4	ὡς	ὡς	SCONJ	G-	_	5	mark	_	_
+5	εἶδὸν	ὁράω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
+6	σε,	σε,	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+7	ἐν	ἐν	ADP	R-	_	8	case	_	_
+8	νεφέλαις	νεφέλα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+9	ἐπαιρόμενον,	ἐπαιρόμενος	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	xcomp	_	_
+10	ὀδυρμοῖς	ὀδυρμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_
+11	δακρύων,	δακρύων	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	9	iobj	_	_
+12	ζωοδότα	ζωοδότα	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
+13	Χριστέ,	Χριστός	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	κατηφείας	κατηφεία	NOUN	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	17	xcomp	_	_
+15	πληρούμενοι,	πληροόω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	17	advcl	_	_
+16	θρηνοῦντες	θρηνέω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	_
+17	ἔλεγον·	λεέγω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 2
+# text = Δέσποτα, μὴ ἐάσῃς ἡμᾶς ὀρφανούς,
+1	Δέσποτα,	δέσποτα,	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+2	μὴ	μή	ADV	Df	Polarity=Neg	3	advmod	_	_
+3	ἐάσῃς	ἐάω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	ὀρφανούς,	ὀρφανοός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	xcomp	_	_
+
+# sent_id = 3
+# text = οὓς δι' οἶκτον ἠγάπησας δούλους σου, ὡς εὔσπλαγχνος,
+1	οὓς	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	4	obj	_	_
+2	δι'	δι'	ADP	R-	_	3	case	_	_
+3	οἶκτον	οἶκτος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	ἠγάπησας	ἀγαπάω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	δούλους	δοῦλος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	xcomp	_	_
+6	σου,	σού	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	ὡς	ὡς	ADV	Df	_	4	advcl	_	_
+8	εὔσπλαγχνος,	εὔσπλαγχνος,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+
+# sent_id = 4
+# text = ἀλλ' ἀπόστειλον, ὡς ὑπέσχου ἡμῖν, τὸ πανάγιόν σου Πνεῦμα,
+1	ἀλλ'	ἀλλ'	CCONJ	C-	_	2	cc	_	_
+2	ἀπόστειλον,	ἀπόστειέλλω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ὡς	ὡς	SCONJ	G-	_	4	mark	_	_
+4	ὑπέσχου	ὑπέσχομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+5	ἡμῖν,	ἡμῖεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	πανάγιόν	πανάγιό	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
+8	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	det	_	_
+9	Πνεῦμα,	πνεῦμα,	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+
+# sent_id = 5
+# text = φωταγωγοῦν τὰς ψυχὰς ἡμῶν.
+1	φωταγωγοῦν	φωταγωγόω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Δόξα...
+1	Δόξα...	Δόξα...	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Καὶ νῦν...
+1	Καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	νῦν...	νῦν...	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, τῆς οἰκονομίας πληρώσας τὸ μυστήριον,
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+2	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	οἰκονομίας	οἰκονομία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	πληρώσας	πληρώζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	μυστήριον,	μυστήριον,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+
+# sent_id = 2
+# text = παραλαβὼν τοὺς σοὺς Μαθητάς, εἰς τὸ ὄρος τῶν Ἐλαιῶν ἀνελάμβανες,
+1	παραλαβὼν	παραλαμβάνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
+2	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	σοὺς	σός	ADJ	Ps	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+4	Μαθητάς,	μαθητάς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+5	εἰς	εἰς	ADP	R-	_	7	case	_	_
+6	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ὄρος	ὄρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+8	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	Ἐλαιῶν	Ἐλαιός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	ἀνελάμβανες,	ἀνελάμβανεςος	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = καὶ ἰδού, τὸ στερέωμα τοῦ οὐρανοῦ παρῆλθες,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	ἰδού,	ὁράω	INTJ	V-	_	7	vocative	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	στερέωμα	στερέωμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	οὐρανοῦ	οὐρανός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	παρῆλθες,	παρῆέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 4
+# text = ὁ δι' ἐμὲ πτωχεύσας κατ' ἐμέ, καὶ ἀναβάς·
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	δι'	δι'	ADP	R-	_	3	case	_	_
+3	ἐμὲ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	πτωχεύσας	πτωχέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	κατ'	κατά	ADP	R-	_	6	case	_	_
+6	ἐμέ,	ἐμέ,	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+8	ἀναβάς·	ἀναβάς·	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+
+# sent_id = 5
+# text = ὅθεν οὐκ ἐχωρίσθης, τὸ πανάγιόν σου Πνεῦμα ἐξαπόστειλον,
+1	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	3	advmod	_	_
+2	οὐκ	οὐ	ADV	Df	Polarity=Neg	3	advmod	_	_
+3	ἐχωρίσθης,	ἐχωρίσθης,	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	advcl	_	_
+4	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	πανάγιόν	πανάγιό	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+6	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	Πνεῦμα	Πνεῦμα	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	ἐξαπόστειλον,	ἐξαπόστειόω	VERB	V-	_	0	root	_	_
+
+# sent_id = 6
+# text = φωτίζον τὰς ψυχὰς ἡμῶν.
+1	φωτίζον	φωέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Εἰς τὸν Στίχον.
+1	Εἰς	εἰς	ADP	R-	_	3	case	_	_
+2	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Στίχον.	Στίχών	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος α'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	α'.	α'.	INTJ	I-	_	1	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνελθὼν εἰς οὐρανούς,
+1	Ἀνελθὼν	ἀνέρχομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	εἰς	εἰς	ADP	R-	_	3	case	_	_
+3	οὐρανούς,	οὐρανούς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+
+# sent_id = 2
+# text = ὅθεν καὶ κατῆλθες, μή ἐάσῃς ἡμᾶς ὀρφανοὺς Κύριε·
+1	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	3	advmod	_	_
+2	καὶ	καί	ADV	Df	_	3	advmod	_	_
+3	κατῆλθες,	κατῆέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+4	μή	μή	ADV	Df	Polarity=Neg	5	advmod	_	_
+5	ἐάσῃς	ἐάω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	ὀρφανοὺς	ὀρφανός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	xcomp	_	_
+8	Κύριε·	Κύριε·	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+
+# sent_id = 3
+# text = ἐλθέτω σου τὸ Πνεῦμα,
+1	ἐλθέτω	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Πνεῦμα,	πνεῦμα,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+
+# sent_id = 4
+# text = φέρον εἰρήνην τῷ κόσμῳ,
+1	φέρον	φέρον	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	εἰρήνην	εἰρήνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	κόσμῳ,	κόσμῳς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+
+# sent_id = 5
+# text = δεῖξον τοῖς Υἱοῖς τῶν ἀνθρώπων, ἔργα δυνάμεώς σου,
+1	δεῖξον	δείκνυμι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	Υἱοῖς	υἱός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	ἀνθρώπων,	ἀνθρώπων,	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	ἔργα	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+7	δυνάμεώς	δυύω	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	xcomp	_	_
+8	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+
+# sent_id = 6
+# text = Κύριε φιλάνθρωπε.
+1	Κύριε	Κύριος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	_
+2	φιλάνθρωπε.	φιλάνθρωπε.	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στίχ. Ἀνέβη ὁ Θεὸς ἐν ἀλαλαγμῷ, Κύριος ἐν φωνῇ σάλπιγγος.
+1	Στίχ.	Στίχ.	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+2	Ἀνέβη	Ἀνέβη	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	ἀλαλαγμῷ,	ἀλαλαγμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	Κύριος	Κύριος	PROPN	Ne	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	appos	_	_
+8	ἐν	ἐν	ADP	R-	_	9	case	_	_
+9	φωνῇ	φωνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	appos	_	_
+10	σάλπιγγος.	σάλπιγγξ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος α'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	α'.	α'.	INTJ	I-	_	1	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνῆλθες Χριστὲ πρὸς τὸν ἄναρχον Πατέρα σου,
+1	Ἀνῆλθες	Ἀνῆλθες	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	Χριστὲ	Χριστός	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	πρὸς	πρός	ADP	R-	_	5	case	_	_
+4	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	ἄναρχον	ἄναρχος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+6	Πατέρα	Πατέρας	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
+7	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+
+# sent_id = 2
+# text = ὁ τῶν ἀπεριγράπτων αὐτοῦ κόλπων μὴ χωρισθείς,
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+2	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	ἀπεριγράπτων	ἀπεριγράπτω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	nmod	_	_
+4	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+5	κόλπων	κόλπω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	nsubj:pass	_	_
+6	μὴ	μή	ADV	Df	Polarity=Neg	7	advmod	_	_
+7	χωρισθείς,	χωριίζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = 3
+# text = καὶ προσθήκην αἱ δυνάμεις, τῇ αἰνέσει τοῦ Τρισαγίου οὐκ ἐδέξαντο, ἀλλ' ἕνα Υἱόν,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	προσθήκην	προσθήκη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+3	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	δυνάμεις,	δυνάμεις,	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	αἰνέσει	αἰνέω	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+7	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Τρισαγίου	Τρισαγίος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	οὐκ	οὐ	ADV	Df	Polarity=Neg	10	advmod	_	_
+10	ἐδέξαντο,	δέξχομαι	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	ἀλλ'	ἀλλ'	CCONJ	C-	_	10	cc	_	_
+12	ἕνα	εἷς	NUM	Ma	Case=Acc|Gender=Masc|Number=Sing	13	nummod	_	_
+13	Υἱόν,	υἱόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+
+# sent_id = 4
+# text = καὶ μετὰ τὴν ἐνανθρώπησιν,
+1	καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	μετὰ	μετά	ADP	R-	_	4	case	_	_
+3	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ἐνανθρώπησιν,	ἐνανθρώπησιν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+
+# sent_id = 5
+# text = ἐγνώρισάν σε Κύριε, μονογενῆ τοῦ Πατρός.
+1	ἐγνώρισάν	γνωρίζω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σε	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	_
+3	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+4	μονογενῆ	μονογενής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατρός.	Πατρός.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = 6
+# text = Ἐν πλήθει σῶν οἰκτιρμῶν,
+1	Ἐν	ἐν	ADP	R-	_	2	case	_	_
+2	πλήθει	πλήθω	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+3	σῶν	σός	ADJ	Ps	Case=Gen|Number=Plur	4	det	_	_
+4	οἰκτιρμῶν,	οἰκτιρμών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+
+# sent_id = 7
+# text = ἐλέησον ἡμᾶς.
+1	ἐλέησον	ἐλεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ἡμᾶς.	ἡμᾶεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στίχ. Πάντα τὰ ἔθνη κροτήσατε χεῖρας
+1	Στίχ.	Στίχ.	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+2	Πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	4	det	_	_
+3	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	ἔθνη	ἔθνος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+5	κροτήσατε	κροτήω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	χεῖρας	χείρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+
+# sent_id = 2
+# text = ἀλαλάξατε τῷ Θεῷ ἐν φωνῇ ἀγαλλιάσεως.
+1	ἀλαλάξατε	ἀλαλάσσω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Θεῷ	θεός	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+4	ἐν	ἐν	ADP	R-	_	5	case	_	_
+5	φωνῇ	φωνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+6	ἀγαλλιάσεως.	ἀγαλλιίασις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος α'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	α'.	α'.	INTJ	I-	_	1	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Οἱ Ἄγγελοί σου Κύριε, τοῖς Ἀποστόλοις ἔλεγον·
+1	Οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	Ἄγγελοί	Ἄγγελοί	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	2	det	_	_
+4	Κύριε,	Κύριε,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	_
+5	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	Ἀποστόλοις	Ἀποστόλο	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	7	iobj	_	_
+7	ἔλεγον·	λεέγω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 2
+# text = Ἀνδρες Γαλιλαῖοι, τί ἑστήκατε βλέποντες εἰς τὸν οὐρανόν;
+1	Ἀνδρες	ἀνήρ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	4	vocative	_	_
+2	Γαλιλαῖοι,	Γαλιλαῖος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	_
+3	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obl	_	_
+4	ἑστήκατε	ἵστημι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	βλέποντες	βλέπω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+6	εἰς	εἰς	ADP	R-	_	8	case	_	_
+7	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	οὐρανόν;	οὐρανόν;	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+
+# sent_id = 3
+# text = οὗτός ἐστι Χριστὸς ὁ Θεός, ὁ ἀναληφθεὶς ἀφ' ὑμῶν εἰς τὸν οὐρανόν,
+1	οὗτός	οὗτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ἐστι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	Χριστὸς	Χριστός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Θεός,	Θεός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+6	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ἀναληφθεὶς	ἀναλάζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	appos	_	_
+8	ἀφ'	ἀπό	ADP	R-	_	9	case	_	_
+9	ὑμῶν	ὑμεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	7	obl	_	_
+10	εἰς	εἰς	ADP	R-	_	12	case	_	_
+11	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	οὐρανόν,	οὐρανόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+
+# sent_id = 4
+# text = οὗτος ἐλεύσεται πάλιν,
+1	οὗτος	οὗτος	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ἐλεύσεται	ἔρχομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	πάλιν,	πάλιν,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
+
+# sent_id = 5
+# text = ὃν τρόπον ἐθεάσασθε αὐτόν, πορευόμενον εἰς οὐρανόν,
+1	ὃν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	2	det	_	_
+2	τρόπον	τρόπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	ἐθεάσασθε	θεάομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	αὐτόν,	αὐτόν,ς	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	πορευόμενον	πορεύομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	3	xcomp	_	_
+6	εἰς	εἰς	ADP	R-	_	7	case	_	_
+7	οὐρανόν,	οὐρανόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+
+# sent_id = 6
+# text = λατρεύσατε αὐτῷ ἐν ὁσιότητι καὶ δικαιοσύνῃ.
+1	λατρεύσατε	λατρεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	αὐτῷ	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	ὁσιότητι	ὁσιότης	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+5	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+6	δικαιοσύνῃ.	δικαιοσύνη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Δόξα...
+1	Δόξα...	Δόξα...	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Καὶ νῦν...
+1	Καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	νῦν...	νῦν...	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος α'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	α'.	α'.	INTJ	I-	_	1	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἐτέχθης ὡς αὐτὸς ἠθέλησας, ἐφάνης, ὡς αὐτὸς ἠβουλήθης,
+1	Ἐτέχθης	Ἐτέχθης	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ὡς	ὡς	SCONJ	G-	_	4	mark	_	_
+3	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ἠθέλησας,	ἠθέληέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	_
+5	ἐφάνης,	ἐφάνης,	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	_
+6	ὡς	ὡς	ADV	Dq	PronType=Rel	8	advmod	_	_
+7	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	ἠβουλήθης,	ἠβουλήέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	advcl	_	_
+
+# sent_id = 2
+# text = ἔπαθες σαρκί, ὁ Θεὸς ἡμῶν, ἐκ νεκρῶν ἀνέστης,
+1	ἔπαθες	πάσχω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σαρκί,	σάρξ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	ἐκ	ἐκ	ADP	R-	_	7	case	_	_
+7	νεκρῶν	νεκρός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	obl	_	_
+8	ἀνέστης,	ἀνέστης,	NOUN	Nb	_	1	xcomp	_	_
+
+# sent_id = 3
+# text = πατήσας τὸν θάνατον, ἀνελήφθης ἐν δόξῃ, ὁ τὰ σύμπαντα πληρῶν,
+1	πατήσας	πατήω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+2	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	θάνατον,	θάνατον,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	ἀνελήφθης	ἀναιρέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+8	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
+9	σύμπαντα	σύμπας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
+10	πληρῶν,	πληρών	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = 4
+# text = καὶ ἀπέστειλας ἡμῖν Πνεῦμα θεῖον, τοῦ ἀνυμνεῖν καὶ δοξάζειν σου τὴν Θεότητα.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀπέστειλας	ἀπέστέλλω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+4	Πνεῦμα	Πνεῦμα	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	θεῖον,	θεῖον,	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	_
+6	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ἀνυμνεῖν	ἀνυμνέω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	iobj	_	_
+8	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+9	δοξάζειν	δοξάζω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	conj	_	_
+10	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	12	det	_	_
+11	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	Θεότητα.	Θεότητα.	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀπολυτίκιον.
+1	Ἀπολυτίκιον.	Ἀπολυτίκιον.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος δ'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	δ'.	δ'.	ADV	Df	_	1	discourse	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνελήφθης ἐν δόξῃ, Χριστὲ ὁ Θεὸς ἡμῶν, χαροποιήσας τοὺς Μαθητάς, τῇ ἐπαγγελίᾳ τοῦ ἁγίου Πνεύματος· βεβαιωθέντων αὐτῶν διὰ τῆς εὐλογίας, ὅτι σὺ εἶ ὁ Υἱός τοῦ Θεοῦ, ὁ λυτρωτὴς τοῦ κόσμου.
+1	Ἀνελήφθης	Ἀνελήφθης	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+4	Χριστὲ	Χριστός	PROPN	Ne	_	1	nsubj:pass	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	6	det	_	_
+8	χαροποιήσας	χαροποιέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+9	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	Μαθητάς,	μαθητάς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	ἐπαγγελίᾳ	ἐπαγγελίη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+13	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	15	det	_	_
+14	ἁγίου	ἁγίός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	15	amod	_	_
+15	Πνεύματος·	πνεύῦμα	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	βεβαιωθέντων	βεβαιόω	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
+17	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+18	διὰ	διά	ADP	R-	_	20	case	_	_
+19	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	εὐλογίας,	εὐλογίας,	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+21	ὅτι	ὅτι	SCONJ	G-	_	25	mark	_	_
+22	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+23	εἶ	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+24	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	Υἱός	υἱός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	advcl	_	_
+26	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	Θεοῦ,	Θεοῦ,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	λυτρωτὴς	λυτρωτής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+30	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	κόσμου.	κόσμους	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = ΕΝ Τῼ ΜΕΓΑΛῼ ΕΣΠΕΡΙΝῼ.
+1	ΕΝ	εν	PRON	Ne	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	Τῼ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	ΜΕΓΑΛῼ	Μεγαλωι	PROPN	Ne	_	1	nsubj	_	_
+4	ΕΣΠ	Εσπ	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+5	ΕΡ	ερ	PROPN	Ne	_	3	appos	_	SpaceAfter=No
+6	ΙΝῼ.	ινῳ.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στιχηρὰ ἰδιόμελα.
+1	Στιχηρὰ	Στιχηρός	ADJ	A-	_	2	vocative	_	_
+2	ἰδιόμελα.	ἰδιόμελα.	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ὁ Κύριος ἀνελήφθη εἰς οὐρανούς, ἵνα πέμψῃ τὸν Παράκλητον τῷ κόσμῳ, οἱ οὐρανοὶ ἡτοίμασαν τὸν θρόνον αὐτοῦ, νεφέλαι τὴν ἐπίβασιν αὐτοῦ,
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	ἀνελήφθη	ἀαλαμβάνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	οὐρανούς,	οὐρανούς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+6	ἵνα	ἵνα	SCONJ	G-	_	7	mark	_	_
+7	πέμψῃ	πέμπω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Παράκλητον	Παράκλητος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	κόσμῳ,	κόσμῳς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+12	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	οὐρανοὶ	οὐρανός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+14	ἡτοίμασαν	ἑτοιμάζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+15	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	θρόνον	θρόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	det	_	_
+18	νεφέλαι	νεφέλα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	14	xcomp	_	_
+19	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	ἐπίβασιν	ἐπίβασις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	_
+
+# sent_id = 2
+# text = Ἄγγελοι θαυμάζουσιν,
+1	Ἄγγελοι	Ἄγγελοι	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	2	vocative	_	_
+2	θαυμάζουσιν,	θαυμάζοω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = ἄνθρωπον ὁρῶντες ὑπεράνω αὐτῶν, ὁ Πατὴρ ἐκδέχεται,
+1	ἄνθρωπον	ἄνθρωπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	ὁρῶντες	ὁράω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+3	ὑπεράνω	ὑπεράνω	ADP	R-	_	4	case	_	_
+4	αὐτῶν,	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατὴρ	Πατὴρ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ἐκδέχεται,	ἐκδέχεομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+
+# sent_id = 4
+# text = ὃν ἐν κόλποις ἔχει συναΐδιον.
+1	ὃν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	κόλποις	κόλπος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	συναΐδιον.	συναΐδιός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = 5
+# text = Τὸ Πνεῦμα τὸ ἅγιον κελεύει πᾶσι τοῖς Ἀγγέλοις αὐτοῦ·
+1	Τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Πνεῦμα	Πνεῦμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	ἅγιον	ἅγιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nmod	_	_
+5	κελεύει	κελεύω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	πᾶσι	πᾶς	DET	Px	Case=Dat|Gender=Masc,Neut|Number=Plur	8	det	_	_
+7	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἀγγέλοις	Ἀγγέλοί	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
+9	αὐτοῦ·	αὐτοός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+
+# sent_id = 6
+# text = Ἄρατε πύλας οἱ ἄρχοντες ἡμῶν. Πάντα τὰ ἔθνη κροτήσατε χεῖρας· ὅτι ἀνέβη Χριστός, ὅπου ἦν τὸ πρότερον.
+1	Ἄρατε	Ἄρατε	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	_
+2	πύλας	πύλας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ἄρχοντες	ἄρχων	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	Πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	8	det	_	_
+7	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+8	ἔθνη	ἔθνος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+9	κροτήσατε	κροτήω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	χεῖρας·	χεῖίρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	ὅτι	ὅτι	SCONJ	G-	_	12	mark	_	_
+12	ἀνέβη	ἀνέβη	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+13	Χριστός,	Χριστός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	ὅπου	ὅπου	ADV	Dq	PronType=Rel	12	advcl	_	_
+15	ἦν	εἰμί	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
+17	πρότερον.	πρότερον.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ὁ Κύριος ἀνελήφθη εἰς οὐρανούς, ἵνα πέμψῃ τὸν Παράκλητον τῷ κόσμῳ, οἱ οὐρανοὶ ἡτοίμασαν τὸν θρόνον αὐτοῦ, νεφέλαι τὴν ἐπίβασιν αὐτοῦ,
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	ἀνελήφθη	ἀαλαμβάνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	οὐρανούς,	οὐρανούς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+6	ἵνα	ἵνα	SCONJ	G-	_	7	mark	_	_
+7	πέμψῃ	πέμπω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+8	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Παράκλητον	Παράκλητος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	κόσμῳ,	κόσμῳς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+12	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	οὐρανοὶ	οὐρανός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+14	ἡτοίμασαν	ἑτοιμάζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+15	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	θρόνον	θρόνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	det	_	_
+18	νεφέλαι	νεφέλα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	14	xcomp	_	_
+19	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	ἐπίβασιν	ἐπίβασις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+21	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	_
+
+# sent_id = 2
+# text = Ἄγγελοι θαυμάζουσιν,
+1	Ἄγγελοι	Ἄγγελοι	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	2	vocative	_	_
+2	θαυμάζουσιν,	θαυμάζοω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = ἄνθρωπον ὁρῶντες ὑπεράνω αὐτῶν, ὁ Πατὴρ ἐκδέχεται,
+1	ἄνθρωπον	ἄνθρωπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	ὁρῶντες	ὁράω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+3	ὑπεράνω	ὑπεράνω	ADP	R-	_	4	case	_	_
+4	αὐτῶν,	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατὴρ	Πατὴρ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ἐκδέχεται,	ἐκδέχεομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+
+# sent_id = 4
+# text = ὃν ἐν κόλποις ἔχει συναΐδιον.
+1	ὃν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	κόλποις	κόλπος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
+4	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	συναΐδιον.	συναΐδιός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = 5
+# text = Τὸ Πνεῦμα τὸ ἅγιον κελεύει πᾶσι τοῖς Ἀγγέλοις αὐτοῦ·
+1	Τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Πνεῦμα	Πνεῦμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	ἅγιον	ἅγιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nmod	_	_
+5	κελεύει	κελεύω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	πᾶσι	πᾶς	DET	Px	Case=Dat|Gender=Masc,Neut|Number=Plur	8	det	_	_
+7	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἀγγέλοις	Ἀγγέλοί	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
+9	αὐτοῦ·	αὐτοός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+
+# sent_id = 6
+# text = Ἄρατε πύλας οἱ ἄρχοντες ἡμῶν. Πάντα τὰ ἔθνη κροτήσατε χεῖρας· ὅτι ἀνέβη Χριστός, ὅπου ἦν τὸ πρότερον.
+1	Ἄρατε	Ἄρατε	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	_
+2	πύλας	πύλας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ἄρχοντες	ἄρχων	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	9	nsubj	_	_
+5	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	Πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	8	det	_	_
+7	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+8	ἔθνη	ἔθνος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+9	κροτήσατε	κροτήω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	χεῖρας·	χεῖίρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	ὅτι	ὅτι	SCONJ	G-	_	12	mark	_	_
+12	ἀνέβη	ἀνέβη	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+13	Χριστός,	Χριστός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	ὅπου	ὅπου	ADV	Dq	PronType=Rel	12	advcl	_	_
+15	ἦν	εἰμί	AUX	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+16	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	_
+17	πρότερον.	πρότερον.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, τῇ σῇ, Ἀναλήψει,
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+2	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	σῇ,	σός	ADJ	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=1|Poss=Yes	1	nmod	_	_
+4	Ἀναλήψει,	ἀναλέω	PROPN	Ne	_	0	root	_	_
+
+# sent_id = 2
+# text = ἐξεπλάγησαν τὰ Χερουβίμ, θεωρήσαντά σε τὸν Θεόν, ἐπὶ νεφελῶν ἀνερχόμενον, τὸν ἐπ' αὐτῶν καθεζόμενον,
+1	ἐξεπλάγησαν	ἐξεέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	Χερουβίμ,	Χερουβίμ,	PROPN	Ne	_	1	obj	_	_
+4	θεωρήσαντά	θεωρήζω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+5	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+6	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Θεόν,	θεόν,	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	ἐπὶ	ἐπί	ADP	R-	_	9	case	_	_
+9	νεφελῶν	νεφέλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+10	ἀνερχόμενον,	ἀνεέρχομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	1	advcl	_	_
+11	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+12	ἐπ'	ἐπί	ADP	R-	_	13	case	_	_
+13	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	obl	_	_
+14	καθεζόμενον,	καθεέζομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	10	obj	_	_
+
+# sent_id = 3
+# text = καὶ δοξάζομέν σε, ὅτι χρηστόν τὸ ἔλεός σου,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	δοξάζομέν	δοξάζω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	σε,	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+4	ὅτι	ὅτι	SCONJ	G-	_	5	mark	_	_
+5	χρηστόν	χρηστός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	ccomp	_	_
+6	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ἔλεός	ἔλεός	VERB	Nb	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	nsubj	_	_
+8	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	det	_	_
+
+# sent_id = 4
+# text = δόξα σοι.
+1	δόξα	δόξα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σοι.	σού	PRON	Pp	Case=Dat|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἐν τοῖς ὄρεσι τοῖς ἁγίοις, θεωροῦντές σου τὰς ὑψώσεις Χριστέ, τὸ ἀπαύγασμα τῆς δόξης τοῦ Πατρός,
+1	Ἐν	ἐν	ADP	R-	_	3	case	_	_
+2	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	ὄρεσι	ὄρος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	0	root	_	_
+4	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Plur|PronType=Dem	5	det	_	_
+5	ἁγίοις,	ἁγίοις,	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	3	nmod	_	_
+6	θεωροῦντές	θεωρέω	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	_
+7	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	det	_	_
+8	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	ὑψώσεις	ὑψόω	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+10	Χριστέ,	Χριστέ,	PROPN	Ne	_	9	appos	_	_
+11	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	ἀπαύγασμα	ἀπαύγασμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	9	appos	_	_
+13	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	δόξης	δόξα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	Πατρός,	Πατρός,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+
+# sent_id = 2
+# text = ἀνυμνοῦμέν σου τὴν φωτοειδῆ τοῦ προσώπου μορφήν,
+1	ἀνυμνοῦμέν	ἀνυμνέω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	φωτοειδῆ	φωτοειδής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	obj	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	προσώπου	πρόσωπον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	μορφήν,	μορφήν,	NOUN	Nb	_	1	obj	_	_
+
+# sent_id = 3
+# text = προσκυνοῦμέν σου τὰ παθήματα,
+1	προσκυνοῦμέν	προσκυνέω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	παθήματα,	παθήματ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+
+# sent_id = 4
+# text = τιμῶμεν τὴν Ἀνάστασιν, τὴν ἔνδοξον Ἀνάληψιν δοξάζοντες,
+1	τιμῶμεν	τιμάω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Ἀνάστασιν,	ἀνάστασιν,	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	ἔνδοξον	ἔνδοξος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	nmod	_	_
+6	Ἀνάληψιν	Ἀνάληψι	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	δοξάζοντες,	δοξάζοω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	_
+
+# sent_id = 5
+# text = ἐλέησον ἡμᾶς.
+1	ἐλέησον	ἐλεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ἡμᾶς.	ἡμᾶεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, οἱ Ἀπόστολοι ὡς εἶδὸν σε, ἐν νεφέλαις ἐπαιρόμενον, ὀδυρμοῖς δακρύων, ζωοδότα Χριστέ, κατηφείας πληρούμενοι, θρηνοῦντες ἔλεγον·
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	17	vocative	_	_
+2	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	Ἀπόστολοι	Ἀπόστολοι	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+4	ὡς	ὡς	SCONJ	G-	_	5	mark	_	_
+5	εἶδὸν	ὁράω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
+6	σε,	σε,	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+7	ἐν	ἐν	ADP	R-	_	8	case	_	_
+8	νεφέλαις	νεφέλα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+9	ἐπαιρόμενον,	ἐπαιρόμενος	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	xcomp	_	_
+10	ὀδυρμοῖς	ὀδυρμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_
+11	δακρύων,	δακρύων	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	9	iobj	_	_
+12	ζωοδότα	ζωοδότα	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
+13	Χριστέ,	Χριστός	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	κατηφείας	κατηφεία	NOUN	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	17	xcomp	_	_
+15	πληρούμενοι,	πληροόω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	17	advcl	_	_
+16	θρηνοῦντες	θρηνέω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	_
+17	ἔλεγον·	λεέγω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 2
+# text = Δέσποτα, μὴ ἐάσῃς ἡμᾶς ὀρφανούς,
+1	Δέσποτα,	δέσποτα,	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+2	μὴ	μή	ADV	Df	Polarity=Neg	3	advmod	_	_
+3	ἐάσῃς	ἐάω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	ὀρφανούς,	ὀρφανοός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	3	xcomp	_	_
+
+# sent_id = 3
+# text = οὓς δι' οἶκτον ἠγάπησας δούλους σου, ὡς εὔσπλαγχνος,
+1	οὓς	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	4	obj	_	_
+2	δι'	δι'	ADP	R-	_	3	case	_	_
+3	οἶκτον	οἶκτος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	ἠγάπησας	ἀγαπάω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	δούλους	δοῦλος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	xcomp	_	_
+6	σου,	σού	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	ὡς	ὡς	ADV	Df	_	4	advcl	_	_
+8	εὔσπλαγχνος,	εὔσπλαγχνος,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	_
+
+# sent_id = 4
+# text = ἀλλ' ἀπόστειλον, ὡς ὑπέσχου ἡμῖν, τὸ πανάγιόν σου Πνεῦμα,
+1	ἀλλ'	ἀλλ'	CCONJ	C-	_	2	cc	_	_
+2	ἀπόστειλον,	ἀπόστειέλλω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ὡς	ὡς	SCONJ	G-	_	4	mark	_	_
+4	ὑπέσχου	ὑπέσχομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+5	ἡμῖν,	ἡμῖεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	πανάγιόν	πανάγιό	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
+8	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	det	_	_
+9	Πνεῦμα,	πνεῦμα,	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+
+# sent_id = 5
+# text = φωταγωγοῦν τὰς ψυχὰς ἡμῶν.
+1	φωταγωγοῦν	φωταγωγόω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε, τῆς οἰκονομίας πληρώσας τὸ μυστήριον,
+1	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	4	vocative	_	_
+2	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	οἰκονομίας	οἰκονομία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	πληρώσας	πληρώζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	μυστήριον,	μυστήριον,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+
+# sent_id = 2
+# text = παραλαβὼν τοὺς σοὺς Μαθητάς, εἰς τὸ ὄρος τῶν Ἐλαιῶν ἀνελάμβανες,
+1	παραλαβὼν	παραλαμβάνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
+2	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	σοὺς	σός	ADJ	Ps	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+4	Μαθητάς,	μαθητάς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+5	εἰς	εἰς	ADP	R-	_	7	case	_	_
+6	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ὄρος	ὄρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+8	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
+9	Ἐλαιῶν	Ἐλαιός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+10	ἀνελάμβανες,	ἀνελάμβανεςος	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = καὶ ἰδού, τὸ στερέωμα τοῦ οὐρανοῦ παρῆλθες,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	ἰδού,	ὁράω	INTJ	V-	_	7	vocative	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	στερέωμα	στερέωμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	οὐρανοῦ	οὐρανός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	παρῆλθες,	παρῆέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 4
+# text = ὁ δι' ἐμὲ πτωχεύσας κατ' ἐμέ, καὶ ἀναβάς·
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+2	δι'	δι'	ADP	R-	_	3	case	_	_
+3	ἐμὲ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	πτωχεύσας	πτωχέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	κατ'	κατά	ADP	R-	_	6	case	_	_
+6	ἐμέ,	ἐμέ,	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+8	ἀναβάς·	ἀναβάς·	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+
+# sent_id = 5
+# text = ὅθεν οὐκ ἐχωρίσθης, τὸ πανάγιόν σου Πνεῦμα ἐξαπόστειλον,
+1	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	3	advmod	_	_
+2	οὐκ	οὐ	ADV	Df	Polarity=Neg	3	advmod	_	_
+3	ἐχωρίσθης,	ἐχωρίσθης,	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	8	advcl	_	_
+4	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	πανάγιόν	πανάγιό	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+6	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	Πνεῦμα	Πνεῦμα	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	ἐξαπόστειλον,	ἐξαπόστειόω	VERB	V-	_	0	root	_	_
+
+# sent_id = 6
+# text = φωτίζον τὰς ψυχὰς ἡμῶν.
+1	φωτίζον	φωέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+3	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+4	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τῶν κόλπων τῶν πατρικῶν μὴ χωρισθείς,
+1	Τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	2	det	_	_
+2	κόλπων	κόλπος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	6	iobj	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	πατρικῶν	πατρικός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	2	nmod	_	_
+5	μὴ	μή	ADV	Df	Polarity=Neg	6	advmod	_	_
+6	χωρισθείς,	χωριίζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = 2
+# text = γλυκύτατε Ἰησοῦ, καὶ τοῖς ἐπὶ γῆς ὡς ἄνθρωπος, συναναστραφείς,
+1	γλυκύτατε	γλυκύτατος	ADJ	A-	Case=Voc|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	_
+2	Ἰησοῦ,	Ἰησοῦ,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	9	vocative	_	_
+3	καὶ	καί	ADV	C-	_	9	advmod	_	_
+4	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+5	ἐπὶ	ἐπί	ADP	R-	_	6	case	_	_
+6	γῆς	γῆ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+7	ὡς	ὡς	ADV	Df	_	9	advmod	_	_
+8	ἄνθρωπος,	ἄνθρωπος,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	συναναστραφείς,	συναναστραφείς,	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = 3
+# text = σήμερον ἀπ' ὄρους τῶν Ἐλαιῶν ἀνελήφθης ἐν δόξῃ,
+1	σήμερον	σήμερος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
+2	ἀπ'	ἀπό	ADP	R-	_	3	case	_	_
+3	ὄρους	ὄρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	Ἐλαιῶν	Ἐλαιός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	ἀνελήφθης	ἀνελήφθης	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+7	ἐν	ἐν	ADP	R-	_	8	case	_	_
+8	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+
+# sent_id = 4
+# text = καὶ τὴν πεσοῦσαν φύσιν ἡμῶν συμπαθῶς ἀνυψώσας, τῷ Πατρὶ συνεκάθισας· ὅθεν αἱ οὐράνιαι τῶν ἀσωμάτων τάξεις, τὸ θαῦμα ἐκπληττόμεναι,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+3	πεσοῦσαν	πίπτω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	_
+4	φύσιν	φύσις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	ἡμῶν	ἡμεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	συμπαθῶς	συμπαθῶς	ADV	Df	Degree=Pos	7	advmod	_	_
+7	ἀνυψώσας,	ἀνυψώσας,ς	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Πατρὶ	πατήρ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+10	συνεκάθισας·	συνεκάθέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	_
+11	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	16	advmod	_	_
+12	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	οὐράνιαι	οὐράνιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	16	nsubj	_	_
+14	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	15	det	_	_
+15	ἀσωμάτων	ἀσωμάτής	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	nmod	_	_
+16	τάξεις,	τάξεις	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	10	advcl	_	_
+17	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+18	θαῦμα	θαῦμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+19	ἐκπληττόμεναι,	Ἐκπληττόμεων	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+
+# sent_id = 5
+# text = ἐξίσταντο θάμβει, καὶ τρόμῳ συνεχόμεναι, τὴν σὴν φιλανθρωπίαν ἐμεγάλυνον. Μεθ'
+1	ἐξίσταντο	ἐξίστημι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	θάμβει,	θάμβω	NOUN	V-	_	1	xcomp	_	_
+3	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+4	τρόμῳ	τρόμος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+5	συνεχόμεναι,	συνεχόμεναιής	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	advcl	_	_
+6	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+7	σὴν	σός	ADJ	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	8	nmod	_	_
+8	φιλανθρωπίαν	φιλανθρωπία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+9	ἐμεγάλυνον.	ἐμεγάλυνον.	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+10	Μεθ'	Μεθ'	PROPN	Ne	_	9	nsubj	_	_
+
+# sent_id = 6
+# text = ὧν καὶ ἡμεῖς οἱ ἐπὶ γῆς, τὴν πρὸς ἡμᾶς σου συγκατάβασιν,
+1	ὧν	ὅς	PRON	Pr	Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	11	det	_	_
+2	καὶ	καί	ADV	Df	_	3	advmod	_	_
+3	ἡμεῖς	ἡμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+4	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+5	ἐπὶ	ἐπί	ADP	R-	_	6	case	_	_
+6	γῆς,	γῆς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	πρὸς	πρός	ADP	R-	_	9	case	_	_
+9	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+10	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	11	det	_	_
+11	συγκατάβασιν,	συγκατάβασιν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+
+# sent_id = 7
+# text = καὶ τὴν ἀφ' ἡμῶν Ἀνάληψιν δοξολογοῦντες, ἱκετεύομεν λέγοντες· ὁ τοὺς μαθητὰς καὶ τὴν τεκοῦσάν σε Θεοτόκον,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+3	ἀφ'	ἀπό	ADP	R-	_	4	case	_	_
+4	ἡμῶν	ἡμεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	det	_	_
+5	Ἀνάληψιν	Ἀνάληψιν	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	δοξολογοῦντες,	δοξολογοέω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+7	ἱκετεύομεν	ἱκετεύω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	λέγοντες·	λέγοω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	_
+9	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	μαθητὰς	μαθητής	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+12	καὶ	καί	CCONJ	C-	_	11	cc	_	_
+13	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	τεκοῦσάν	τίκτω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	_
+15	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+16	Θεοτόκον,	Θεοτόκων	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+
+# sent_id = 8
+# text = χαρᾶς ἀπείρου πλήσας ἐν τῇ σῇ Ἀναλήψει,
+1	χαρᾶς	χαρά	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	iobj	_	_
+2	ἀπείρου	ἀπείρος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+3	πλήσας	πίμπλημι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	ἐν	ἐν	ADP	R-	_	7	case	_	_
+5	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	σῇ	σός	ADJ	Ps	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes	7	nmod	_	_
+7	Ἀναλήψει,	ἀναλέω	PROPN	Ne	_	3	obl	_	_
+
+# sent_id = 9
+# text = καὶ ἡμᾶς ἀξίωσον, τῶν ἐκλεκτῶν σου τῆς χαρᾶς, εὐχαῖς αὐτῶν, διὰ τὸ μέγα σου ἔλεος.
+1	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+2	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	ἀξίωσον,	ἀξίωσων	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	ἐκλεκτῶν	ἐκλεκτός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	iobj	_	_
+6	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	χαρᾶς,	χαρέω	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+9	εὐχαῖς	εὐχή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
+10	αὐτῶν,	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	det	_	_
+11	διὰ	διά	ADP	R-	_	13	case	_	_
+12	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	μέγα	μέγα	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	_
+14	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	13	det	_	_
+15	ἔλεος.	ἔλεος.	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Προφητείας Ἡσαΐου τὸ Ἀνάγνωσμα.
+1	Προφητείας	Προφητείας	PROPN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ἡσαΐου	Ἠσαΐας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἀνάγνωσμα.	Ἀνάγνωσμα.	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κεφ. Β',
+1	Κεφ.	κεφ.	PROPN	Ne	_	0	root	_	_
+2	Β',	β',	PROPN	Ne	_	1	vocative	_	_
+
+# sent_id = 2
+# text = 2.
+1	2.	2.	PUNCT	Df	_	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τάδε λέγει Κύριος· Ἔσται ἐν ταῖς ἐσχάταις ἡμέραις,
+1	Τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+2	λέγει	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Κύριος·	Κύριος·	ADJ	A-	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Ἔσται	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	cop	_	_
+5	ἐν	ἐν	ADP	R-	_	8	case	_	_
+6	ταῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+7	ἐσχάταις	ἔσχατος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	ἡμέραις,	ἡμέραις,	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
+
+# sent_id = 2
+# text = ἐμφανὲς τὸ ὄρος τοῦ Κυρίου,
+1	ἐμφανὲς	ἐμφανής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+2	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	ὄρος	ὄρος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Κυρίου,	Κυρίου,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+
+# sent_id = 3
+# text = καὶ ὁ οἶκος τοῦ Θεοῦ ἐπ ἄκρων τῶν ὀρέων,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	οἶκος	οἶκος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Θεοῦ	Θεός	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	ἐπ	ἐί	ADP	R-	_	7	case	_	_
+7	ἄκρων	ἄκρον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	0	root	_	_
+8	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	9	det	_	_
+9	ὀρέων,	ὀρέων,	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+
+# sent_id = 4
+# text = καὶ ὑψωθήσεται ὑπεράνω τῶν βουνῶν,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ὑψωθήσεται	ὑψόω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	ὑπεράνω	ὑπεράνω	ADP	R-	_	5	case	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	βουνῶν,	βουνών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+
+# sent_id = 5
+# text = καὶ ἥξουσιν ἐπ' αὐτῷ πάντα τὰ ἔθνη,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἥξουσιν	ἥκω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ἐπ'	ἐπί	ADP	R-	_	4	case	_	_
+4	αὐτῷ	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	_
+5	πάντα	πᾶς	DET	Px	Case=Nom|Gender=Neut|Number=Plur	7	det	_	_
+6	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
+7	ἔθνη,	ἔθνη	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	_
+
+# sent_id = 6
+# text = καὶ πορεύσονται λαοὶ πολλοί,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	πορεύσονται	πορεύομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	λαοὶ	λαός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	πολλοί,	πολύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+
+# sent_id = 7
+# text = καὶ ἐροῦσι·
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἐροῦσι·	λέγω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 8
+# text = Δεῦτε ἀναβῶμεν εἰς τὸ ὄρος Κυρίου,
+1	Δεῦτε	Δεῦτε	INTJ	I-	_	2	vocative	_	_
+2	ἀναβῶμεν	οἶαβα	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	εἰς	εἰς	ADP	R-	_	5	case	_	_
+4	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	ὄρος	ὄρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+6	Κυρίου,	Κυρίου,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+
+# sent_id = 9
+# text = καὶ εἰς τὸν οἶκον τοῦ Θεοῦ Ἰακώβ,
+1	καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	εἰς	εἰς	ADP	R-	_	4	case	_	_
+3	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	οἶκον	οἶκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Θεοῦ	Θεός	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Ἰακώβ,	Ἰακώβ,	PROPN	Ne	_	4	nmod	_	_
+
+# sent_id = 10
+# text = καὶ ἀναγγελεῖ ἡμῖν τὴν ὁδὸν αὐτοῦ,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀναγγελεῖ	ἀναγγέλλω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+4	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	ὁδὸν	ὁδός	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	det	_	_
+
+# sent_id = 11
+# text = καὶ πορευσόμεθα ἐν αὐτῇ.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	πορευσόμεθα	πορεύω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	αὐτῇ.	αὐτῇ.	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Προφητείας Ἡσαΐου τὸ Ἀνάγνωσμα.
+1	Προφητείας	Προφητείας	PROPN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ἡσαΐου	Ἠσαΐας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἀνάγνωσμα.	Ἀνάγνωσμα.	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κεφ. ΞΒ', 10 ΞΓ', 1.
+1	Κεφ.	κεφ.	PROPN	Ne	_	3	vocative	_	_
+2	ΞΒ',	ξβ',	PROPN	Ne	_	1	vocative	_	_
+3	10	10	INTJ	I-	_	0	root	_	_
+4	ΞΓ',	ξγ',	PROPN	Ne	_	3	vocative	_	_
+5	1.	1.	PUNCT	I-	_	3	punct	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τάδε λέγει Κύριος· Πορεύεσθε,
+1	Τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+2	λέγει	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Κύριος·	Κύριος·	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	Πορεύεσθε,	Πορεύεσθε,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	xcomp	_	_
+
+# sent_id = 2
+# text = περιέλθετε διὰ τῶν πυλῶν μου,
+1	περιέλθετε	περιέλθω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	διὰ	διά	ADP	R-	_	4	case	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	πυλῶν	πύλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	_
+5	μου,	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	det	_	_
+
+# sent_id = 3
+# text = σκευάσατε τὴν ὁδόν μου,
+1	σκευάσατε	σκευάζω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	ὁδόν	ὁδός	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	μου,	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	det	_	_
+
+# sent_id = 4
+# text = καὶ ὁδοποιήσατε τῷ λαῷ μου, καὶ τοὺς λίθους ἐκ τῆς ὁδοῦ διαρρίψατε,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ὁδοποιήσατε	ὁδοποιέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	λαῷ	λαός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+5	μου,	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	det	_	_
+6	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+7	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	λίθους	λίθος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+9	ἐκ	ἐκ	ADP	R-	_	11	case	_	_
+10	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	ὁδοῦ	ὁδός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+12	διαρρίψατε,	Διαρρίψατας	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+
+# sent_id = 5
+# text = ἐξάρατε σύσσημον εἰς τὰ ἔθνη·
+1	ἐξάρατε	ἐξαίρω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σύσσημον	σύσσημον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	εἰς	εἰς	ADP	R-	_	5	case	_	_
+4	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	_
+5	ἔθνη·	ἔθνη	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	_
+
+# sent_id = 6
+# text = ἰδοὺ γὰρ ὁ Κύριος ἐποίησεν ἀκουστὸν ἕως ἐσχάτου τῆς γῆς.
+1	ἰδοὺ	ἰδοὺ	INTJ	I-	_	5	vocative	_	_
+2	γὰρ	γάρ	ADV	Df	_	5	discourse	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ἐποίησεν	ποιέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ἀκουστὸν	ἀκουστός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	ἕως	ἕως	ADP	R-	_	8	case	_	_
+8	ἐσχάτου	ἔσχατος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	advmod	_	_
+9	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	γῆς.	γῆς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+
+# sent_id = 7
+# text = Εἴπατε τῇ θυγατρὶ Σιών·
+1	Εἴπατε	λέγω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	θυγατρὶ	θυγάτηρ	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	iobj	_	_
+4	Σιών·	Σιών·	PROPN	Ne	_	3	nmod	_	_
+
+# sent_id = 8
+# text = ἰδοὺ ὁ Σωτήρ σου παραγέγονεν, ἔχων τὸν ἑαυτοῦ μισθὸν μεθ' αὐτοῦ,
+1	ἰδοὺ	ἰδοὺ	INTJ	I-	_	5	vocative	_	_
+2	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Σωτήρ	Σωτήρ	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	3	det	_	_
+5	παραγέγονεν,	παραγέγονεν,	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ἔχων	ἔχω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+7	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	ἑαυτοῦ	ἑαυτοῦ	PRON	Pk	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	det	_	_
+9	μισθὸν	μισθός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+10	μεθ'	μετά	ADP	R-	_	11	case	_	_
+11	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+
+# sent_id = 9
+# text = καὶ τὸ ἔργον αὐτοῦ πρὸ προσώπου αὐτοῦ.
+1	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+2	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	ἔργον	ἔργον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+5	πρὸ	πρό	ADP	R-	_	6	case	_	_
+6	προσώπου	πρόσωπον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	0	root	_	_
+7	αὐτοῦ.	αὐτοῦ.	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	det	_	_
+
+# sent_id = 10
+# text = Καὶ καλέσει αὐτὸν λαὸν ἅγιον, λελυτρωμένον ὑπὸ Κυρίου,
+1	Καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	καλέσει	καλέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	αὐτὸν	αὐτός	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	λαὸν	λαός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	ἅγιον,	ἅγιον,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+6	λελυτρωμένον	λελυτρωμένος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+7	ὑπὸ	ὑπό	ADP	R-	_	8	case	_	_
+8	Κυρίου,	Κυρίος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+
+# sent_id = 11
+# text = σὺ δὲ κληθήσῃ, Ἐπιζητουμένη πόλις, καὶ οὐκ ἐγκαταλελειμμένη.
+1	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	3	discourse	_	_
+3	κληθήσῃ,	κλαλέω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Ἐπιζητουμένη	Ἐπιζητουμένη	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	πόλις,	πόλις,	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	appos	_	_
+6	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+7	οὐκ	οὐ	ADV	Df	Polarity=Neg	8	advmod	_	_
+8	ἐγκαταλελειμμένη.	ἐγκαταλελειμμένη.	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+
+# sent_id = 12
+# text = Τίς οὗτος ὁ παραγενόμενος ἐξ Ἐδώμ; ἐρύθημα ἱματίων αὐτοῦ ἐκ Βοσόρ,
+1	Τίς	τίς	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	0	root	_	_
+2	οὗτος	οὗτος	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	παραγενόμενος	παραγίγνομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	1	nsubj	_	_
+5	ἐξ	ἐκ	ADP	R-	_	6	case	_	_
+6	Ἐδώμ;	Ἐδώμ;	PROPN	Ne	_	4	obl	_	_
+7	ἐρύθημα	ἐρύθημα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+8	ἱματίων	ἱμάτιον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+9	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+10	ἐκ	ἐκ	ADP	R-	_	11	case	_	_
+11	Βοσόρ,	Βοσόρ,	PROPN	Ne	_	8	nmod	_	_
+
+# sent_id = 13
+# text = οὕτως ὡραῖος ἐν στολῇ αὐτοῦ; βοᾷ μετὰ ἰσχύος πολλῆς,
+1	οὕτως	οὕτω(ς)	ADV	Df	_	6	advmod	_	_
+2	ὡραῖος	ὡραῖος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	στολῇ	στολή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	αὐτοῦ;	αὐτοῦ;	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	_
+6	βοᾷ	βοάω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	μετὰ	μετά	ADP	R-	_	8	case	_	_
+8	ἰσχύος	ἰσχύος	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	πολλῆς,	πολλύς	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+
+# sent_id = 14
+# text = Ἐγὼ διαλέγομαι δικαιοσύνην καὶ κρίσιν σωτηρίου.
+1	Ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	διαλέγομαι	διαλέγομαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	δικαιοσύνην	δικαιοσύνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+5	κρίσιν	κρίσις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+6	σωτηρίου.	σωτηρίής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+
+# sent_id = 15
+# text = Διὰ τί σου ἐρυθρὰ τὰ ἱμάτια, καὶ τὰ ἐνδύματά σου ὡς ἀπὸ πατητοῦ ληνοῦ; Πλήρης καταπεπατημένης, ληνὸν ἐπάτησα μονώτατος,
+1	Διὰ	διά	ADP	R-	_	2	case	_	_
+2	τί	ὁ	DET	Px	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	det	_	_
+4	ἐρυθρὰ	ἐρυθρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	_
+5	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	6	det	_	_
+6	ἱμάτια,	ἱμάτια	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+7	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+8	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
+9	ἐνδύματά	ἐνδύματός	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+10	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	9	det	_	_
+11	ὡς	ὡς	ADV	Dq	PronType=Rel	18	advmod	_	_
+12	ἀπὸ	ἀπό	ADP	R-	_	13	case	_	_
+13	πατητοῦ	πατητής	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+14	ληνοῦ;	ληνέω	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	Πλήρης	Πλήρης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	καταπεπατημένης,	καταπεπατημένης,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	ληνὸν	ληνός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+18	ἐπάτησα	ἐπάτή	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	μονώτατος,	μονώτατος,	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	18	xcomp	_	_
+
+# sent_id = 16
+# text = καὶ τῶν ἐθνῶν οὐκ ἔστιν ἀνὴρ μετ' ἐμοῦ.
+1	καὶ	καί	CCONJ	C-	_	8	cc	_	_
+2	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	ἐθνῶν	ἔθνος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+4	οὐκ	οὐ	ADV	Df	Polarity=Neg	8	advmod	_	_
+5	ἔστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	ἀνὴρ	ἀνήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	μετ'	μετ'	ADP	R-	_	8	case	_	_
+8	ἐμοῦ.	ἐμγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+
+# sent_id = 17
+# text = Τὸν ἔλεον Κυρίου ἐμνήσθην, τὰς ἀρετὰς Κυρίου ἀναμνήσω, τὴν αἴνεσιν Κυρίου ἐπὶ πᾶσιν, οἷς ἡμῖν ἀνταποδίδωσι, Κύριος, κριτὴς ἀγαθὸς τῷ οἴκῳ Ἰσραήλ,
+1	Τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ἔλεον	ἔλεος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+3	Κυρίου	Κυρίης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	ἐμνήσθην,	ἐμνήσθηής	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	ἀρετὰς	ἀρετή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	Κυρίου	Κυρίης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	ἀναμνήσω,	ἀναμνήσω,	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	αἴνεσιν	αἴνεσις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	Κυρίου	Κυρίης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	ἐπὶ	ἐπί	ADP	R-	_	13	case	_	_
+13	πᾶσιν,	πᾶσς	DET	Px	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+14	οἷς	ὅς	PRON	Pr	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	16	obl	_	_
+15	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	16	iobj	_	_
+16	ἀνταποδίδωσι,	ἀνταποδίίδωμι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_
+17	Κύριος,	Κύριος,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
+18	κριτὴς	κριτής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	ἀγαθὸς	ἀγαθός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+20	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	οἴκῳ	οἶκος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	19	iobj	_	_
+22	Ἰσραήλ,	Ἰσραήλ,	PROPN	Ne	_	18	appos	_	_
+
+# sent_id = 18
+# text = ἐπάγει ἡμῖν κατὰ ἔλεον αὐτοῦ,
+1	ἐπάγει	ἐπάγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	iobj	_	_
+3	κατὰ	κατά	ADP	R-	_	4	case	_	_
+4	ἔλεον	ἔλεος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+5	αὐτοῦ,	αὐτοῦ,	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	_
+
+# sent_id = 19
+# text = καὶ κατὰ τὸ πλῆθος τῆς δικαιοσύνης αὐτοῦ.
+1	καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	κατὰ	κατά	ADP	R-	_	4	case	_	_
+3	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	πλῆθος	πλῆθος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+5	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	δικαιοσύνης	δικαιοσύνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	αὐτοῦ.	αὐτοῦ.	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	det	_	_
+
+# sent_id = 20
+# text = Καὶ εἶπεν·
+1	Καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	εἶπεν·	λέγω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 21
+# text = οὐχὶ λαός μου ἐστὲ; τέκνα, καὶ οὐ μὴ ἀθετήσωσι·
+1	οὐχὶ	οὐχί	ADV	Df	Polarity=Neg	2	advmod	_	_
+2	λαός	λαός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	μου	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+4	ἐστὲ;	εἰμί	AUX	V-	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+5	τέκνα,	τέκνα,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+7	οὐ	οὐ	ADV	Df	Polarity=Neg	9	advmod	_	_
+8	μὴ	μή	ADV	Df	Polarity=Neg	9	advmod	_	_
+9	ἀθετήσωσι·	ἀθετήω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+
+# sent_id = 22
+# text = καὶ ἐγένετο αὐτοῖς εἰς σωτηρίαν ἐκ πάσης θλίψεως αὐτῶν, οὐ πρέσβυς,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἐγένετο	γίγνομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	αὐτοῖς	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	σωτηρίαν	σωτηρίας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	advmod	_	_
+6	ἐκ	ἐκ	ADP	R-	_	8	case	_	_
+7	πάσης	πᾶς	DET	Px	Case=Gen|Gender=Fem|Number=Sing	8	det	_	_
+8	θλίψεως	θλῖψις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+9	αὐτῶν,	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	det	_	_
+10	οὐ	οὐ	ADV	Df	Polarity=Neg	11	advmod	_	_
+11	πρέσβυς,	πρέσβυς,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	_
+
+# sent_id = 23
+# text = οὐδὲ Ἄγγελος,
+1	οὐδὲ	οὐδέ	ADV	Df	Polarity=Neg	2	advmod	_	_
+2	Ἄγγελος,	Ἄγγελος,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 24
+# text = ἀλλ' αὐτὸς ὁ Κύριος ἔσωσεν αὐτοὺς διὰ τὸ ἀγαπᾶν αὐτούς,
+1	ἀλλ'	ἀλλ'	CCONJ	C-	_	5	cc	_	_
+2	αὐτὸς	αὐτός	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	ἔσωσεν	σῴζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	αὐτοὺς	αὐτός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7	διὰ	διά	ADP	R-	_	9	case	_	_
+8	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
+9	ἀγαπᾶν	ἀγαπάω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	obl	_	_
+10	αὐτούς,	αὐτοός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+
+# sent_id = 25
+# text = καὶ φείδεσθαι αὐτῶν.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	φείδεσθαι	φείδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	0	root	_	_
+3	αὐτῶν.	αὐτῶός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	_
+
+# sent_id = 26
+# text = Αὐτὸς ἐλυτρώσατο αὐτούς,
+1	Αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ἐλυτρώσατο	λυτρώω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	αὐτούς,	αὐτοός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+
+# sent_id = 27
+# text = καὶ ἀνέλαβεν αὐτούς,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀνέλαβεν	ἀνέλαβεν	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	αὐτούς,	αὐτοός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+
+# sent_id = 28
+# text = καὶ ὑπερύψωσεν αὐτούς, πάσας τὰς ἡμέρας τοῦ αἰῶνος.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ὑπερύψωσεν	ὑπερυψόω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	αὐτούς,	αὐτοός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	πάσας	πᾶς	DET	Px	Case=Acc|Gender=Fem|Number=Plur	6	det	_	_
+5	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	ἡμέρας	ἡμέρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+7	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	αἰῶνος.	αἰῶών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Προφητείας Ζαχαρίου τὸ Ἀνάγνωσμα.
+1	Προφητείας	Προφητείας	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Ζαχαρίου	Ζαχαρίας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἀνάγνωσμα.	Ἀνάγνωσμα.	PROPN	Ne	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κεφ. ΙΔ',
+1	Κεφ.	κεφ.	PROPN	Ne	_	0	root	_	_
+2	ΙΔ',	ιδ',	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+
+# sent_id = 2
+# text = 4.
+1	4.	4.	PUNCT	V-	_	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τάδε λέγει Κύριος·
+1	Τάδε	ὅδε	ADJ	Pd	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+2	λέγει	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Κύριος·	Κύριος·	ADJ	A-	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+
+# sent_id = 2
+# text = Ἰδοὺ ἡμέρα ἔρχεται Κυρίου καὶ στήσονται οἱ πόδες αὐτοῦ ἐν τῇ ἡμέρᾳ ἐκείνῃ ἐπὶ τὸ ὄρος τῶν Ἐλαιῶν,
+1	Ἰδοὺ	ἰδοὺ	INTJ	I-	_	3	vocative	_	_
+2	ἡμέρα	ἡμέρα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ἔρχεται	ἔρχομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	Κυρίου	Κυρίης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+6	στήσονται	ἵστημι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	conj	_	_
+7	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	πόδες	πός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+10	ἐν	ἐν	ADP	R-	_	12	case	_	_
+11	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	ἡμέρᾳ	ἡμέρα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+13	ἐκείνῃ	ἐκεῖνος	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	12	det	_	_
+14	ἐπὶ	ἐπί	ADP	R-	_	16	case	_	_
+15	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	16	det	_	_
+16	ὄρος	ὄρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+17	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	_
+18	Ἐλαιῶν,	Ἐλαιῶν,σ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+
+# sent_id = 3
+# text = τὸ κατέναντι Ἱερουσαλήμ, ἐξ ἀνατολῶν ἡλίου.
+1	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	κατέναντι	κατέναντι	VERB	V-	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	nsubj	_	_
+3	Ἱερουσαλήμ,	Ἱερουσαλήμ,	PROPN	Ne	_	2	obj	_	_
+4	ἐξ	ἐκ	ADP	R-	_	5	case	_	_
+5	ἀνατολῶν	ἀνατολή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	6	obl	_	_
+6	ἡλίου.	ἡλίουέ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 4
+# text = Καὶ ἐν τῇ ἡμέρᾳ ἐκείνῃ ἐξελεύσεται ὕδωρ ζῶν ἐξ Ἱερουσαλήμ, τὸ ἥμισυ αὐτοῦ εἰς τὴν θάλασσαν τὴν πρώτην,
+1	Καὶ	καί	CCONJ	C-	_	6	cc	_	_
+2	ἐν	ἐν	ADP	R-	_	4	case	_	_
+3	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ἡμέρᾳ	ἡμέρα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	ἐκείνῃ	ἐκεῖνος	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	4	det	_	_
+6	ἐξελεύσεται	ἐξέρχομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	ὕδωρ	ὕδωρ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	_
+8	ζῶν	ζάω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
+9	ἐξ	ἐκ	ADP	R-	_	10	case	_	_
+10	Ἱερουσαλήμ,	Ἱερουσόλυμα	PROPN	Ne	_	8	obl	_	_
+11	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	ἥμισυ	ἥμισυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	_
+13	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	det	_	_
+14	εἰς	εἰς	ADP	R-	_	16	case	_	_
+15	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	θάλασσαν	θάλασσα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+17	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	πρώτην,	πρώτηνός	ADJ	Mo	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+
+# sent_id = 5
+# text = καὶ τὸ ἥμισυ αὐτοῦ εἰς τὴν θάλασσαν τὴν ἐσχάτην, ἐν θέρει,
+1	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+2	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+5	εἰς	εἰς	ADP	R-	_	7	case	_	_
+6	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	θάλασσαν	θάλασσα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+8	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	ἐσχάτην,	ἐσχάτηνός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	nmod	_	_
+10	ἐν	ἐν	ADP	R-	_	11	case	_	_
+11	θέρει,	θέρει,	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+
+# sent_id = 6
+# text = καὶ ἐν ἔαρι ἔσται οὕτω.
+1	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	ἔαρι	ἔαρ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+4	ἔσται	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	οὕτω.	οὕτω.	ADV	Df	_	4	advmod	_	_
+
+# sent_id = 7
+# text = Καὶ ἔσται Κύριος εἰς Βασιλέα ἐπὶ πᾶσαν τὴν γῆν, ἐν τῇ ἡμέρᾳ ἐκείνῃ ἔσται Κύριος εἷς, καὶ τὸ ὄνομα αὐτοῦ ἕν, κυκλῶν πᾶσαν τὴν γῆν,
+1	Καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἔσται	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	Κύριος	Κύριος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	Βασιλέα	Βασιλέα	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	ἐπὶ	ἐπί	ADP	R-	_	9	case	_	_
+7	πᾶσαν	πᾶς	DET	Px	Case=Acc|Gender=Fem|Number=Sing	9	det	_	_
+8	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	γῆν,	γῆν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+10	ἐν	ἐν	ADP	R-	_	12	case	_	_
+11	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	ἡμέρᾳ	ἡμέρα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+13	ἐκείνῃ	ἐκεῖνος	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	12	det	_	_
+14	ἔσται	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	cop	_	_
+15	Κύριος	Κύριος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+16	εἷς,	εἷς,	NUM	Ma	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+17	καὶ	καί	CCONJ	C-	_	15	cc	_	_
+18	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	19	det	_	_
+19	ὄνομα	ὄνομα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+20	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	det	_	_
+21	ἕν,	εἷς	NUM	Ma	Case=Nom|Gender=Neut|Number=Sing	2	conj	_	_
+22	κυκλῶν	κυκλέω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	advcl	_	_
+23	πᾶσαν	πᾶς	DET	Px	Case=Acc|Gender=Fem|Number=Sing	25	det	_	_
+24	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	γῆν,	γῆν	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+
+# sent_id = 8
+# text = καὶ τὴν ἔρημον ἀπὸ Γαβαᾶ ἕως Ῥεμμών, κατὰ νότον Ἱερουσαλήμ, καὶ ὑψωθήσεται, καὶ ἐπὶ τοῦ τόπου μενεῖ, ἀπὸ τῆς πύλης Βενιαμίν, ἕως του τόπου τῆς πύλης τῆς πρώτης, ἕως τῆς πύλης τοῦ Γομόρ, καὶ ἕως, τοῦ πύργου Ἀναμεήλ, καὶ ἕως τοῦ πύργου τῶν γωνιῶν, καὶ ἕως τῶν ὑποληνίων τοῦ Βασιλέως. Κατοικήσουσιν ἐν αὐτῇ, καὶ ἀνάθεμα οὐκέτι ἔσται,
+1	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	ἔρημον	ἔρημος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	obj	_	_
+4	ἀπὸ	ἀπό	ADP	R-	_	5	case	_	_
+5	Γαβαᾶ	Γαβαᾶ	PROPN	Ne	_	3	nmod	_	_
+6	ἕως	ἕως	ADP	R-	_	5	case	_	_
+7	Ῥεμμών,	Ῥεμμών,	PROPN	Ne	_	12	obl	_	_
+8	κατὰ	κατά	ADP	R-	_	9	case	_	_
+9	νότον	νότος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+10	Ἱερουσαλήμ,	Ἱερουσαλήμ,	PROPN	Ne	_	9	nmod	_	_
+11	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+12	ὑψωθήσεται,	ὑψωθήσεται,	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	_
+13	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+14	ἐπὶ	ἐπί	ADP	R-	_	16	case	_	_
+15	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	τόπου	τόπος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+17	μενεῖ,	μένω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	ἀπὸ	ἀπό	ADP	R-	_	20	case	_	_
+19	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	πύλης	πύλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+21	Βενιαμίν,	Βενιαμίν,	PROPN	Ne	_	20	appos	_	_
+22	ἕως	ἕως	ADP	R-	_	24	case	_	_
+23	του	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
+24	τόπου	τόπος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+25	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	πύλης	πύλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+28	πρώτης,	πρώτης,	ADJ	Mo	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	ἕως	ἕως	ADP	R-	_	31	case	_	_
+30	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	πύλης	πύλη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+32	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
+33	Γομόρ,	Γομόρ,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+34	καὶ	καί	CCONJ	C-	_	31	cc	_	_
+35	ἕως,	ἕως,	ADP	R-	_	37	case	_	_
+36	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	37	det	_	_
+37	πύργου	πύργος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	31	conj	_	_
+38	Ἀναμεήλ,	Ἀναμεήλ,	PROPN	Ne	_	31	nmod	_	_
+39	καὶ	καί	CCONJ	C-	_	31	cc	_	_
+40	ἕως	ἕως	ADP	R-	_	42	case	_	_
+41	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	42	det	_	_
+42	πύργου	πύργος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	31	conj	_	_
+43	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	44	det	_	_
+44	γωνιῶν,	γωνιών	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	_
+45	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+46	ἕως	ἕως	ADP	R-	_	48	case	_	_
+47	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	48	det	_	_
+48	ὑποληνίων	ὑποληνίον	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	51	obl	_	_
+49	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	50	det	_	_
+50	Βασιλέως.	Βασιλέως.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	_
+51	Κατοικήσουσιν	Κατοικήσουσιν	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	_
+52	ἐν	ἐν	ADP	R-	_	53	case	_	_
+53	αὐτῇ,	αὐτῇ,	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	obl	_	_
+54	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+55	ἀνάθεμα	ἀνάθεμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	51	nsubj	_	_
+56	οὐκέτι	οὐκέτι	ADV	Df	Polarity=Neg	57	advmod	_	_
+57	ἔσται,	ἔσται,	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	51	conj	_	_
+
+# sent_id = 9
+# text = καὶ κατοικήσει Ἱερουσαλὴμ πεποιθότως.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	κατοικήσει	κατοικέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Ἱερουσαλὴμ	Ἱεροσόλυμα	PROPN	Ne	_	2	obj	_	_
+4	πεποιθότως.	πεποιθότως.	ADV	Df	Degree=Pos	2	advmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Εἰς τὴν Λιτὴν.
+1	Εἰς	εἰς	ADP	R-	_	3	case	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Λιτὴν.	Λιτὴν.	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στιχηρὰ Ἰδιόμελα, Ἦχος α'.
+1	Στιχηρὰ	Στιχηρός	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Ἰδιόμελα,	ἰδιόμελα,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	_
+4	α'.	α'.	INTJ	Nb	_	3	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνελθὼν εἰς οὐρανούς·
+1	Ἀνελθὼν	ἀνέρχομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	εἰς	εἰς	ADP	R-	_	3	case	_	_
+3	οὐρανούς·	οὐρανοός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	_
+
+# sent_id = 2
+# text = ὅθεν καὶ κατῆλθες,
+1	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	3	advmod	_	_
+2	καὶ	καί	ADV	Df	_	3	advmod	_	_
+3	κατῆλθες,	κατῆέρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 3
+# text = ἐάσης ἡμᾶς ὀρφανοὺς Κύριε,
+1	ἐάσης	εἰμί	AUX	V-	Case=Gen|Gender=Fem|Number=Sing	3	cop	_	_
+2	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	ὀρφανοὺς	ὀρφανός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	_
+4	Κύριε,	Κύριε,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	_
+
+# sent_id = 4
+# text = ἐλθέτω σου τὸ Πνεῦμα,
+1	ἐλθέτω	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+3	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Πνεῦμα,	πνεῦμα,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+
+# sent_id = 5
+# text = φέρον εἰρήνην τῷ κόσμῳ,
+1	φέρον	φέρον	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	εἰρήνην	εἰρήνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	κόσμῳ,	κόσμῳς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+
+# sent_id = 6
+# text = δεῖξον τοῖς Υἱοῖς τῶν ἀνθρώπων, ἔργα δυνάμεώς σου,
+1	δεῖξον	δείκνυμι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	Υἱοῖς	υἱός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	ἀνθρώπων,	ἀνθρώπων,	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	ἔργα	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
+7	δυνάμεώς	δυύω	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	1	xcomp	_	_
+8	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+
+# sent_id = 7
+# text = Κύριε φιλάνθρωπε.
+1	Κύριε	Κύριος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	_
+2	φιλάνθρωπε.	φιλάνθρωπε.	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνῆλθες Χριστὲ πρὸς τὸν ἄναρχον Πατέρα σου,
+1	Ἀνῆλθες	Ἀνῆλθες	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	Χριστὲ	Χριστός	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	πρὸς	πρός	ADP	R-	_	5	case	_	_
+4	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	ἄναρχον	ἄναρχος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+6	Πατέρα	Πατέρας	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
+7	σου,	σού	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+
+# sent_id = 2
+# text = ὁ τῶν ἀπεριγράπτων αὐτοῦ κόλπων μὴ χωρισθείς,
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+2	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	ἀπεριγράπτων	ἀπεριγράπτω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	nmod	_	_
+4	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+5	κόλπων	κόλπω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	nsubj:pass	_	_
+6	μὴ	μή	ADV	Df	Polarity=Neg	7	advmod	_	_
+7	χωρισθείς,	χωριίζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+
+# sent_id = 3
+# text = καὶ προσθήκην αἱ δυνάμεις, τῇ αἰνέσει τοῦ Τρισαγίου οὐκ ἐδέξαντο, ἀλλ' ἕνα Υἱόν,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	προσθήκην	προσθήκη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+3	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	δυνάμεις,	δυνάμεις,	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	αἰνέσει	αἰνέω	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+7	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Τρισαγίου	Τρισαγίος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	οὐκ	οὐ	ADV	Df	Polarity=Neg	10	advmod	_	_
+10	ἐδέξαντο,	δέξχομαι	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+11	ἀλλ'	ἀλλ'	CCONJ	C-	_	10	cc	_	_
+12	ἕνα	εἷς	NUM	Ma	Case=Acc|Gender=Masc|Number=Sing	13	nummod	_	_
+13	Υἱόν,	υἱόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+
+# sent_id = 4
+# text = καὶ μετὰ τὴν ἐνανθρώπησιν,
+1	καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	μετὰ	μετά	ADP	R-	_	4	case	_	_
+3	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ἐνανθρώπησιν,	ἐνανθρώπησιν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+
+# sent_id = 5
+# text = ἐγνώρισάν σε Κύριε, μονογενῆ τοῦ Πατρός.
+1	ἐγνώρισάν	γνωρίζω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σε	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	_
+3	Κύριε,	κύρίημι	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+4	μονογενῆ	μονογενής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατρός.	Πατρός.	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+
+# sent_id = 6
+# text = Ἐν πλήθει σῶν οἰκτιρμῶν,
+1	Ἐν	ἐν	ADP	R-	_	2	case	_	_
+2	πλήθει	πλήθω	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+3	σῶν	σός	ADJ	Ps	Case=Gen|Number=Plur	4	det	_	_
+4	οἰκτιρμῶν,	οἰκτιρμών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+
+# sent_id = 7
+# text = ἐλέησον ἡμᾶς.
+1	ἐλέησον	ἐλεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ἡμᾶς.	ἡμᾶεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Οἱ Ἄγγελοί σου Κύριε, τοῖς Ἀποστόλοις ἔλεγον·
+1	Οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	Ἄγγελοί	Ἄγγελοί	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	2	det	_	_
+4	Κύριε,	Κύριε,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	_
+5	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	Ἀποστόλοις	Ἀποστόλο	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	7	iobj	_	_
+7	ἔλεγον·	λεέγω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 2
+# text = Ἀνδρες Γαλιλαῖοι, τί ἑστήκατε βλέποντες εἰς τὸν οὐρανόν;
+1	Ἀνδρες	ἀνήρ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	4	vocative	_	_
+2	Γαλιλαῖοι,	Γαλιλαῖος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	_
+3	τί	τίς	PRON	Pi	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obl	_	_
+4	ἑστήκατε	ἵστημι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	βλέποντες	βλέπω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+6	εἰς	εἰς	ADP	R-	_	8	case	_	_
+7	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	οὐρανόν;	οὐρανόν;	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+
+# sent_id = 3
+# text = οὗτός ἐστι Χριστὸς ὁ Θεός, ὁ ἀναληφθεὶς ἀφ' ὑμῶν εἰς τὸν οὐρανόν,
+1	οὗτός	οὗτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ἐστι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	Χριστὸς	Χριστός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Θεός,	Θεός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+6	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ἀναληφθεὶς	ἀναλάζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	appos	_	_
+8	ἀφ'	ἀπό	ADP	R-	_	9	case	_	_
+9	ὑμῶν	ὑμεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	7	obl	_	_
+10	εἰς	εἰς	ADP	R-	_	12	case	_	_
+11	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	οὐρανόν,	οὐρανόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+
+# sent_id = 4
+# text = οὗτος ἐλεύσεται πάλιν,
+1	οὗτος	οὗτος	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ἐλεύσεται	ἔρχομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	πάλιν,	πάλιν,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	_
+
+# sent_id = 5
+# text = ὃν τρόπον ἐθεάσασθε αὐτόν, πορευόμενον εἰς οὐρανόν,
+1	ὃν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	2	det	_	_
+2	τρόπον	τρόπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	ἐθεάσασθε	θεάομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	αὐτόν,	αὐτόν,ς	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	πορευόμενον	πορεύομαι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	3	xcomp	_	_
+6	εἰς	εἰς	ADP	R-	_	7	case	_	_
+7	οὐρανόν,	οὐρανόν,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+
+# sent_id = 6
+# text = λατρεύσατε αὐτῷ ἐν ὁσιότητι καὶ δικαιοσύνῃ.
+1	λατρεύσατε	λατρεέω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	αὐτῷ	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	ὁσιότητι	ὁσιότης	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+5	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+6	δικαιοσύνῃ.	δικαιοσύνη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος δ'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	δ'.	δ'.	ADV	Df	_	1	discourse	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ὅτε παραγέγονας ἐπὶ τὸ ὄρος, Χριστέ, τῶν Ἐλαιῶν, Πατρὸς ἐπιτελέσαι τὴν εὐδοκίαν,
+1	Ὅτε	ὅτε	SCONJ	G-	_	2	mark	_	_
+2	παραγέγονας	παραγέγων	VERB	V-	Case=Acc|Gender=Masc|Number=Plur	10	advcl	_	_
+3	ἐπὶ	ἐπί	ADP	R-	_	5	case	_	_
+4	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	ὄρος,	ὄρος,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+6	Χριστέ,	Χριστέ,	PROPN	Ne	_	5	nmod	_	_
+7	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἐλαιῶν,	Ἐλαιῶοί	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	Πατρὸς	Πατρός	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
+10	ἐπιτελέσαι	ἐπιτελέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	root	_	_
+11	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	εὐδοκίαν,	εὐδοκίαν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+
+# sent_id = 2
+# text = ἐξέστησαν οἱ οὐράνιοι Ἄγγελοι καὶ ἔφριξαν οἱ καταχθόνιοι,
+1	ἐξέστησαν	ἐξίστημι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	οὐράνιοι	οὐράνιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	Ἄγγελοι	Ἄγγελοι	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+6	ἔφριξαν	ἀίσσω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	καταχθόνιοι,	καταχθόνιοι,	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	nsubj	_	_
+
+# sent_id = 3
+# text = παρίσταντο δὲ οἱ Μαθηταὶ μετὰ χαρᾶς ἔντρομοι,
+1	παρίσταντο	παρίστημι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	Μαθηταὶ	μαθητής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	μετὰ	μετά	ADP	R-	_	6	case	_	_
+6	χαρᾶς	χαρά	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	_
+7	ἔντρομοι,	ἔντρομοις	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+
+# sent_id = 4
+# text = ὡς ἐλάλεις αὐτοῖς·
+1	ὡς	ὡς	ADV	Dq	PronType=Rel	2	advmod	_	_
+2	ἐλάλεις	ἐλάλω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	αὐτοῖς·	αὐτοός	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	_
+
+# sent_id = 5
+# text = ὡς θρόνος δὲ ἡτοίμαστο ἐξ ἐναντίας νεφέλη προσμένουσα,
+1	ὡς	ὡς	SCONJ	G-	_	4	mark	_	_
+2	θρόνος	θρόνος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+4	ἡτοίμαστο	ἑτοιμάζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	ἐξ	ἐκ	ADP	R-	_	6	case	_	_
+6	ἐναντίας	ἐναντίος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	νεφέλη	νεφέλη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+8	προσμένουσα,	προσμένω	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+
+# sent_id = 6
+# text = πύλας δὲ ὁ οὐρανὸς διαπετάσας, τῷ κάλλει ἐφαίνετο, καὶ ἡ γῆ τοὺς κρυπτῆρας ἀνακαλύπτει,
+1	πύλας	πύλας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	advmod	_	_
+2	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	οὐρανὸς	οὐρανός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	διαπετάσας,	διαπετάάω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
+6	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	κάλλει	κάλλω	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	_
+8	ἐφαίνετο,	ἐφαίνετέω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+9	καὶ	καί	CCONJ	C-	_	8	cc	_	_
+10	ἡ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	γῆ	γῆ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	κρυπτῆρας	κρυατήρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+14	ἀνακαλύπτει,	ἀνακαλύπτω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	8	conj	_	_
+
+# sent_id = 7
+# text = Ἀδὰμ τὴν κατάβασιν ὡς γνωσθῆναι, καὶ τὴν αὖθις ἀνάβασιν, ἀλλ' ἴχνη μὲν ὑψοῦτο, ὡς ὑπὸ χειρός,
+1	Ἀδὰμ	Ἀδάμ	PROPN	Ne	_	13	vocative	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	κατάβασιν	κατάβασις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+4	ὡς	ὡς	ADV	Df	_	5	advmod	_	_
+5	γνωσθῆναι,	γνωάω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	1	advcl	_	_
+6	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+7	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	αὖθις	αὖθις	ADV	Df	_	9	amod	_	_
+9	ἀνάβασιν,	ἀνάβασιν,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+10	ἀλλ'	ἀλλ'	CCONJ	C-	_	5	cc	_	_
+11	ἴχνη	ἴχνη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+12	μὲν	μέν	ADV	Df	_	13	discourse	_	_
+13	ὑψοῦτο,	ὑψοῦτο,	ADJ	A-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+14	ὡς	ὡς	ADV	Df	_	13	advmod	_	_
+15	ὑπὸ	ὑπό	ADP	R-	_	16	case	_	_
+16	χειρός,	χειρός,	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+
+# sent_id = 8
+# text = στόμα δὲ μεγάλα ηὐλόγει,
+1	στόμα	στόμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+2	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+3	μεγάλα	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	1	amod	_	_
+4	ηὐλόγει,	ηὐλόγω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 9
+# text = ὡς ἠκούετο· νεφέλη ὑπελάμβανε,
+1	ὡς	ὡς	ADV	Df	PronType=Rel	4	advmod	_	_
+2	ἠκούετο·	ἠκούετος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	νεφέλη	νεφέλη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	ὑπελάμβανε,	ὑπελάμβαίνω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 10
+# text = καὶ οὐρανὸς ἔνδον σε ὑπεδέξατο. Ἔργον τοῦτο Κύριε εἰργάσω, μέγα καὶ παράδοξον, εἰς σωτηρίαν τῶν ψυχῶν ἡμῶν.
+1	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+2	οὐρανὸς	οὐρανός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ἔνδον	ἔνδον	ADV	Df	_	5	advmod	_	_
+4	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	_
+5	ὑπεδέξατο.	ὑπεοδέχομαι	VERB	V-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+6	Ἔργον	ἔργος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	τοῦτο	οὗτος	DET	Pd	Case=Acc|Gender=Neut|Number=Sing	6	det	_	_
+8	Κύριε	Κύριος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+9	εἰργάσω,	εἰργάσω,	VERB	V-	Degree=Pos	5	conj	_	_
+10	μέγα	μέγας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+11	καὶ	καί	CCONJ	C-	_	10	cc	_	_
+12	παράδοξον,	παράδοξον,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	_
+13	εἰς	εἰς	ADP	R-	_	14	case	_	_
+14	σωτηρίαν	σωτηρίας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	obl	_	_
+15	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	16	det	_	_
+16	ψυχῶν	ψυχή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	_
+17	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	16	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Τὴν καταβᾶσαν φύσιν τοῦ Ἀδὰμ εἰς τὰ κατώτερα μέρη τῆς γῆς ὁ Θεός, καινοποιήσας σεαυτῷ, ὑπεράνω πάσης ἀρχῆς καὶ ἐξουσίας ἀνήγαγες σήμερον·
+1	Τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	καταβᾶσαν	καταβαίνω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	_
+3	φύσιν	φύσις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+4	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Ἀδὰμ	Ἀδάμ	PROPN	Ne	_	3	nmod	_	_
+6	εἰς	εἰς	ADP	R-	_	9	case	_	_
+7	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
+8	κατώτερα	κατώτερος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	μέρη	μέρος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+10	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	γῆς	γῆ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	Θεός,	Θεός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+14	καινοποιήσας	καινοποιέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	advcl	_	_
+15	σεαυτῷ,	σεαυτῷ,	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	iobj	_	_
+16	ὑπεράνω	ὑπεράνω	ADP	R-	_	18	case	_	_
+17	πάσης	πᾶς	DET	Px	Case=Gen|Gender=Fem|Number=Sing	18	det	_	_
+18	ἀρχῆς	ἀρχή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+19	καὶ	καί	CCONJ	C-	_	18	cc	_	_
+20	ἐξουσίας	ἐξουσίη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+21	ἀνήγαγες	ἀνάγω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+22	σήμερον·	σήμερων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	obj	_	_
+
+# sent_id = 2
+# text = ὡς ἀγαπήσας γάρ, συνεκάθισας, ὡς συμπαθήσας δέ, ἥνωσας σαυτῷ, ὡς ἑνώσας συνέπαθες, ὡς ἀπαθὴς παθῶν δέ, συνεδόξασας, ἀλλ' οἱ Ἀσώματοι
+1	ὡς	ὡς	ADV	Df	_	4	advmod	_	_
+2	ἀγαπήσας	ἀγαπήω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+3	γάρ,	γάρ,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	συνεκάθισας,	συνεκάθέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	_	_
+5	ὡς	ὡς	ADV	Df	_	6	advmod	_	_
+6	συμπαθήσας	συμπαθήζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+7	δέ,	δέ,	ADV	Df	_	8	advmod	_	_
+8	ἥνωσας	ἥνωω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	σαυτῷ,	σαυτῷ,	PRON	Pk	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	iobj	_	_
+10	ὡς	ὡς	ADV	Df	_	8	advmod	_	_
+11	ἑνώσας	ἑνώς	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+12	συνέπαθες,	συνέπαθες,	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
+13	ὡς	ὡς	ADV	Df	_	12	advcl	_	_
+14	ἀπαθὴς	ἀπαθής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	xcomp	_	_
+15	παθῶν	πάσχω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	_
+16	δέ,	δέ,	ADV	Df	_	15	discourse	_	_
+17	συνεδόξασας,	συνεδόξασας,	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	ἀλλ'	ἀλλ'	CCONJ	C-	_	17	cc	_	_
+19	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	Ἀσώματοι	Ἀσώματοι	ADJ	A-	Case=Nom|Gender=Masc|Number=Plur	17	conj	_	_
+
+# sent_id = 3
+# text = τίς ἐστιν οὗτος, ἔλεγον,
+1	τίς	τίς	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	4	nsubj	_	_
+2	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	οὗτος,	οὗτος,	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ἔλεγον,	λεέγω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 4
+# text = ὁ ὡραῖος ἀνήρ; ἀλλ' οὐκ ἄνθρωπος μόνον,
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	ὡραῖος	ὡραῖος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ἀνήρ;	ἀνήρ;	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	ἀλλ'	ἀλλ'	CCONJ	C-	_	3	cc	_	_
+5	οὐκ	οὐ	ADV	Df	Polarity=Neg	6	advmod	_	_
+6	ἄνθρωπος	ἄνθρωπος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+7	μόνον,	μόνον,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+
+# sent_id = 5
+# text = Θεὸς δὲ καὶ ἄνθρωπος, τὸ συναμφότερον τὸ φαινόμενον.
+1	Θεὸς	Θεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+4	ἄνθρωπος,	ἄνθρωπος,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	συναμφότερον	συναμφότερος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	_
+7	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	φαινόμενον.	φαιίνω	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	nmod	_	_
+
+# sent_id = 6
+# text = Ὅθεν ἔξαλλοι Ἄγγελοι, ἐν στολαῖς περιϊπτάμενοι, τοὺς Μαθητάς,
+1	Ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	2	advmod	_	_
+2	ἔξαλλοι	ἔξαλλόω	VERB	V-	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Ἄγγελοι,	Ἄγγελοι,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	ἐν	ἐν	ADP	R-	_	5	case	_	_
+5	στολαῖς	στολή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+6	περιϊπτάμενοι,	περιϊπτάμενομαι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	2	advcl	_	_
+7	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Μαθητάς,	μαθητάς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+
+# sent_id = 7
+# text = Ἄνδρες ἐβόων· Γαλιλαῖοι, ὃς ἀφ' ὑμῶν πεπόρευται,
+1	Ἄνδρες	ἀνήρ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	0	root	_	_
+2	ἐβόων·	ἐβόων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	Γαλιλαῖοι,	Γαλιλαῖος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	_
+4	ὃς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	_
+5	ἀφ'	ἀπό	ADP	R-	_	6	case	_	_
+6	ὑμῶν	ὑμεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=2|PronType=Prs	7	obl	_	_
+7	πεπόρευται,	πεπόρευται,	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	acl	_	_
+
+# sent_id = 8
+# text = οὗτος Ἰησοῦς ἄνθρωπος Θεός, θεάνθρωπος πάλιν ἐλεύσεται, κριτὴς ζώντων καὶ νεκρῶν,
+1	οὗτος	οὗτος	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	Ἰησοῦς	Ἰησοῦς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	ἄνθρωπος	ἄνθρωπος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Θεός,	Θεός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+5	θεάνθρωπος	θεάνθρωπος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+6	πάλιν	πάλιν	ADV	Df	_	7	advmod	_	_
+7	ἐλεύσεται,	ἐλεύσεται,	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	κριτὴς	κριτής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	_
+9	ζώντων	ζῶ	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+10	καὶ	καί	CCONJ	C-	_	9	cc	_	_
+11	νεκρῶν,	νεκρῶν,	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	conj	_	_
+
+# sent_id = 9
+# text = πιστοῖς δὲ δωρούμενος ἁμαρτιῶν συγχώρησιν, καὶ τὸ μέγα ἔλεος.
+1	πιστοῖς	πιστός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	3	iobj	_	_
+2	δὲ	δέ	ADV	Df	_	5	discourse	_	_
+3	δωρούμενος	δωρόω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	advcl	_	_
+4	ἁμαρτιῶν	ἁμαρτία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	3	iobj	_	_
+5	συγχώρησιν,	συγχώρησιν,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+6	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+7	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	μέγα	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	ἔλεος.	ἔλεος.	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ὅτε ἀνελήφθης ἐν δόξῃ, Χριστὲ ὁ Θεός, τῶν Μαθητῶν ὁρώντων, αἱ νεφέλαι ὑπελάμβανόν σε μετὰ σαρκός,
+1	Ὅτε	ὅτε	SCONJ	G-	_	2	mark	_	_
+2	ἀνελήφθης	ἀνελήφθης	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	13	advcl	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+5	Χριστὲ	Χριστός	PROPN	Ne	_	2	nsubj:pass	_	_
+6	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Θεός,	Θεός,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+8	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
+9	Μαθητῶν	Μαθητός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+10	ὁρώντων,	ὁρώνάω	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+11	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	_
+12	νεφέλαι	νεφέλα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	ὑπελάμβανόν	ὑπελάμβας	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	σε	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	13	obj	_	_
+15	μετὰ	μετά	ADP	R-	_	16	case	_	_
+16	σαρκός,	σαρκός,	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	13	obl	_	_
+
+# sent_id = 2
+# text = πύλαι ἐπήρθησαν αἱ οὐράνιαι,
+1	πύλαι	πύλαι	ADV	Df	Case=Nom|Gender=Fem|Number=Plur	2	advmod	_	_
+2	ἐπήρθησαν	ἐπήρέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	οὐράνιαι,	οὐράνιαι,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+
+# sent_id = 3
+# text = ὁ χορὸς τῶν Ἀγγέλων ἔχαιρεν ἐν ἀγαλλιάσει, αἱ ἀνώτεραι δυνάμεις ἔκραζον, λέγουσαι·
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	χορὸς	χορός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	Ἀγγέλων	Ἀγγέλων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	ἔχαιρεν	χαίρω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ἐν	ἐν	ADP	R-	_	7	case	_	_
+7	ἀγαλλιάσει,	ἀγαλλιάσει,	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+8	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+9	ἀνώτεραι	ἀνώτερος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	δυνάμεις	δύναμις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+11	ἔκραζον,	κραάζω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	λέγουσαι·	λέγοω	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+
+# sent_id = 4
+# text = Ἄρατε πύλας οἱ ἄρχοντες ἡμῶν, καὶ εἰσελεύσεται ὁ Βασιλεὺς τῆς δόξης,
+1	Ἄρατε	Ἄρατε	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+2	πύλας	πύλας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	1	advmod	_	_
+3	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ἄρχοντες	ἄρχων	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+7	εἰσελεύσεται	εἰσέρχομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	conj	_	_
+8	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Βασιλεὺς	Βασιλεὺς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	δόξης,	δόξηύς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+
+# sent_id = 5
+# text = οἱ δὲ μαθηταὶ ἐκπληττόμενοι ἔλεγον·
+1	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	δὲ	δέ	ADV	Df	_	5	discourse	_	_
+3	μαθηταὶ	μαθητής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	ἐκπληττόμενοι	ἐφίληττημι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	_
+5	ἔλεγον·	λεέγω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 6
+# text = Μὴ χωρισθῇς ἡμῶν, ὁ ποιμὴν ὁ καλός,
+1	Μὴ	μή	ADV	Df	Polarity=Neg	2	advmod	_	_
+2	χωρισθῇς	χωριίζω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	ποιμὴν	ποιμήν	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+6	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	καλός,	καλός,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	_
+
+# sent_id = 7
+# text = ἀλλὰ πέμψον ἡμῖν τὸ Πνεῦμά σου τὸ πανάγιον, τὸ ὁδηγοῦν καὶ στηρίζον τὰς ψυχὰς ἡμῶν.
+1	ἀλλὰ	ἀλλά	CCONJ	C-	_	2	cc	_	_
+2	πέμψον	πέμπω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+4	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	Πνεῦμά	Πνεῦμά	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	πανάγιον,	πανάγιον,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+9	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	ὁδηγοῦν	ὁδηγέω	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	nmod	_	_
+11	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+12	στηρίζον	στηρίζω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+13	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Δόξα...
+1	Δόξα...	Δόξα...	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = Καὶ νῦν...
+1	Καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	νῦν...	νῦν...	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Κύριε τὸ μυστήριον, τὸ ἀπὸ τῶν αἰώνων κεκρυμμένον,
+1	Κύριε	Κύριος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	_
+2	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	μυστήριον,	μυστήριον,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+4	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+5	ἀπὸ	ἀπό	ADP	R-	_	7	case	_	_
+6	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	αἰώνων	αἰώνω	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+8	κεκρυμμένον,	κεκρυμμένων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+
+# sent_id = 2
+# text = καὶ ἀπὸ γενεῶν, πληρώσας ὡς ἀγαθός,
+1	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+2	ἀπὸ	ἀπό	ADP	R-	_	3	case	_	_
+3	γενεῶν,	γενεών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+4	πληρώσας	πληρώζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	ὡς	ὡς	ADV	Df	_	4	advmod	_	_
+6	ἀγαθός,	ἀγαθός,	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	advmod	_	_
+
+# sent_id = 3
+# text = ἦλθες μετὰ τῶν Μαθητῶν σου ἐν τῷ ὄρει τῶν Ἐλαιῶν,
+1	ἦλθες	ἔρχομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	μετὰ	μετά	ADP	R-	_	4	case	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	Μαθητῶν	Μαθητός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+5	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	4	det	_	_
+6	ἐν	ἐν	ADP	R-	_	8	case	_	_
+7	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	ὄρει	ὄρος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	_
+9	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	Ἐλαιῶν,	Ἐλαιῶν,σ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+
+# sent_id = 4
+# text = ἔχων τὴν τεκοῦσάν σε τὸν ποιητὴν καὶ πάντων δημιουργόν·
+1	ἔχων	ἔχω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	_
+2	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	τεκοῦσάν	τίκτω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	obj	_	_
+4	σε	σύ	PRON	Pp	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+5	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	ποιητὴν	ποιητής	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+7	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+8	πάντων	πᾶς	ADJ	Px	Case=Gen|Gender=Masc|Number=Plur	9	iobj	_	_
+9	δημιουργόν·	δημιουργόν·	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+
+# sent_id = 5
+# text = τὴν γὰρ ἐν τῷ Πάθει σου μητρικῶς πάντων ὑπεραλγήσασαν ἔδει καὶ τῇ δόξη τῆς σαρκός σου ὑπερβαλλούσης ἀπολαῦσαι χαρᾶς,
+1	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+2	γὰρ	γάρ	ADV	Df	_	10	discourse	_	_
+3	ἐν	ἐν	ADP	R-	_	5	case	_	_
+4	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Πάθει	Πάθει	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+6	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	5	det	_	_
+7	μητρικῶς	μητρικός	ADV	Df	Degree=Pos	9	advmod	_	_
+8	πάντων	πᾶς	ADJ	Px	Case=Gen|Gender=Neut|Number=Plur	9	iobj	_	_
+9	ὑπεραλγήσασαν	ὑπεραλγήω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
+10	ἔδει	δεῖ	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	καὶ	καί	CCONJ	C-	_	10	cc	_	_
+12	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	δόξη	δόξη	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+14	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	σαρκός	σαρξ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	15	det	_	_
+17	ὑπερβαλλούσης	ὑπερβάλλω	VERB	V-	Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	_	_
+18	ἀπολαῦσαι	ἀπολαύω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	χαρᾶς,	χαρέω	NOUN	Nb	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	18	obj	_	_
+
+# sent_id = 6
+# text = ἧς καὶ ἡμεῖς μετασχόντες, τῇ εἰς οὐρανοὺς ἀνόδῳ σου Δέσποτα, τὸ μέγα σου ἔλεος τὸ εἰς ἡμᾶς γεγονὸς δοξάζομεν.
+1	ἧς	ὅς	PRON	Pr	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	4	iobj	_	_
+2	καὶ	καί	ADV	Df	_	3	advmod	_	_
+3	ἡμεῖς	ἡμεῖς	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+4	μετασχόντες,	μεταέχω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	_
+5	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+6	εἰς	εἰς	ADP	R-	_	7	case	_	_
+7	οὐρανοὺς	οὐρανός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
+8	ἀνόδῳ	ἀνόδέ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+9	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	det	_	_
+10	Δέσποτα,	δέσποτα,	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+11	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+12	μέγα	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	σου	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	det	_	_
+14	ἔλεος	ἔλεος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+15	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+16	εἰς	εἰς	ADP	R-	_	17	case	_	_
+17	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	18	obl	_	_
+18	γεγονὸς	γίγνομαι	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	xcomp	_	_
+19	δοξάζομεν.	δοξάζω	VERB	V-	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Εἰς τὸν Στίχον.
+1	Εἰς	εἰς	ADP	R-	_	3	case	_	_
+2	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Στίχον.	Στίχος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στιχηρὰ Ἰδιόμελα, Ἦχος β'.
+1	Στιχηρὰ	Στιχηρός	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	Ἰδιόμελα,	ἰδιόμελα,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	Ἦχος	ἦχος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	appos	_	_
+4	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἐτέχθης ὡς αὐτὸς ἠθέλησας, ἐφάνης, ὡς αὐτὸς ἠβουλήθης,
+1	Ἐτέχθης	Ἐτέχθης	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ὡς	ὡς	SCONJ	G-	_	4	mark	_	_
+3	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	ἠθέλησας,	ἠθέληέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	_
+5	ἐφάνης,	ἐφάνης,	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	_
+6	ὡς	ὡς	ADV	Dq	PronType=Rel	8	advmod	_	_
+7	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+8	ἠβουλήθης,	ἠβουλήέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	advcl	_	_
+
+# sent_id = 2
+# text = ἔπαθες σαρκί, ὁ Θεὸς ἡμῶν, ἐκ νεκρῶν ἀνέστης,
+1	ἔπαθες	πάσχω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	σαρκί,	σάρξ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+5	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+6	ἐκ	ἐκ	ADP	R-	_	7	case	_	_
+7	νεκρῶν	νεκρός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	obl	_	_
+8	ἀνέστης,	ἀνέστης,	NOUN	Nb	_	1	xcomp	_	_
+
+# sent_id = 3
+# text = πατήσας τὸν θάνατον, ἀνελήφθης ἐν δόξῃ, ὁ τὰ σύμπαντα πληρῶν,
+1	πατήσας	πατήω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	_
+2	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	θάνατον,	θάνατον,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	ἀνελήφθης	ἀναιρέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+8	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
+9	σύμπαντα	σύμπας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	amod	_	_
+10	πληρῶν,	πληρών	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+
+# sent_id = 4
+# text = καὶ ἀπέστειλας ἡμῖν Πνεῦμα θεῖον, τοῦ ἀνυμνεῖν καὶ δοξάζειν σου τὴν Θεότητα.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀπέστειλας	ἀπέστέλλω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+4	Πνεῦμα	Πνεῦμα	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	θεῖον,	θεῖον,	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	_	_
+6	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	ἀνυμνεῖν	ἀνυμνέω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	5	iobj	_	_
+8	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+9	δοξάζειν	δοξάζω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	7	conj	_	_
+10	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	12	det	_	_
+11	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	Θεότητα.	Θεότητα.	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στίχ. Πάντα τὰ ἔθνη κροτήσατε χεῖρας,
+1	Στίχ.	Στίχ.	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+2	Πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	4	det	_	_
+3	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	ἔθνη	ἔθνος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+5	κροτήσατε	κροτήω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	χεῖρας,	χεῖίρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+
+# sent_id = 2
+# text = ἀλαλάξατε τῷ Θεῷ ἐν φωνῇ ἀγαλλιάσεως.
+1	ἀλαλάξατε	ἀλαλάσσω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Θεῷ	θεός	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+4	ἐν	ἐν	ADP	R-	_	5	case	_	_
+5	φωνῇ	φωνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+6	ἀγαλλιάσεως.	ἀγαλλιίασις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀναλαμβανομένου σου Χριστέ, ἐκ τοῦ ὄρους τῶν Ἐλαιῶν,
+1	Ἀναλαμβανομένου	Ἀναλαμβανομένος	VERB	V-	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+2	σου	σύ	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	_
+3	Χριστέ,	Χριστέ,	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+4	ἐκ	ἐκ	ADP	R-	_	6	case	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ὄρους	ὄρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+7	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἐλαιῶν,	Ἐλαιῶν,σ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+
+# sent_id = 2
+# text = αἱ δυνάμεις ὁρῶσαι ἑτέρα τῇ ἑτέρᾳ ἐβόων·
+1	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	δυνάμεις	δύναμις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	ὁρῶσαι	ὁράω	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+4	ἑτέρα	ἑτέρον	NOUN	Nb	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	3	obj	_	_
+5	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	ἑτέρᾳ	ἕτερος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	ἐβόων·	ἐβόων	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+
+# sent_id = 3
+# text = Τίς ἐστιν οὗτος; καὶ φησὶ πρὸς αὐτάς·
+1	Τίς	τίς	PRON	Pi	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	0	root	_	_
+2	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	οὗτος;	οὗτος;	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+5	φησὶ	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	πρὸς	πρός	ADP	R-	_	7	case	_	_
+7	αὐτάς·	αὐτάς·ς	PRON	Pp	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obl	_	_
+
+# sent_id = 4
+# text = Οὗτός ἐστιν ὁ κραταιός καὶ δυνάστης,
+1	Οὗτός	Οὗτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	κραταιός	κραταιός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+6	δυνάστης,	δυνάστης,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+
+# sent_id = 5
+# text = οὗτός ἐστιν ὁ δυνατὸς ἐν πολέμῳ,
+1	οὗτός	οὗτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	δυνατὸς	δυνατός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	πολέμῳ,	πολέμῳ,	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+
+# sent_id = 6
+# text = οὗτός ἐστιν ἀληθῶς ὁ Βασιλεὺς τῆς δόξης.
+1	οὗτός	οὗτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	ἐστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	ἀληθῶς	ἀληθῶς	ADV	Df	Degree=Pos	5	advmod	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Βασιλεὺς	Βασιλεὺς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	δόξης.	δόξηύς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+
+# sent_id = 7
+# text = Καὶ ἵνα τί αὐτοῦ ἐρυθρὰ τὰ ἱμάτια;
+1	Καὶ	καί	CCONJ	C-	_	0	root	_	_
+2	ἵνα	ἵνα	SCONJ	G-	_	5	mark	_	_
+3	τί	τίς	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	_
+4	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	_
+5	ἐρυθρὰ	ἐρυθρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	1	advcl	_	_
+6	τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
+7	ἱμάτια;	ἱμάτια	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+
+# sent_id = 8
+# text = Ἐκ Βοσὸρ ἥκει, ὅπερ ἐστί, τῆς σαρκός.
+1	Ἐκ	ἐκ	ADP	R-	_	2	case	_	_
+2	Βοσὸρ	Βοσός	PROPN	Ne	_	3	obl	_	_
+3	ἥκει,	ἥκω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ὅπερ	ὅσπερ	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	3	ccomp	_	_
+5	ἐστί,	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+6	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	σαρκός.	σαρκός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+
+# sent_id = 9
+# text = Αὐτὸς δὲ ὡς Θεὸς ἐν δεξιᾷ καθίσας τῆς μεγαλωσύνης, ἀπέστειλας ἡμῖν τὸ Πνεῦμα τὸ ἅγιον ἵνα ὁδηγήσῃ, καὶ σώσῃ τὰς ψυχὰς ἡμῶν.
+1	Αὐτὸς	αὐτός	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	10	discourse	_	_
+3	ὡς	ὡς	ADV	Df	_	7	advmod	_	_
+4	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	δεξιᾷ	δεξιός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	advmod	_	_
+7	καθίσας	καθίζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
+8	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	μεγαλωσύνης,	μεγαλωσύνέω	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	iobj	_	_
+10	ἀπέστειλας	ἀπέστέλλω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	ἡμῖν	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+12	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	Πνεῦμα	Πνεῦμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+14	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
+15	ἅγιον	ἅγιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	nmod	_	_
+16	ἵνα	ἵνα	SCONJ	G-	_	17	mark	_	_
+17	ὁδηγήσῃ,	ὁδηγήω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+18	καὶ	καί	CCONJ	C-	_	17	cc	_	_
+19	σώσῃ	εἰμί	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+20	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	21	det	_	_
+21	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+22	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	21	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Στίχ. Ἀνέβη ὁ Θεὸς ἐν ἀλαλαγμῷ, Κύριος ἐν φωνῇ σάλπιγγος.
+1	Στίχ.	Στίχ.	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	root	_	_
+2	Ἀνέβη	Ἀνέβη	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	ἐν	ἐν	ADP	R-	_	6	case	_	_
+6	ἀλαλαγμῷ,	ἀλαλαγμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+8	ἐν	ἐν	ADP	R-	_	9	case	_	_
+9	φωνῇ	φωνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+10	σάλπιγγος.	σάλπιγγξ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνελήφθης ἐν δόξῃ, ἐκ τοῦ ὄρους τῶν Ἐλαιῶν Χριστὲ ὁ Θεὸς ἐνώπιον τῶν σῶν Μαθητῶν,
+1	Ἀνελήφθης	Ἀνελήφθης	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+4	ἐκ	ἐκ	ADP	R-	_	6	case	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ὄρους	ὄρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+7	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	8	det	_	_
+8	Ἐλαιῶν	Ἐλαιός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	Χριστὲ	Χριστός	PROPN	Ne	_	1	nsubj:pass	_	_
+10	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+12	ἐνώπιον	ἐνώπιον	ADP	R-	_	15	case	_	_
+13	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+14	σῶν	σός	ADJ	Ps	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+15	Μαθητῶν,	Μαθητών	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+
+# sent_id = 2
+# text = καὶ ἐκάθισας ἐν δεξιᾷ τοῦ Πατρὸς ὁ τὰ σύμπαντα πληρῶν τῇ Θεότητι,
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἐκάθισας	καθίζω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	ἐν	ἐν	ADP	R-	_	4	case	_	_
+4	δεξιᾷ	δεξιός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	obl	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πατρὸς	Πατρός	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+8	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	9	det	_	_
+9	σύμπαντα	σύμπας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	10	obj	_	_
+10	πληρῶν	πληρός	ADJ	A-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	nsubj	_	_
+11	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	Θεότητι,	Θεότητι,	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	_
+
+# sent_id = 3
+# text = καὶ ἀπέστειλας αὐτοῖς Πνεῦμα τὸ ἅγιον, τὸ φωτίζον, καὶ στηρίζον, καὶ ἁγιάζον τὰς ψυχὰς ἡμῶν.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀπέστειλας	ἀπέστέλλω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+3	αὐτοῖς	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	iobj	_	_
+4	Πνεῦμα	Πνεῦμα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	_
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ἅγιον,	ἅγιον,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	nmod	_	_
+7	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	φωτίζον,	φωτίζων	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	appos	_	_
+9	καὶ	καί	CCONJ	C-	_	8	cc	_	_
+10	στηρίζον,	στηρίζύω	VERB	V-	Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	conj	_	_
+11	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+12	ἁγιάζον	ἁγιάζω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+13	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	14	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος πλ. β'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	πλ.	πλ.	ADV	Df	_	3	advmod	_	_
+3	β'.	β'.	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνέβη ὁ Θεὸς ἐν ἀλαλαγμῷ,
+1	Ἀνέβη	Ἀνέβη	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	ἐν	ἐν	ADP	R-	_	5	case	_	_
+5	ἀλαλαγμῷ,	ἀλαλαγμός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	_
+
+# sent_id = 2
+# text = Κύριος ἐν φωνῇ σάλπιγγος, τοῦ ἀνυψῶσαι τὴν πεσοῦσαν εἰκόνα τοῦ Ἀδάμ,
+1	Κύριος	Κύριος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	φωνῇ	φωνή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+4	σάλπιγγος,	σάλπιγγξ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ἀνυψῶσαι	ἀνυψόω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	1	advcl	_	_
+7	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	πεσοῦσαν	πίπτω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	_
+9	εἰκόνα	εἰκών	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	Ἀδάμ,	Ἀδάμ,	PROPN	Ne	_	9	nmod	_	_
+
+# sent_id = 3
+# text = καὶ ἀποστεῖλαι Πνεῦμα Παράκλητον, τοῦ ἁγιάσαι τὰς ψυχὰς ἡμῶν.
+1	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+2	ἀποστεῖλαι	ἀποστέλλω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	root	_	_
+3	Πνεῦμα	Πνεῦμα	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	Παράκλητον,	Παράκλητονός	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ἁγιάσαι	ἁγιάζω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	ψυχὰς	ψυχή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	ἡμῶν.	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Fem,Masc|Number=Plur|Person=1|PronType=Prs	8	det	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀπολυτίκιον.
+1	Ἀπολυτίκιον.	Ἀπολυτίκιον.	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἦχος δ'.
+1	Ἦχος	ἦχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	δ'.	δ'.	ADV	Df	_	1	discourse	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἐκ γ΄.
+1	Ἐκ	ἐκ	ADP	R-	_	0	root	_	_
+2	γ΄.	γ΄.	ADV	Df	_	1	discourse	_	SpacesAfter=\n
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = ancient_greek-proiel-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ἀνελήφθης ἐν δόξῃ, Χριστὲ ὁ Θεὸς ἡμῶν, χαροποιήσας τοὺς Μαθητάς, τῇ ἐπαγγελίᾳ τοῦ ἁγίου Πνεύματος· βεβαιωθέντων αὐτῶν διὰ τῆς εὐλογίας, ὅτι σὺ εἶ ὁ Υἱός τοῦ Θεοῦ, ὁ λυτρωτὴς τοῦ κόσμου.
+1	Ἀνελήφθης	Ἀνελήφθης	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	δόξῃ,	δόξα	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	_
+4	Χριστὲ	Χριστός	PROPN	Ne	_	1	nsubj:pass	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Θεὸς	θεός	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	ἡμῶν,	ἡμῶεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	6	det	_	_
+8	χαροποιήσας	χαροποιέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+9	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	Μαθητάς,	μαθητάς,	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	ἐπαγγελίᾳ	ἐπαγγελίη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+13	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	15	det	_	_
+14	ἁγίου	ἁγίός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	15	amod	_	_
+15	Πνεύματος·	πνεύῦμα	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	βεβαιωθέντων	βεβαιόω	VERB	V-	Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	_
+17	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+18	διὰ	διά	ADP	R-	_	20	case	_	_
+19	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	εὐλογίας,	εὐλογίας,	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+21	ὅτι	ὅτι	SCONJ	G-	_	25	mark	_	_
+22	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Fem,Masc|Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+23	εἶ	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	_
+24	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	Υἱός	υἱός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	advcl	_	_
+26	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	Θεοῦ,	Θεοῦ,	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	λυτρωτὴς	λυτρωτής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
+30	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
+31	κόσμου.	κόσμους	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+
