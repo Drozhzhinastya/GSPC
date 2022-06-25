@@ -15,7 +15,7 @@
 
 В настоящий момент в репозитории представлены:
 - [тексты](https://github.com/Drozhzhinastya/GSPC/tree/main/texts) цветной триоди
-- архивные результаты работы с [lingtrain-aligner] (https://github.com/Drozhzhinastya/GSPC/tree/main/archive/lingtrain), в том числе [скрипт](https://github.com/Drozhzhinastya/GSPC/tree/main/scripts/aligners)
+- архивные результаты работы с [lingtrain-aligner](https://github.com/Drozhzhinastya/GSPC/tree/main/archive/lingtrain), в том числе [скрипт](https://github.com/Drozhzhinastya/GSPC/tree/main/scripts/aligners)
 - [лемматизированные тексты](https://github.com/Drozhzhinastya/GSPC/tree/main/lemmatization) службы Вознесения 
 - [код](https://github.com/Drozhzhinastya/GSPC/tree/main/scripts/lemmatization) лемматизации с Udpipe
 
