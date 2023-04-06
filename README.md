@@ -14,8 +14,4 @@
 Работа над проектом началась в ноябре 2021 года в рамках научно-исследовательского проектного семинара программы “Цифровые методы в гуманитарных науках”.
 Консультативную поддержку проекту оказывает Анастасия Александровна Бонч-Осмоловская.
 
-В настоящий момент в репозитории представлены:
-- [тексты](https://github.com/Drozhzhinastya/GSPC/tree/main/texts) Цветной Триоди
-- результаты работы с [lingtrain-aligner](https://github.com/Drozhzhinastya/GSPC/tree/main/archive/lingtrain), в том числе [скрипт](https://github.com/Drozhzhinastya/GSPC/tree/main/scripts/aligners)
-- [лемматизированные тексты](https://github.com/Drozhzhinastya/GSPC/tree/main/lemmatization) службы Вознесения 
-- [код](https://github.com/Drozhzhinastya/GSPC/tree/main/scripts/lemmatization) лемматизации с Udpipe
+Подробное описание развития проекта доступно []
